@@ -63,7 +63,7 @@ exp1_data['trials_learning'] = exp1_data['trials_learning'].drop(columns=['fsm_n
 
 # remove sender and test_condition columns from exp2_data
 exp2_data['trials_learning'] = exp2_data['trials_learning'].drop(columns=['test_condition', 'sender'])
-#%%
+
 # resolve column mismatch in trials_prediction
 # rename correctResponse in exp2_data to prediction_correct
 exp2_data['trials_prediction'] = exp2_data['trials_prediction'].rename(columns={'correctResponse': 'prediction_correct'})
@@ -89,6 +89,21 @@ exp2_data['trials_explanation'] = exp2_data['trials_explanation'].drop(columns=[
 merged_data = {}
 for key in exp1_data.keys():
     merged_data[key] = pd.concat([exp1_data[key], exp2_data[key]], ignore_index=True)
+
+#%%
+
+# create new participant_id as a combination of experiment and participant_id
+data_frames = [merged_data['participants'],
+               merged_data['trials_learning'],
+               merged_data['trials_prediction'],
+               merged_data['trials_control'],
+               merged_data['trials_explanation']
+               ]
+
+for df in data_frames:
+    df['participant_id'] = df['experiment'].astype(str) + '_' + df['participant_id'].astype(str)
+
+#%%
 
 with open('../data_merged/imported_clean_data.pickle', 'wb') as f:
     pickle.dump([merged_data['participants'], merged_data['trials_learning'], merged_data['trials_prediction'],
