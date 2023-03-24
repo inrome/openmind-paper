@@ -44,4 +44,4 @@ plt.show()
 
 #%%
 # calculate number of observations per group (task, difficulty, visibility)
-ss_betas.groupby(["task", "difficulty", "visibility"]).size()
+ss_betas.groupby(["visibility", "task", "difficulty"]).size()
