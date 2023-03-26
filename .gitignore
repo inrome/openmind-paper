@@ -21,3 +21,5 @@ data_prolific/an-exp2-prediction_hard.csv
 .DS_Store
 .vscode/settings.json
 .vscode/settings.json
+data/trials_merged_anonymized.csv
+data_raw/
