@@ -7,8 +7,11 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 openlab_path = os.path.join(current_dir, "..", "data_openlab/")
 prolific_path = os.path.join(current_dir, "..", "data_prolific/")
 
-files_openlab = os.listdir(openlab_path) # list all files in data_openlab folder
-files_prolific = os.listdir(prolific_path) # same for data_prolific
+# get all files in openlab folder with .xlsx extension
+files_openlab = [f for f in os.listdir(openlab_path) if f.endswith('.xlsx')]
+
+# get all files in prolific folder with .csv extension
+files_prolific = [f for f in os.listdir(prolific_path) if f.endswith('.csv')]
 
 # merge prolific data
 prolific_merged = pd.DataFrame()
@@ -67,6 +70,13 @@ trials_merged = trials_merged.drop(columns=['code', 'Participant id', 'openLabId
 prolific_merged = prolific_merged.drop(columns=['Participant id', 'Submission id', 'Status', 'Started at', 
                                                 'Reviewed at', 'Archived at', 'Completion code'])
 
+# move participant_id to first column in trials_merged and prolific_merged
+trials_merged = trials_merged[['participant_id'] + [col for col in trials_merged.columns if col != 'participant_id']]
+prolific_merged = prolific_merged[['participant_id'] + [col for col in prolific_merged.columns if col != 'participant_id']]
+
+# add learning_condition == "Experiment 2 (test preview)" if timestamp > 2023-02-01 and "Experiment 1 (no preview)" otherwise
+trials_merged['learning_condition'] = np.where(trials_merged['timestamp'] > '2023-02-01', 'Experiment 2 (test preview)', 'Experiment 1 (no preview)')
+
 # save data
-prolific_merged.to_csv(os.path.join(current_dir, "..", "data", "prolific_merged_anonymized.csv"), index=False)
-trials_merged.to_csv(os.path.join(current_dir, "..", "data", "trials_merged_anonymized.csv"), index=False)
+prolific_merged.to_csv(os.path.join(current_dir, "..", "data_raw", "prolific_raw_anonymized.csv"), index=False)
+trials_merged.to_csv(os.path.join(current_dir, "..", "data_raw", "trials_raw_anonymized.csv"), index=False)
