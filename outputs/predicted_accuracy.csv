@@ -1,346 +1,1090 @@
-participant_id,task,condition,predicted_accuracy,fsm,mm_accuracy,count_nan
-1_1,control,visible,0.617747874769249,hard,0.6,0.0
-1_1,control,hidden,0.6984652160025387,hard,0.7,0.0
-1_1,control,hidden_an,0.617747874769249,hard,0.75,2.0
-1_2,prediction,visible,0.9873828393206613,easy,0.8,0.0
-1_2,prediction,hidden,0.5099986668799654,easy,0.625,2.0
-1_2,prediction,hidden_an,0.6984652160025387,easy,,6.0
-1_3,prediction,visible,0.7755640142690734,easy,0.7,0.0
-1_3,prediction,hidden,0.8375349374193038,easy,0.8,0.0
-1_3,prediction,hidden_an,0.9873828393206613,easy,,5.0
-1_4,prediction,visible,0.5,hard,0.4,0.0
-1_4,prediction,hidden,0.5,hard,0.2,0.0
-1_4,prediction,hidden_an,0.5,hard,0.5,4.0
-1_5,explanation,visible,0.5793242521487494,hard,0.5,0.0
-1_5,explanation,hidden,0.7957596977159082,hard,0.7,0.0
-1_5,explanation,hidden_an,0.9873828393206613,hard,0.8,0.0
-1_6,control,visible,0.6899744811276124,hard,0.7,0.0
-1_6,control,hidden,0.5597136492671929,hard,0.5,0.0
-1_6,control,hidden_an,0.5,hard,0.375,2.0
-1_7,prediction,visible,0.5,hard,0.4,0.0
-1_7,prediction,hidden,0.5299640517645717,hard,0.5,0.0
-1_7,prediction,hidden_an,0.5199893401555817,hard,0.5714285714285714,3.0
-1_8,control,visible,0.8676111264579347,easy,0.8,0.0
-1_8,control,hidden,0.9873828393206613,easy,0.9,0.0
-1_8,control,hidden_an,0.7539887164489482,easy,0.4,0.0
-1_9,prediction,visible,0.907207046882843,easy,0.9,0.0
-1_9,prediction,hidden,0.6726070170677604,easy,0.6,0.0
-1_9,prediction,hidden_an,0.5399148845555657,easy,,5.0
-1_10,control,visible,0.9873828393206613,easy,1.0,0.0
-1_10,control,hidden,0.6899744811276124,easy,0.7,0.0
-1_10,control,hidden_an,0.5,easy,0.5,0.0
-1_11,explanation,visible,0.5,hard,0.5,0.0
-1_11,explanation,hidden,0.569546223939229,hard,0.5,0.0
-1_11,explanation,hidden_an,0.6364525402815663,hard,0.6,0.0
-1_12,control,visible,0.8375349374193038,hard,0.8,0.0
-1_12,control,hidden,0.5,hard,0.5,0.0
-1_12,control,hidden_an,0.5,hard,0.5555555555555556,1.0
-1_13,prediction,visible,0.9873828393206613,easy,1.0,0.0
-1_13,prediction,hidden,0.8145725807070178,easy,0.8,0.0
-1_13,prediction,hidden_an,0.9873828393206613,easy,,6.0
-1_14,explanation,visible,0.731058578630005,easy,0.7,0.0
-1_14,explanation,hidden,0.6637386974043527,easy,0.6,0.0
-1_14,explanation,hidden_an,0.6456563062257954,easy,0.7,0.0
-1_15,explanation,visible,0.5890404340586651,hard,0.6,0.0
-1_15,explanation,hidden,0.5,hard,0.5,0.0
-1_15,explanation,hidden_an,0.6456563062257954,hard,0.6,0.0
-1_16,explanation,visible,0.7068222210935675,hard,0.5,0.0
-1_16,explanation,hidden,0.5,hard,0.2,0.0
-1_16,explanation,hidden_an,0.5399148845555657,hard,0.5,0.0
-1_17,prediction,visible,0.5,hard,0.4,0.0
-1_17,prediction,hidden,0.5,hard,0.4,0.0
-1_17,prediction,hidden_an,0.5,hard,0.375,2.0
-1_18,prediction,visible,0.7539887164489482,hard,0.7,0.0
-1_18,prediction,hidden,0.9873828393206613,hard,0.7142857142857143,3.0
-1_18,prediction,hidden_an,0.9873828393206613,hard,,6.0
-1_20,prediction,visible,0.598687660112452,hard,0.6,0.0
-1_20,prediction,hidden,0.5,hard,0.3,0.0
-1_20,prediction,hidden_an,0.5199893401555817,hard,0.5714285714285714,3.0
-1_21,prediction,visible,0.9873828393206613,easy,0.9,0.0
-1_21,prediction,hidden,0.8889440332885924,easy,0.75,2.0
-1_21,prediction,hidden_an,0.973403006423134,easy,,6.0
-1_22,explanation,visible,0.5299640517645717,easy,0.5,0.0
-1_22,explanation,hidden,0.6364525402815663,easy,0.6,0.0
-1_22,explanation,hidden_an,0.7068222210935675,easy,0.6,0.0
-1_23,control,visible,0.7539887164489482,easy,0.8,0.0
-1_23,control,hidden,0.6547534606063191,easy,0.7,0.0
-1_23,control,hidden_an,0.6984652160025387,easy,0.6,0.0
-1_24,control,visible,0.5199893401555817,easy,0.5,0.0
-1_24,control,hidden,0.8021838885585818,easy,0.8,0.0
-1_24,control,hidden_an,0.6364525402815663,easy,0.7,0.0
-1_25,prediction,visible,0.5299640517645717,hard,0.5,0.0
-1_25,prediction,hidden,0.7957596977159082,hard,0.7,0.0
-1_25,prediction,hidden_an,0.6984652160025387,hard,0.7142857142857143,3.0
-1_26,prediction,visible,0.7891817065222528,easy,0.8,0.0
-1_26,prediction,hidden,0.5597136492671929,easy,0.5,0.0
-1_26,prediction,hidden_an,0.5,easy,0.42857142857142855,3.0
-1_27,prediction,visible,0.6456563062257954,hard,0.6,0.0
-1_27,prediction,hidden,0.7539887164489482,hard,0.7,0.0
-1_27,prediction,hidden_an,0.7464939833376623,hard,0.7777777777777778,1.0
-1_28,explanation,visible,0.5,easy,0.3,0.0
-1_28,explanation,hidden,0.5099986668799654,easy,0.5,0.0
-1_28,explanation,hidden_an,0.5099986668799654,easy,0.5,0.0
-1_29,prediction,visible,0.8721384336809187,easy,0.9,0.0
-1_29,prediction,hidden,0.569546223939229,easy,0.5,0.0
-1_29,prediction,hidden_an,0.5399148845555657,easy,,5.0
-1_30,prediction,visible,0.7613327148429104,easy,0.8,0.0
-1_30,prediction,hidden,0.7150421057009898,easy,0.7,0.0
-1_30,prediction,hidden_an,0.7231218051243898,easy,0.7142857142857143,3.0
-1_31,explanation,visible,0.6813537337890255,hard,0.6,0.0
-1_31,explanation,hidden,0.5,hard,0.4,0.0
-1_31,explanation,hidden_an,0.5,hard,0.3333333333333333,1.0
-1_32,explanation,visible,0.5,easy,0.5,0.0
-1_32,explanation,hidden,0.6547534606063191,easy,0.6,0.0
-1_32,explanation,hidden_an,0.5,easy,0.5,0.0
-1_33,explanation,visible,0.731058578630005,easy,0.7,0.0
-1_33,explanation,hidden,0.8429045311145472,easy,0.8,0.0
-1_33,explanation,hidden_an,0.8429045311145472,easy,0.8,0.0
-1_34,explanation,visible,0.598687660112452,easy,0.6,0.0
-1_34,explanation,hidden,0.7539887164489482,easy,0.7,0.0
-1_34,explanation,hidden_an,0.7755640142690734,easy,0.7,0.0
-1_35,control,visible,0.6364525402815663,hard,0.6,0.0
-1_35,control,hidden,0.7539887164489482,hard,0.7,0.0
-1_35,control,hidden_an,0.6813537337890255,hard,0.75,2.0
-1_36,control,visible,0.738850006084249,hard,0.6,0.0
-1_36,control,hidden,0.6456563062257954,hard,0.5,0.0
-1_36,control,hidden_an,0.8084546514385326,hard,0.5,2.0
-1_37,control,visible,0.8375349374193038,hard,0.7,0.0
-1_37,control,hidden,0.5,hard,0.4,0.0
-1_37,control,hidden_an,0.5,hard,0.2857142857142857,3.0
-1_38,control,visible,0.6271477663131956,hard,0.6,0.0
-1_38,control,hidden,0.5199893401555817,hard,0.5,0.0
-1_38,control,hidden_an,0.598687660112452,hard,0.5,2.0
-1_39,control,visible,0.7613327148429104,easy,0.8,0.0
-1_39,control,hidden,0.5597136492671929,easy,0.6,0.0
-1_39,control,hidden_an,0.5793242521487494,easy,0.5,0.0
-1_40,control,visible,0.6271477663131956,easy,0.6,0.0
-1_40,control,hidden,0.7068222210935675,easy,0.7,0.0
-1_40,control,hidden_an,0.598687660112452,easy,0.6,0.0
-1_41,control,visible,0.6637386974043527,easy,0.7,0.0
-1_41,control,hidden,0.5,easy,0.5,0.0
-1_41,control,hidden_an,0.5,easy,0.4,0.0
-1_42,explanation,visible,0.7464939833376623,easy,0.7,0.0
-1_42,explanation,hidden,0.5,easy,0.5,0.0
-1_42,explanation,hidden_an,0.5,easy,0.3,0.0
-1_43,explanation,visible,0.7891817065222528,easy,0.7,0.0
-1_43,explanation,hidden,0.9873828393206613,easy,0.9,0.0
-1_43,explanation,hidden_an,0.9873828393206613,easy,0.7,0.0
-1_44,explanation,visible,0.6082590307465144,easy,0.6,0.0
-1_44,explanation,hidden,0.5,easy,0.5,0.0
-1_44,explanation,hidden_an,0.5,easy,0.3,0.0
-1_45,explanation,visible,0.7150421057009898,easy,0.7,0.0
-1_45,explanation,hidden,0.5,easy,0.5,0.0
-1_45,explanation,hidden_an,0.5,easy,0.5,0.0
-1_46,explanation,visible,0.6271477663131956,easy,0.6,0.0
-1_46,explanation,hidden,0.617747874769249,easy,0.6,0.0
-1_46,explanation,hidden_an,0.5793242521487494,easy,0.6,0.0
-1_47,explanation,visible,0.5,easy,0.4,0.0
-1_47,explanation,hidden,0.9168273035060776,easy,0.9,0.0
-1_47,explanation,hidden_an,0.8429045311145472,easy,0.7,0.0
-1_48,explanation,visible,0.5399148845555657,easy,0.5,0.0
-1_48,explanation,hidden,0.7464939833376623,easy,0.7,0.0
-1_48,explanation,hidden_an,0.8145725807070178,easy,0.8,0.0
-1_50,explanation,visible,0.6984652160025387,easy,0.7,0.0
-1_50,explanation,hidden,0.7685247834990176,easy,0.7,0.0
-1_50,explanation,hidden_an,0.8928319295134718,easy,0.7,0.0
-1_51,explanation,visible,0.5,easy,0.5,0.0
-1_51,explanation,hidden,0.598687660112452,easy,0.6,0.0
-1_51,explanation,hidden_an,0.6456563062257954,easy,0.6,0.0
-1_52,explanation,visible,0.5,hard,0.4,0.0
-1_52,explanation,hidden,0.5,hard,0.4,0.0
-1_52,explanation,hidden_an,0.617747874769249,hard,0.5,0.0
-1_53,explanation,visible,0.5099986668799654,hard,0.5,0.0
-1_53,explanation,hidden,0.5,hard,0.3,0.0
-1_53,explanation,hidden_an,0.5,hard,0.375,2.0
-1_54,explanation,visible,0.5299640517645717,hard,0.5,0.0
-1_54,explanation,hidden,0.5,hard,0.4,0.0
-1_54,explanation,hidden_an,0.5,hard,0.7,0.0
-1_55,explanation,visible,0.9333919644249092,hard,0.7,0.0
-1_55,explanation,hidden,0.5,hard,0.3,0.0
-1_55,explanation,hidden_an,0.5,hard,0.1111111111111111,1.0
-1_56,explanation,visible,0.9333919644249092,hard,0.8,0.0
-1_56,explanation,hidden,0.6271477663131956,hard,0.6,0.0
-1_56,explanation,hidden_an,0.5,hard,0.4,0.0
-1_57,explanation,visible,0.617747874769249,hard,0.6,0.0
-1_57,explanation,hidden,0.5299640517645717,hard,0.5,0.0
-1_57,explanation,hidden_an,0.5399148845555657,hard,0.6,0.0
-1_58,explanation,visible,0.5,hard,0.5,0.0
-1_58,explanation,hidden,0.5399148845555657,hard,0.5,0.0
-1_58,explanation,hidden_an,0.7891817065222528,hard,0.7,0.0
-1_59,explanation,visible,0.9468488636019362,hard,0.8,0.0
-1_59,explanation,hidden,0.826353352980995,hard,0.7,0.0
-1_59,explanation,hidden_an,0.7957596977159082,hard,0.8,0.0
-1_60,explanation,visible,0.5,hard,0.4,0.0
-1_60,explanation,hidden,0.5,hard,0.4,0.0
-1_60,explanation,hidden_an,0.6547534606063191,hard,0.5,0.0
-1_61,explanation,visible,0.5,hard,0.5,0.0
-1_61,explanation,hidden,0.5299640517645717,hard,0.5,0.0
-1_61,explanation,hidden_an,0.7824497764231125,hard,0.7,0.0
-1_62,explanation,visible,0.6637386974043527,hard,0.6,0.0
-1_62,explanation,hidden,0.5399148845555657,hard,0.5,0.0
-1_62,explanation,hidden_an,0.7539887164489482,hard,0.6666666666666666,1.0
-1_63,control,visible,0.5,hard,0.5,0.0
-1_63,control,hidden,0.5,hard,0.3,0.0
-1_63,control,hidden_an,0.5,hard,0.5555555555555556,1.0
-1_64,control,visible,0.598687660112452,hard,0.6,0.0
-1_64,control,hidden,0.6637386974043527,hard,0.7,0.0
-1_64,control,hidden_an,0.6637386974043527,hard,0.6666666666666666,1.0
-1_65,control,visible,0.5,hard,0.5,0.0
-1_65,control,hidden,0.8532096601986175,hard,0.8,0.0
-1_65,control,hidden_an,0.6271477663131956,hard,0.7777777777777778,1.0
-1_66,control,visible,0.6082590307465144,hard,0.6,0.0
-1_66,control,hidden,0.6271477663131956,hard,0.5,0.0
-1_66,control,hidden_an,0.6364525402815663,hard,0.5,0.0
-1_67,control,visible,0.7539887164489482,hard,0.7,0.0
-1_67,control,hidden,0.9873828393206613,hard,1.0,0.0
-1_67,control,hidden_an,0.9873828393206613,hard,0.8888888888888888,1.0
-1_68,control,visible,0.7068222210935675,hard,0.7,0.0
-1_68,control,hidden,0.617747874769249,hard,0.6,0.0
-1_68,control,hidden_an,0.8481288363433408,hard,0.625,2.0
-1_69,control,visible,0.7824497764231125,hard,0.8,0.0
-1_69,control,hidden,0.5,hard,0.4,0.0
-1_69,control,hidden_an,0.5597136492671929,hard,0.5,0.0
-1_70,control,visible,0.8532096601986175,hard,0.8,0.0
-1_70,control,hidden,0.8320183851339245,hard,0.8,0.0
-1_70,control,hidden_an,0.8021838885585818,hard,0.7,0.0
-1_71,control,visible,0.8205384805926732,hard,0.8,0.0
-1_71,control,hidden,0.5,hard,0.5,0.0
-1_71,control,hidden_an,0.5099986668799654,hard,0.5,0.0
-1_72,prediction,visible,0.7464939833376623,hard,0.7,0.0
-1_72,prediction,hidden,0.7891817065222528,hard,0.7,0.0
-1_72,prediction,hidden_an,0.6637386974043527,hard,0.7142857142857143,3.0
-1_73,prediction,visible,0.5,hard,0.1,0.0
-1_73,prediction,hidden,0.5793242521487494,hard,0.5,0.0
-1_73,prediction,hidden_an,0.549833997312478,hard,0.5,2.0
-1_75,prediction,visible,0.5,hard,0.3,0.0
-1_75,prediction,hidden,0.5099986668799654,hard,0.4,0.0
-1_75,prediction,hidden_an,0.6271477663131956,hard,0.625,2.0
-1_76,prediction,visible,0.5,hard,0.3,0.0
-1_76,prediction,hidden,0.5,hard,0.3,0.0
-1_76,prediction,hidden_an,0.5,hard,0.42857142857142855,3.0
-1_77,prediction,visible,0.6813537337890255,hard,0.7,0.0
-1_77,prediction,hidden,0.6726070170677604,hard,0.6,0.0
-1_77,prediction,hidden_an,0.8320183851339245,hard,,5.0
-1_78,prediction,visible,0.5,hard,0.4,0.0
-1_78,prediction,hidden,0.5,hard,0.4,0.0
-1_78,prediction,hidden_an,0.6364525402815663,hard,0.5714285714285714,3.0
-1_79,prediction,visible,0.569546223939229,hard,0.6,0.0
-1_79,prediction,hidden,0.7231218051243898,hard,0.6,0.0
-1_79,prediction,hidden_an,0.598687660112452,hard,0.625,2.0
-1_80,control,visible,0.5,easy,0.4,0.0
-1_80,control,hidden,0.5,easy,0.3,0.0
-1_80,control,hidden_an,0.5,easy,0.4,0.0
-1_81,control,visible,0.9037844582893072,easy,0.9,0.0
-1_81,control,hidden,0.5399148845555657,easy,0.6,0.0
-1_81,control,hidden_an,0.5,easy,0.5,0.0
-1_83,control,visible,0.731058578630005,easy,0.7,0.0
-1_83,control,hidden,0.5,easy,0.4,0.0
-1_83,control,hidden_an,0.5,easy,0.3,0.0
-1_84,control,visible,0.7613327148429104,easy,0.8,0.0
-1_84,control,hidden,0.5597136492671929,easy,0.6,0.0
-1_84,control,hidden_an,0.549833997312478,easy,0.5,2.0
-1_85,control,visible,0.9873828393206613,easy,1.0,0.0
-1_85,control,hidden,0.549833997312478,easy,0.6,0.0
-1_85,control,hidden_an,0.5793242521487494,easy,0.5,0.0
-1_86,control,visible,0.7824497764231125,easy,0.8,0.0
-1_86,control,hidden,0.7824497764231125,easy,0.8,0.0
-1_86,control,hidden_an,0.598687660112452,easy,0.75,2.0
-1_87,control,visible,0.598687660112452,easy,0.6,0.0
-1_87,control,hidden,0.6813537337890255,easy,0.6,0.0
-1_87,control,hidden_an,0.7613327148429104,easy,0.7,0.0
-1_88,prediction,visible,0.9137258055040833,easy,0.9,0.0
-1_88,prediction,hidden,0.9137258055040833,easy,0.8,0.0
-1_88,prediction,hidden_an,0.9689315158403325,easy,,5.0
-1_89,prediction,visible,0.8721384336809187,easy,0.9,0.0
-1_89,prediction,hidden,0.9308615796566532,easy,0.8,0.0
-1_89,prediction,hidden_an,0.9873828393206613,easy,,5.0
-1_90,prediction,visible,0.9873828393206613,easy,0.9,0.0
-1_90,prediction,hidden,0.5,easy,0.5,2.0
-1_90,prediction,hidden_an,0.6456563062257954,easy,,6.0
-1_92,prediction,visible,0.6899744811276124,easy,0.6666666666666666,1.0
-1_92,prediction,hidden,0.5,easy,0.375,2.0
-1_92,prediction,hidden_an,0.5,easy,,6.0
-1_94,prediction,visible,0.9873828393206613,easy,1.0,0.0
-1_94,prediction,hidden,0.598687660112452,easy,0.7,0.0
-1_94,prediction,hidden_an,0.5,easy,,5.0
-1_95,prediction,visible,0.7755640142690734,easy,0.8,0.0
-1_95,prediction,hidden,0.5099986668799654,easy,0.5,0.0
-1_95,prediction,hidden_an,0.5,easy,,5.0
-1_96,prediction,visible,0.6082590307465144,easy,0.5,0.0
-1_96,prediction,hidden,0.7150421057009898,easy,0.625,2.0
-1_96,prediction,hidden_an,0.7464939833376623,easy,,6.0
-1_97,prediction,visible,0.5,hard,0.2,0.0
-1_97,prediction,hidden,0.569546223939229,hard,0.4,0.0
-1_97,prediction,hidden_an,0.6637386974043527,hard,0.6666666666666666,4.0
-2_1,prediction,visible,0.8481288363433408,hard,0.8,0.0
-2_1,prediction,hidden,0.9426758241011312,hard,0.9,0.0
-2_1,prediction,hidden_an,0.9873828393206613,hard,0.8571428571428571,3.0
-2_2,explanation,visible,0.5,hard,0.4,0.0
-2_2,explanation,hidden,0.5299640517645717,hard,0.5,0.0
-2_2,explanation,hidden_an,0.5,hard,0.2,0.0
-2_3,control,visible,0.7464939833376623,hard,0.7,0.0
-2_3,control,hidden,0.6271477663131956,hard,0.6,0.0
-2_3,control,hidden_an,0.8532096601986175,hard,0.75,2.0
-2_4,control,visible,0.6082590307465144,easy,0.6,0.0
-2_4,control,hidden,0.5,easy,0.5,0.0
-2_4,control,hidden_an,0.5,easy,0.5,2.0
-2_5,prediction,visible,0.5,easy,0.4,0.0
-2_5,prediction,hidden,0.549833997312478,easy,0.5,0.0
-2_5,prediction,hidden_an,0.7068222210935675,easy,,5.0
-2_6,prediction,visible,0.5,hard,0.5,0.0
-2_6,prediction,hidden,0.6364525402815663,hard,0.5,0.0
-2_6,prediction,hidden_an,0.6726070170677604,hard,0.6666666666666666,4.0
-2_7,prediction,visible,0.5,easy,0.3,0.0
-2_7,prediction,hidden,0.907207046882843,easy,0.8,0.0
-2_7,prediction,hidden_an,0.8375349374193038,easy,0.7142857142857143,3.0
-2_8,prediction,visible,0.8721384336809187,easy,0.9,0.0
-2_8,prediction,hidden,0.9308615796566532,easy,0.8,0.0
-2_8,prediction,hidden_an,0.9873828393206613,easy,,5.0
-2_9,prediction,visible,0.738850006084249,easy,0.7,0.0
-2_9,prediction,hidden,0.5,easy,0.375,2.0
-2_9,prediction,hidden_an,0.5,easy,,6.0
-2_10,prediction,visible,0.5099986668799654,hard,0.5,0.0
-2_10,prediction,hidden,0.5,hard,0.5,0.0
-2_10,prediction,hidden_an,0.5890404340586651,hard,,5.0
-2_11,control,visible,0.6899744811276124,easy,0.7,0.0
-2_11,control,hidden,0.6813537337890255,easy,0.7,0.0
-2_11,control,hidden_an,0.6637386974043527,easy,0.6,0.0
-2_12,explanation,visible,0.549833997312478,easy,0.5,0.0
-2_12,explanation,hidden,0.8084546514385326,easy,0.8,0.0
-2_12,explanation,hidden_an,0.8145725807070178,easy,0.8,0.0
-2_13,explanation,visible,0.5,hard,0.5,0.0
-2_13,explanation,hidden,0.5,hard,0.5,0.0
-2_13,explanation,hidden_an,0.5,hard,0.4,0.0
-2_14,explanation,visible,0.5597136492671929,hard,0.5,0.0
-2_14,explanation,hidden,0.6271477663131956,hard,0.6,0.0
-2_14,explanation,hidden_an,0.6984652160025387,hard,0.7,0.0
-2_15,explanation,visible,0.7613327148429104,hard,0.7,0.0
-2_15,explanation,hidden,0.5,hard,0.4,0.0
-2_15,explanation,hidden_an,0.6547534606063191,hard,0.8,0.0
-2_16,control,visible,0.8676111264579347,hard,0.8,0.0
-2_16,control,hidden,0.8145725807070178,hard,0.8,0.0
-2_16,control,hidden_an,0.8320183851339245,hard,0.625,2.0
-2_17,control,visible,0.9198270878271877,hard,0.9,0.0
-2_17,control,hidden,0.6984652160025387,hard,0.7,0.0
-2_17,control,hidden_an,0.6726070170677604,hard,0.5555555555555556,1.0
-2_18,control,visible,0.8084546514385326,hard,0.7,0.0
-2_18,control,hidden,0.5,hard,0.5,0.0
-2_18,control,hidden_an,0.5,hard,0.3333333333333333,1.0
-2_19,explanation,visible,0.5299640517645717,easy,0.5,0.0
-2_19,explanation,hidden,0.5,easy,0.3,0.0
-2_19,explanation,hidden_an,0.5,easy,0.4,0.0
-2_20,explanation,visible,0.6813537337890255,easy,0.7,0.0
-2_20,explanation,hidden,0.5,easy,0.3,0.0
-2_20,explanation,hidden_an,0.5,easy,0.3,0.0
-2_21,explanation,visible,0.5,easy,0.4,0.0
-2_21,explanation,hidden,0.5,easy,0.5,0.0
-2_21,explanation,hidden_an,0.5,easy,0.3,0.0
-2_22,control,visible,0.876532952434776,easy,0.9,0.0
-2_22,control,hidden,0.6813537337890255,easy,0.7,0.0
-2_22,control,hidden_an,0.7957596977159082,easy,0.9,0.0
-2_23,control,visible,0.7539887164489482,easy,0.8,0.0
-2_23,control,hidden,0.5,easy,0.5,0.0
-2_23,control,hidden_an,0.5,easy,0.3333333333333333,1.0
-2_24,prediction,visible,0.5,hard,0.3,0.0
-2_24,prediction,hidden,0.5,hard,0.3,0.0
-2_24,prediction,hidden_an,0.5,hard,,5.0
+participant_id,task,condition,predicted_accuracy,fsm_number,fsm_type,mm_accuracy,count_nan,learning_condition
+1,prediction,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+1,prediction,hidden,0.6082590307465144,21.0,easy,0.5,0,Experiment 2 (test preview)
+1,prediction,hidden_an,0.5,21.0,easy,,5,Experiment 2 (test preview)
+2,prediction,visible,0.9873828393206613,21.0,easy,0.9,0,Experiment 2 (test preview)
+2,prediction,hidden,0.5,21.0,easy,0.5,2,Experiment 2 (test preview)
+2,prediction,hidden_an,0.6984652160025387,21.0,easy,,6,Experiment 2 (test preview)
+3,prediction,visible,0.7685247834990176,21.0,easy,0.8,0,Experiment 2 (test preview)
+3,prediction,hidden,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+3,prediction,hidden_an,0.5,21.0,easy,,5,Experiment 2 (test preview)
+4,prediction,visible,0.9873828393206613,21.0,easy,0.9,0,Experiment 2 (test preview)
+4,prediction,hidden,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+4,prediction,hidden_an,0.5,21.0,easy,,5,Experiment 2 (test preview)
+5,prediction,visible,0.6726070170677604,21.0,easy,0.6,0,Experiment 2 (test preview)
+5,prediction,hidden,0.5,21.0,easy,0.3333333333333333,1,Experiment 2 (test preview)
+5,prediction,hidden_an,0.5,21.0,easy,,6,Experiment 2 (test preview)
+6,prediction,visible,0.7150421057009898,21.0,easy,0.7,0,Experiment 2 (test preview)
+6,prediction,hidden,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+6,prediction,hidden_an,0.5099986668799654,21.0,easy,,5,Experiment 2 (test preview)
+7,prediction,visible,0.569546223939229,21.0,easy,0.5,0,Experiment 2 (test preview)
+7,prediction,hidden,0.5,21.0,easy,0.3333333333333333,1,Experiment 2 (test preview)
+7,prediction,hidden_an,0.5,21.0,easy,,6,Experiment 2 (test preview)
+8,prediction,visible,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+8,prediction,hidden,0.9137258055040833,21.0,easy,0.8,0,Experiment 2 (test preview)
+8,prediction,hidden_an,0.973403006423134,21.0,easy,,5,Experiment 2 (test preview)
+9,prediction,visible,0.8629487074245403,21.0,easy,0.9,0,Experiment 2 (test preview)
+9,prediction,hidden,0.9198270878271877,21.0,easy,0.7,0,Experiment 2 (test preview)
+9,prediction,hidden_an,0.7824497764231125,21.0,easy,0.7142857142857143,3,Experiment 2 (test preview)
+10,prediction,visible,0.5399148845555657,22.0,hard,0.5,0,Experiment 2 (test preview)
+10,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+10,prediction,hidden_an,0.5,22.0,hard,0.5714285714285714,3,Experiment 2 (test preview)
+11,prediction,visible,0.8581489350995122,21.0,easy,0.8888888888888888,1,Experiment 2 (test preview)
+11,prediction,hidden,0.8021838885585818,21.0,easy,0.7,0,Experiment 2 (test preview)
+11,prediction,hidden_an,0.7539887164489482,21.0,easy,,5,Experiment 2 (test preview)
+12,prediction,visible,0.7613327148429104,21.0,easy,0.8,0,Experiment 2 (test preview)
+12,prediction,hidden,0.5199893401555817,21.0,easy,0.6,0,Experiment 2 (test preview)
+12,prediction,hidden_an,0.5,21.0,easy,,5,Experiment 2 (test preview)
+13,prediction,visible,0.8721384336809187,21.0,easy,0.7,0,Experiment 2 (test preview)
+13,prediction,hidden,0.7755640142690734,21.0,easy,0.5,2,Experiment 2 (test preview)
+13,prediction,hidden_an,0.569546223939229,21.0,easy,,6,Experiment 2 (test preview)
+14,prediction,visible,0.8581489350995122,21.0,easy,0.8,0,Experiment 2 (test preview)
+14,prediction,hidden,0.8965995485417504,21.0,easy,0.8888888888888888,1,Experiment 2 (test preview)
+14,prediction,hidden_an,0.9873828393206613,21.0,easy,,6,Experiment 2 (test preview)
+15,prediction,visible,0.7068222210935675,21.0,easy,0.7,0,Experiment 2 (test preview)
+15,prediction,hidden,0.731058578630005,21.0,easy,0.7,0,Experiment 2 (test preview)
+15,prediction,hidden_an,0.6637386974043527,21.0,easy,0.7142857142857143,3,Experiment 2 (test preview)
+16,prediction,visible,0.549833997312478,21.0,easy,0.5,0,Experiment 2 (test preview)
+16,prediction,hidden,0.7068222210935675,21.0,easy,0.7,0,Experiment 2 (test preview)
+16,prediction,hidden_an,0.7539887164489482,21.0,easy,,5,Experiment 2 (test preview)
+17,prediction,visible,0.9873828393206613,21.0,easy,0.8,0,Experiment 2 (test preview)
+17,prediction,hidden,0.5,21.0,easy,0.5,2,Experiment 2 (test preview)
+17,prediction,hidden_an,0.617747874769249,21.0,easy,,6,Experiment 2 (test preview)
+18,prediction,visible,0.617747874769249,21.0,easy,0.6,0,Experiment 2 (test preview)
+18,prediction,hidden,0.6456563062257954,21.0,easy,0.6,0,Experiment 2 (test preview)
+18,prediction,hidden_an,0.5,21.0,easy,,5,Experiment 2 (test preview)
+19,prediction,visible,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+19,prediction,hidden,0.5399148845555657,21.0,easy,0.5,0,Experiment 2 (test preview)
+19,prediction,hidden_an,0.8084546514385326,21.0,easy,0.7142857142857143,3,Experiment 2 (test preview)
+20,prediction,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+20,prediction,hidden,0.8145725807070178,21.0,easy,0.5555555555555556,1,Experiment 2 (test preview)
+20,prediction,hidden_an,0.6547534606063191,21.0,easy,,6,Experiment 2 (test preview)
+21,prediction,visible,0.7539887164489482,21.0,easy,0.6,0,Experiment 2 (test preview)
+21,prediction,hidden,0.5597136492671929,21.0,easy,0.375,2,Experiment 2 (test preview)
+21,prediction,hidden_an,0.5597136492671929,21.0,easy,,6,Experiment 2 (test preview)
+22,prediction,visible,0.6726070170677604,21.0,easy,0.6,0,Experiment 2 (test preview)
+22,prediction,hidden,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+22,prediction,hidden_an,0.6984652160025387,21.0,easy,,5,Experiment 2 (test preview)
+23,prediction,visible,0.8721384336809187,21.0,easy,0.9,0,Experiment 2 (test preview)
+23,prediction,hidden,0.8084546514385326,21.0,easy,0.7,0,Experiment 2 (test preview)
+23,prediction,hidden_an,0.7231218051243898,21.0,easy,,5,Experiment 2 (test preview)
+24,prediction,visible,0.9873828393206613,21.0,easy,0.8888888888888888,1,Experiment 2 (test preview)
+24,prediction,hidden,0.9805449154318069,21.0,easy,0.875,2,Experiment 2 (test preview)
+24,prediction,hidden_an,0.9873828393206613,21.0,easy,1.0,4,Experiment 2 (test preview)
+25,prediction,visible,0.8581489350995122,21.0,easy,0.9,0,Experiment 2 (test preview)
+25,prediction,hidden,0.5,21.0,easy,0.4444444444444444,1,Experiment 2 (test preview)
+25,prediction,hidden_an,0.5,21.0,easy,,6,Experiment 2 (test preview)
+26,prediction,visible,0.7613327148429104,21.0,easy,0.8,0,Experiment 2 (test preview)
+26,prediction,hidden,0.8084546514385326,21.0,easy,0.7,0,Experiment 2 (test preview)
+26,prediction,hidden_an,0.9637362836253517,21.0,easy,,5,Experiment 2 (test preview)
+27,prediction,visible,0.9873828393206613,21.0,easy,0.9,0,Experiment 2 (test preview)
+27,prediction,hidden,0.7068222210935675,21.0,easy,0.7,0,Experiment 2 (test preview)
+27,prediction,hidden_an,0.6547534606063191,21.0,easy,0.5714285714285714,3,Experiment 2 (test preview)
+28,prediction,visible,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+28,prediction,hidden,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+28,prediction,hidden_an,0.5,21.0,easy,0.42857142857142855,3,Experiment 2 (test preview)
+29,prediction,visible,0.738850006084249,21.0,easy,0.6666666666666666,1,Experiment 2 (test preview)
+29,prediction,hidden,0.8145725807070178,21.0,easy,0.7777777777777778,1,Experiment 2 (test preview)
+29,prediction,hidden_an,0.8676111264579347,21.0,easy,0.8333333333333334,4,Experiment 2 (test preview)
+31,prediction,visible,0.5597136492671929,21.0,easy,0.5,0,Experiment 2 (test preview)
+31,prediction,hidden,0.8205384805926732,21.0,easy,0.8,0,Experiment 2 (test preview)
+31,prediction,hidden_an,0.7755640142690734,21.0,easy,,5,Experiment 2 (test preview)
+32,prediction,visible,0.6637386974043527,21.0,easy,0.7,0,Experiment 2 (test preview)
+32,prediction,hidden,0.6456563062257954,21.0,easy,0.6,0,Experiment 2 (test preview)
+32,prediction,hidden_an,0.6899744811276124,21.0,easy,,5,Experiment 2 (test preview)
+33,prediction,visible,0.9873828393206613,21.0,easy,0.9,0,Experiment 2 (test preview)
+33,prediction,hidden,0.598687660112452,21.0,easy,0.6,0,Experiment 2 (test preview)
+33,prediction,hidden_an,0.617747874769249,21.0,easy,0.5714285714285714,3,Experiment 2 (test preview)
+34,prediction,visible,0.549833997312478,21.0,easy,0.6,0,Experiment 2 (test preview)
+34,prediction,hidden,0.5890404340586651,21.0,easy,0.6,0,Experiment 2 (test preview)
+34,prediction,hidden_an,0.5,21.0,easy,,5,Experiment 2 (test preview)
+35,prediction,visible,0.9873828393206613,21.0,easy,0.8,0,Experiment 2 (test preview)
+35,prediction,hidden,0.5,21.0,easy,0.5,2,Experiment 2 (test preview)
+35,prediction,hidden_an,0.6456563062257954,21.0,easy,0.5,4,Experiment 2 (test preview)
+36,prediction,visible,0.7068222210935675,21.0,easy,0.7777777777777778,1,Experiment 2 (test preview)
+36,prediction,hidden,0.5,21.0,easy,0.375,2,Experiment 2 (test preview)
+36,prediction,hidden_an,0.5,21.0,easy,,6,Experiment 2 (test preview)
+37,prediction,visible,0.8849332679544502,21.0,easy,0.9,0,Experiment 2 (test preview)
+37,prediction,hidden,0.8849332679544502,21.0,easy,0.8,0,Experiment 2 (test preview)
+37,prediction,hidden_an,0.7150421057009898,21.0,easy,,5,Experiment 2 (test preview)
+38,prediction,visible,0.8429045311145472,21.0,easy,0.7,0,Experiment 2 (test preview)
+38,prediction,hidden,0.5,21.0,easy,0.625,2,Experiment 2 (test preview)
+38,prediction,hidden_an,0.6984652160025387,21.0,easy,,6,Experiment 2 (test preview)
+39,prediction,visible,0.7464939833376623,21.0,easy,0.7,0,Experiment 2 (test preview)
+39,prediction,hidden,0.8928319295134718,21.0,easy,0.8888888888888888,1,Experiment 2 (test preview)
+39,prediction,hidden_an,0.9873828393206613,21.0,easy,,5,Experiment 2 (test preview)
+40,prediction,visible,0.598687660112452,21.0,easy,0.6,0,Experiment 2 (test preview)
+40,prediction,hidden,0.5299640517645717,21.0,easy,0.5,0,Experiment 2 (test preview)
+40,prediction,hidden_an,0.5,21.0,easy,,5,Experiment 2 (test preview)
+41,prediction,visible,0.6271477663131956,21.0,easy,0.6,0,Experiment 2 (test preview)
+41,prediction,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+41,prediction,hidden_an,0.5,21.0,easy,,5,Experiment 2 (test preview)
+42,prediction,visible,0.6726070170677604,22.0,hard,0.6,0,Experiment 2 (test preview)
+42,prediction,hidden,0.7464939833376623,22.0,hard,0.6,0,Experiment 2 (test preview)
+42,prediction,hidden_an,0.738850006084249,22.0,hard,0.75,2,Experiment 2 (test preview)
+43,prediction,visible,0.7464939833376623,22.0,hard,0.7,0,Experiment 2 (test preview)
+43,prediction,hidden,0.5199893401555817,22.0,hard,0.6,0,Experiment 2 (test preview)
+43,prediction,hidden_an,0.6899744811276124,22.0,hard,0.75,2,Experiment 2 (test preview)
+44,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+44,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+44,prediction,hidden_an,0.6271477663131956,22.0,hard,0.7142857142857143,3,Experiment 2 (test preview)
+45,prediction,visible,0.5099986668799654,22.0,hard,0.5,0,Experiment 2 (test preview)
+45,prediction,hidden,0.7231218051243898,22.0,hard,0.6,0,Experiment 2 (test preview)
+45,prediction,hidden_an,0.6364525402815663,22.0,hard,0.7142857142857143,3,Experiment 2 (test preview)
+46,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+46,prediction,hidden,0.6456563062257954,22.0,hard,0.5,0,Experiment 2 (test preview)
+46,prediction,hidden_an,0.5299640517645717,22.0,hard,0.5714285714285714,3,Experiment 2 (test preview)
+48,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+48,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+48,prediction,hidden_an,0.5,22.0,hard,0.375,2,Experiment 2 (test preview)
+49,prediction,visible,0.8807970779778824,22.0,hard,0.9,0,Experiment 2 (test preview)
+49,prediction,hidden,0.5299640517645717,22.0,hard,0.5,0,Experiment 2 (test preview)
+49,prediction,hidden_an,0.569546223939229,22.0,hard,0.5,4,Experiment 2 (test preview)
+50,prediction,visible,0.6456563062257954,22.0,hard,0.6,0,Experiment 2 (test preview)
+50,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+50,prediction,hidden_an,0.5,22.0,hard,0.42857142857142855,3,Experiment 2 (test preview)
+51,prediction,visible,0.5597136492671929,22.0,hard,0.6,0,Experiment 2 (test preview)
+51,prediction,hidden,0.8320183851339245,22.0,hard,0.7,0,Experiment 2 (test preview)
+51,prediction,hidden_an,0.9873828393206613,22.0,hard,1.0,4,Experiment 2 (test preview)
+52,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+52,prediction,hidden,0.6726070170677604,22.0,hard,0.6,0,Experiment 2 (test preview)
+52,prediction,hidden_an,0.8021838885585818,22.0,hard,0.8571428571428571,3,Experiment 2 (test preview)
+53,prediction,visible,0.6813537337890255,22.0,hard,0.7,0,Experiment 2 (test preview)
+53,prediction,hidden,0.5299640517645717,22.0,hard,0.5,0,Experiment 2 (test preview)
+53,prediction,hidden_an,0.6813537337890255,22.0,hard,0.6666666666666666,4,Experiment 2 (test preview)
+54,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+54,prediction,hidden,0.5890404340586651,22.0,hard,0.3333333333333333,1,Experiment 2 (test preview)
+54,prediction,hidden_an,0.5,22.0,hard,0.5,2,Experiment 2 (test preview)
+55,prediction,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+55,prediction,hidden,0.6456563062257954,22.0,hard,0.6,0,Experiment 2 (test preview)
+55,prediction,hidden_an,0.5299640517645717,22.0,hard,0.42857142857142855,3,Experiment 2 (test preview)
+56,prediction,visible,0.5597136492671929,22.0,hard,0.5,0,Experiment 2 (test preview)
+56,prediction,hidden,0.6726070170677604,22.0,hard,0.6,0,Experiment 2 (test preview)
+56,prediction,hidden_an,0.5,22.0,hard,0.42857142857142855,3,Experiment 2 (test preview)
+57,prediction,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+57,prediction,hidden,0.598687660112452,22.0,hard,0.5555555555555556,1,Experiment 2 (test preview)
+57,prediction,hidden_an,0.5,22.0,hard,0.3333333333333333,4,Experiment 2 (test preview)
+58,prediction,visible,0.8084546514385326,22.0,hard,0.8,0,Experiment 2 (test preview)
+58,prediction,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+58,prediction,hidden_an,0.5,22.0,hard,0.2857142857142857,3,Experiment 2 (test preview)
+59,prediction,visible,0.6637386974043527,22.0,hard,0.5,0,Experiment 2 (test preview)
+59,prediction,hidden,0.8084546514385326,22.0,hard,0.6,0,Experiment 2 (test preview)
+59,prediction,hidden_an,0.8375349374193038,22.0,hard,,5,Experiment 2 (test preview)
+60,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+60,prediction,hidden,0.7824497764231125,22.0,hard,0.5,0,Experiment 2 (test preview)
+60,prediction,hidden_an,0.7957596977159082,22.0,hard,0.8333333333333334,4,Experiment 2 (test preview)
+61,prediction,visible,0.6082590307465144,22.0,hard,0.6,0,Experiment 2 (test preview)
+61,prediction,hidden,0.5,22.0,hard,0.375,2,Experiment 2 (test preview)
+61,prediction,hidden_an,0.6456563062257954,22.0,hard,,6,Experiment 2 (test preview)
+62,prediction,visible,0.5099986668799654,22.0,hard,0.5,0,Experiment 2 (test preview)
+62,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+62,prediction,hidden_an,0.5199893401555817,22.0,hard,0.5714285714285714,3,Experiment 2 (test preview)
+63,prediction,visible,0.6547534606063191,22.0,hard,0.6,0,Experiment 2 (test preview)
+63,prediction,hidden,0.7613327148429104,22.0,hard,0.7,0,Experiment 2 (test preview)
+63,prediction,hidden_an,0.7068222210935675,22.0,hard,0.75,2,Experiment 2 (test preview)
+64,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+64,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+64,prediction,hidden_an,0.5,22.0,hard,0.16666666666666666,4,Experiment 2 (test preview)
+65,prediction,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+65,prediction,hidden,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+65,prediction,hidden_an,0.5,22.0,hard,0.42857142857142855,3,Experiment 2 (test preview)
+66,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+66,prediction,hidden,0.7755640142690734,22.0,hard,0.5,0,Experiment 2 (test preview)
+66,prediction,hidden_an,0.7539887164489482,22.0,hard,,5,Experiment 2 (test preview)
+67,prediction,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+67,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+67,prediction,hidden_an,0.549833997312478,22.0,hard,0.5,4,Experiment 2 (test preview)
+68,prediction,visible,0.6364525402815663,22.0,hard,0.6,0,Experiment 2 (test preview)
+68,prediction,hidden,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+68,prediction,hidden_an,0.5,22.0,hard,0.25,2,Experiment 2 (test preview)
+69,prediction,visible,0.7068222210935675,22.0,hard,0.7,0,Experiment 2 (test preview)
+69,prediction,hidden,0.8084546514385326,22.0,hard,0.8,0,Experiment 2 (test preview)
+69,prediction,hidden_an,0.7891817065222528,22.0,hard,0.8,0,Experiment 2 (test preview)
+70,prediction,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+70,prediction,hidden,0.9137258055040833,22.0,hard,0.9,0,Experiment 2 (test preview)
+70,prediction,hidden_an,0.7539887164489482,22.0,hard,0.7142857142857143,3,Experiment 2 (test preview)
+71,prediction,visible,0.598687660112452,22.0,hard,0.6,0,Experiment 2 (test preview)
+71,prediction,hidden,0.5299640517645717,22.0,hard,0.5,0,Experiment 2 (test preview)
+71,prediction,hidden_an,0.5399148845555657,22.0,hard,0.5,2,Experiment 2 (test preview)
+72,prediction,visible,0.5299640517645717,22.0,hard,0.5,0,Experiment 2 (test preview)
+72,prediction,hidden,0.9105199406664385,22.0,hard,0.8,0,Experiment 2 (test preview)
+72,prediction,hidden_an,0.9873828393206613,22.0,hard,1.0,2,Experiment 2 (test preview)
+73,prediction,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+73,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+73,prediction,hidden_an,0.5,22.0,hard,0.3333333333333333,4,Experiment 2 (test preview)
+74,prediction,visible,0.5890404340586651,22.0,hard,0.6,0,Experiment 2 (test preview)
+74,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+74,prediction,hidden_an,0.6547534606063191,22.0,hard,0.7142857142857143,3,Experiment 2 (test preview)
+75,prediction,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+75,prediction,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+75,prediction,hidden_an,0.6456563062257954,22.0,hard,,5,Experiment 2 (test preview)
+76,prediction,visible,0.617747874769249,22.0,hard,0.6,0,Experiment 2 (test preview)
+76,prediction,hidden,0.5,22.0,hard,0.3333333333333333,1,Experiment 2 (test preview)
+76,prediction,hidden_an,0.5299640517645717,22.0,hard,0.5714285714285714,3,Experiment 2 (test preview)
+77,prediction,visible,0.6456563062257954,22.0,hard,0.5,0,Experiment 2 (test preview)
+77,prediction,hidden,0.6364525402815663,22.0,hard,0.6,0,Experiment 2 (test preview)
+77,prediction,hidden_an,0.5597136492671929,22.0,hard,0.625,2,Experiment 2 (test preview)
+78,prediction,visible,0.598687660112452,22.0,hard,0.6,0,Experiment 2 (test preview)
+78,prediction,hidden,0.5793242521487494,22.0,hard,0.5,0,Experiment 2 (test preview)
+78,prediction,hidden_an,0.569546223939229,22.0,hard,,5,Experiment 2 (test preview)
+79,prediction,visible,0.569546223939229,22.0,hard,0.5,0,Experiment 2 (test preview)
+79,prediction,hidden,0.826353352980995,22.0,hard,0.7,0,Experiment 2 (test preview)
+79,prediction,hidden_an,0.9873828393206613,22.0,hard,1.0,4,Experiment 2 (test preview)
+80,prediction,visible,0.569546223939229,22.0,hard,0.6,0,Experiment 2 (test preview)
+80,prediction,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+80,prediction,hidden_an,0.5,22.0,hard,0.5,2,Experiment 2 (test preview)
+81,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+81,prediction,hidden,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+81,prediction,hidden_an,0.5,22.0,hard,0.25,2,Experiment 2 (test preview)
+82,prediction,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+82,prediction,hidden,0.5597136492671929,22.0,hard,0.6,0,Experiment 2 (test preview)
+82,prediction,hidden_an,0.7891817065222528,22.0,hard,0.6666666666666666,4,Experiment 2 (test preview)
+83,explanation,visible,0.7464939833376623,22.0,hard,0.7,0,Experiment 2 (test preview)
+83,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+83,explanation,hidden_an,0.5,22.0,hard,0.5555555555555556,1,Experiment 2 (test preview)
+84,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+84,explanation,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+84,explanation,hidden_an,0.6456563062257954,22.0,hard,0.5,0,Experiment 2 (test preview)
+85,explanation,visible,0.8581489350995122,22.0,hard,0.8,0,Experiment 2 (test preview)
+85,explanation,hidden,0.5199893401555817,22.0,hard,0.5,0,Experiment 2 (test preview)
+85,explanation,hidden_an,0.5,22.0,hard,0.6666666666666666,1,Experiment 2 (test preview)
+86,explanation,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+86,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+86,explanation,hidden_an,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+87,explanation,visible,0.8676111264579347,22.0,hard,0.8,0,Experiment 2 (test preview)
+87,explanation,hidden,0.5099986668799654,22.0,hard,0.5,0,Experiment 2 (test preview)
+87,explanation,hidden_an,0.8532096601986175,22.0,hard,0.75,2,Experiment 2 (test preview)
+88,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+88,explanation,hidden,0.5,22.0,hard,0.2,0,Experiment 2 (test preview)
+88,explanation,hidden_an,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+89,explanation,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+89,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+89,explanation,hidden_an,0.8429045311145472,22.0,hard,0.7,0,Experiment 2 (test preview)
+90,explanation,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+90,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+90,explanation,hidden_an,0.6271477663131956,22.0,hard,0.5555555555555556,1,Experiment 2 (test preview)
+91,explanation,visible,0.6364525402815663,22.0,hard,0.6,0,Experiment 2 (test preview)
+91,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+91,explanation,hidden_an,0.6726070170677604,22.0,hard,0.625,2,Experiment 2 (test preview)
+92,explanation,visible,0.5399148845555657,22.0,hard,0.5,0,Experiment 2 (test preview)
+92,explanation,hidden,0.8889440332885924,22.0,hard,0.8,0,Experiment 2 (test preview)
+92,explanation,hidden_an,0.8532096601986175,22.0,hard,0.9,0,Experiment 2 (test preview)
+93,explanation,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+93,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+93,explanation,hidden_an,0.6456563062257954,22.0,hard,0.5,0,Experiment 2 (test preview)
+94,explanation,visible,0.7957596977159082,22.0,hard,0.7,0,Experiment 2 (test preview)
+94,explanation,hidden,0.6082590307465144,22.0,hard,0.6,0,Experiment 2 (test preview)
+94,explanation,hidden_an,0.8205384805926732,22.0,hard,0.75,2,Experiment 2 (test preview)
+95,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+95,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+95,explanation,hidden_an,0.8084546514385326,22.0,hard,0.7,0,Experiment 2 (test preview)
+96,explanation,visible,0.6984652160025387,22.0,hard,0.7,0,Experiment 2 (test preview)
+96,explanation,hidden,0.7685247834990176,22.0,hard,0.7,0,Experiment 2 (test preview)
+96,explanation,hidden_an,0.5399148845555657,22.0,hard,0.4444444444444444,1,Experiment 2 (test preview)
+97,explanation,visible,0.7231218051243898,22.0,hard,0.7,0,Experiment 2 (test preview)
+97,explanation,hidden,0.8375349374193038,22.0,hard,0.8,0,Experiment 2 (test preview)
+97,explanation,hidden_an,0.6364525402815663,22.0,hard,0.7,0,Experiment 2 (test preview)
+98,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+98,explanation,hidden,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+98,explanation,hidden_an,0.6637386974043527,22.0,hard,0.5,0,Experiment 2 (test preview)
+99,explanation,visible,0.5299640517645717,22.0,hard,0.5,0,Experiment 2 (test preview)
+99,explanation,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+99,explanation,hidden_an,0.6456563062257954,22.0,hard,0.4,0,Experiment 2 (test preview)
+100,explanation,visible,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+100,explanation,hidden,0.9468488636019362,22.0,hard,0.8,0,Experiment 2 (test preview)
+100,explanation,hidden_an,0.7891817065222528,22.0,hard,0.5,0,Experiment 2 (test preview)
+101,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+101,explanation,hidden,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+101,explanation,hidden_an,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+102,explanation,visible,0.7957596977159082,22.0,hard,0.7,0,Experiment 2 (test preview)
+102,explanation,hidden,0.738850006084249,22.0,hard,0.7,0,Experiment 2 (test preview)
+102,explanation,hidden_an,0.8320183851339245,22.0,hard,0.6,0,Experiment 2 (test preview)
+103,explanation,visible,0.7539887164489482,22.0,hard,0.7,0,Experiment 2 (test preview)
+103,explanation,hidden,0.598687660112452,22.0,hard,0.6,0,Experiment 2 (test preview)
+103,explanation,hidden_an,0.6726070170677604,22.0,hard,0.7,0,Experiment 2 (test preview)
+104,explanation,visible,0.617747874769249,22.0,hard,0.6,0,Experiment 2 (test preview)
+104,explanation,hidden,0.617747874769249,22.0,hard,0.6,0,Experiment 2 (test preview)
+104,explanation,hidden_an,0.6271477663131956,22.0,hard,0.6,0,Experiment 2 (test preview)
+105,explanation,visible,0.6726070170677604,22.0,hard,0.6,0,Experiment 2 (test preview)
+105,explanation,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+105,explanation,hidden_an,0.6726070170677604,22.0,hard,0.6,0,Experiment 2 (test preview)
+106,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+106,explanation,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+106,explanation,hidden_an,0.5,22.0,hard,0.5714285714285714,3,Experiment 2 (test preview)
+107,explanation,visible,0.5,22.0,hard,0.6,0,Experiment 2 (test preview)
+107,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+107,explanation,hidden_an,0.6456563062257954,22.0,hard,0.5555555555555556,1,Experiment 2 (test preview)
+108,explanation,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+108,explanation,hidden,0.5199893401555817,22.0,hard,0.5,0,Experiment 2 (test preview)
+108,explanation,hidden_an,0.6364525402815663,22.0,hard,0.6,0,Experiment 2 (test preview)
+109,explanation,visible,0.569546223939229,22.0,hard,0.5,0,Experiment 2 (test preview)
+109,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+109,explanation,hidden_an,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+110,explanation,visible,0.6637386974043527,22.0,hard,0.6,0,Experiment 2 (test preview)
+110,explanation,hidden,0.7539887164489482,22.0,hard,0.7,0,Experiment 2 (test preview)
+110,explanation,hidden_an,0.6456563062257954,22.0,hard,0.5,2,Experiment 2 (test preview)
+111,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+111,explanation,hidden,0.6271477663131956,22.0,hard,0.6,0,Experiment 2 (test preview)
+111,explanation,hidden_an,0.9873828393206613,22.0,hard,0.7,0,Experiment 2 (test preview)
+112,explanation,visible,0.5399148845555657,22.0,hard,0.5,0,Experiment 2 (test preview)
+112,explanation,hidden,0.5,22.0,hard,0.2,0,Experiment 2 (test preview)
+112,explanation,hidden_an,0.5,22.0,hard,0.25,2,Experiment 2 (test preview)
+113,explanation,visible,0.6984652160025387,22.0,hard,0.5,0,Experiment 2 (test preview)
+113,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+113,explanation,hidden_an,0.5199893401555817,22.0,hard,0.6,0,Experiment 2 (test preview)
+114,explanation,visible,0.7685247834990176,22.0,hard,0.7,0,Experiment 2 (test preview)
+114,explanation,hidden,0.6082590307465144,22.0,hard,0.6,0,Experiment 2 (test preview)
+114,explanation,hidden_an,0.6899744811276124,22.0,hard,0.7,0,Experiment 2 (test preview)
+115,explanation,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+115,explanation,hidden,0.5099986668799654,22.0,hard,0.5,0,Experiment 2 (test preview)
+115,explanation,hidden_an,0.5,22.0,hard,0.2,0,Experiment 2 (test preview)
+116,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+116,explanation,hidden,0.7685247834990176,22.0,hard,0.5,0,Experiment 2 (test preview)
+116,explanation,hidden_an,0.9873828393206613,22.0,hard,0.8,0,Experiment 2 (test preview)
+117,explanation,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+117,explanation,hidden,0.617747874769249,22.0,hard,0.6,0,Experiment 2 (test preview)
+117,explanation,hidden_an,0.617747874769249,22.0,hard,0.6,0,Experiment 2 (test preview)
+118,explanation,visible,0.6984652160025387,22.0,hard,0.7,0,Experiment 2 (test preview)
+118,explanation,hidden,0.569546223939229,22.0,hard,0.6,0,Experiment 2 (test preview)
+118,explanation,hidden_an,0.5199893401555817,22.0,hard,0.4,0,Experiment 2 (test preview)
+119,explanation,visible,0.5299640517645717,22.0,hard,0.5,0,Experiment 2 (test preview)
+119,explanation,hidden,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+119,explanation,hidden_an,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+120,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+120,explanation,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+120,explanation,hidden_an,0.5793242521487494,22.0,hard,0.6,0,Experiment 2 (test preview)
+121,explanation,visible,0.5,22.0,hard,0.2,0,Experiment 2 (test preview)
+121,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+121,explanation,hidden_an,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+122,explanation,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+122,explanation,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+122,explanation,hidden_an,0.5597136492671929,22.0,hard,0.5,0,Experiment 2 (test preview)
+123,control,visible,0.7891817065222528,21.0,easy,0.8,0,Experiment 2 (test preview)
+123,control,hidden,0.7068222210935675,21.0,easy,0.7,0,Experiment 2 (test preview)
+123,control,hidden_an,0.8375349374193038,21.0,easy,0.6,0,Experiment 2 (test preview)
+124,control,visible,0.7891817065222528,21.0,easy,0.8,0,Experiment 2 (test preview)
+124,control,hidden,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+124,control,hidden_an,0.5,21.0,easy,0.2,0,Experiment 2 (test preview)
+125,control,visible,0.6813537337890255,21.0,easy,0.7,0,Experiment 2 (test preview)
+125,control,hidden,0.7539887164489482,21.0,easy,0.7,0,Experiment 2 (test preview)
+125,control,hidden_an,0.617747874769249,21.0,easy,0.7,0,Experiment 2 (test preview)
+126,control,visible,0.8581489350995122,21.0,easy,0.7,0,Experiment 2 (test preview)
+126,control,hidden,0.9037844582893072,21.0,easy,0.8,0,Experiment 2 (test preview)
+126,control,hidden_an,0.7613327148429104,21.0,easy,0.9,0,Experiment 2 (test preview)
+127,control,visible,0.7755640142690734,21.0,easy,0.8,0,Experiment 2 (test preview)
+127,control,hidden,0.569546223939229,21.0,easy,0.5,0,Experiment 2 (test preview)
+127,control,hidden_an,0.7613327148429104,21.0,easy,0.6,0,Experiment 2 (test preview)
+128,control,visible,0.876532952434776,21.0,easy,0.9,0,Experiment 2 (test preview)
+128,control,hidden,0.5,21.0,easy,0.6,0,Experiment 2 (test preview)
+128,control,hidden_an,0.5,21.0,easy,0.5555555555555556,1,Experiment 2 (test preview)
+129,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+129,control,hidden,0.598687660112452,21.0,easy,0.6,0,Experiment 2 (test preview)
+129,control,hidden_an,0.6637386974043527,21.0,easy,0.7,0,Experiment 2 (test preview)
+130,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+130,control,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+130,control,hidden_an,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+131,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+131,control,hidden,0.8849332679544502,21.0,easy,0.9,0,Experiment 2 (test preview)
+131,control,hidden_an,0.7613327148429104,21.0,easy,0.6,0,Experiment 2 (test preview)
+132,control,visible,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+132,control,hidden,0.738850006084249,21.0,easy,0.6,0,Experiment 2 (test preview)
+132,control,hidden_an,0.7231218051243898,21.0,easy,0.5,0,Experiment 2 (test preview)
+133,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+133,control,hidden,0.7068222210935675,21.0,easy,0.7,0,Experiment 2 (test preview)
+133,control,hidden_an,0.6547534606063191,21.0,easy,0.8,0,Experiment 2 (test preview)
+134,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+134,control,hidden,0.738850006084249,21.0,easy,0.7,0,Experiment 2 (test preview)
+134,control,hidden_an,0.8084546514385326,21.0,easy,0.7142857142857143,3,Experiment 2 (test preview)
+135,control,visible,0.876532952434776,21.0,easy,0.9,0,Experiment 2 (test preview)
+135,control,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+135,control,hidden_an,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+136,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+136,control,hidden,0.5793242521487494,21.0,easy,0.6,0,Experiment 2 (test preview)
+136,control,hidden_an,0.5,21.0,easy,0.6,0,Experiment 2 (test preview)
+137,control,visible,0.7539887164489482,21.0,easy,0.8,0,Experiment 2 (test preview)
+137,control,hidden,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+137,control,hidden_an,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+138,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+138,control,hidden,0.6984652160025387,21.0,easy,0.7,0,Experiment 2 (test preview)
+138,control,hidden_an,0.598687660112452,21.0,easy,0.75,2,Experiment 2 (test preview)
+139,control,visible,0.5399148845555657,21.0,easy,0.6,0,Experiment 2 (test preview)
+139,control,hidden,0.9168273035060776,21.0,easy,0.9,0,Experiment 2 (test preview)
+139,control,hidden_an,0.8629487074245403,21.0,easy,0.7,0,Experiment 2 (test preview)
+140,control,visible,0.6726070170677604,21.0,easy,0.7,0,Experiment 2 (test preview)
+140,control,hidden,0.6364525402815663,21.0,easy,0.6,0,Experiment 2 (test preview)
+140,control,hidden_an,0.6547534606063191,21.0,easy,0.6,0,Experiment 2 (test preview)
+141,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+141,control,hidden,0.9488262990829083,21.0,easy,0.9,0,Experiment 2 (test preview)
+141,control,hidden_an,0.9873828393206613,21.0,easy,0.9,0,Experiment 2 (test preview)
+142,control,visible,0.8429045311145472,21.0,easy,0.8,0,Experiment 2 (test preview)
+142,control,hidden,0.7613327148429104,21.0,easy,0.7,0,Experiment 2 (test preview)
+142,control,hidden_an,0.617747874769249,21.0,easy,0.5,0,Experiment 2 (test preview)
+143,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+143,control,hidden,0.9227277978633401,21.0,easy,0.9,0,Experiment 2 (test preview)
+143,control,hidden_an,0.9873828393206613,21.0,easy,0.7,0,Experiment 2 (test preview)
+144,control,visible,0.7539887164489482,21.0,easy,0.8,0,Experiment 2 (test preview)
+144,control,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+144,control,hidden_an,0.5099986668799654,21.0,easy,0.5,0,Experiment 2 (test preview)
+145,control,visible,0.9168273035060776,21.0,easy,0.9,0,Experiment 2 (test preview)
+145,control,hidden,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+145,control,hidden_an,0.9873828393206613,21.0,easy,0.8,0,Experiment 2 (test preview)
+146,control,visible,0.7539887164489482,21.0,easy,0.8,0,Experiment 2 (test preview)
+146,control,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+146,control,hidden_an,0.569546223939229,21.0,easy,0.5,0,Experiment 2 (test preview)
+147,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+147,control,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+147,control,hidden_an,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+148,control,visible,0.5890404340586651,21.0,easy,0.6,0,Experiment 2 (test preview)
+148,control,hidden,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+148,control,hidden_an,0.5,21.0,easy,0.2222222222222222,1,Experiment 2 (test preview)
+149,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+149,control,hidden,0.6813537337890255,21.0,easy,0.7,0,Experiment 2 (test preview)
+149,control,hidden_an,0.617747874769249,21.0,easy,0.6,0,Experiment 2 (test preview)
+150,control,visible,0.8481288363433408,21.0,easy,0.8,0,Experiment 2 (test preview)
+150,control,hidden,0.5199893401555817,21.0,easy,0.5,0,Experiment 2 (test preview)
+150,control,hidden_an,0.5890404340586651,21.0,easy,0.6,0,Experiment 2 (test preview)
+151,control,visible,0.876532952434776,21.0,easy,0.9,0,Experiment 2 (test preview)
+151,control,hidden,0.8145725807070178,21.0,easy,0.8,0,Experiment 2 (test preview)
+151,control,hidden_an,0.8205384805926732,21.0,easy,0.6666666666666666,1,Experiment 2 (test preview)
+152,control,visible,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+152,control,hidden,0.5299640517645717,21.0,easy,0.5,0,Experiment 2 (test preview)
+152,control,hidden_an,0.6547534606063191,21.0,easy,0.5555555555555556,1,Experiment 2 (test preview)
+153,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+153,control,hidden,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+153,control,hidden_an,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+154,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 2 (test preview)
+154,control,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+154,control,hidden_an,0.5,21.0,easy,0.5,2,Experiment 2 (test preview)
+155,control,visible,0.8021838885585818,21.0,easy,0.8,0,Experiment 2 (test preview)
+155,control,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+155,control,hidden_an,0.5,21.0,easy,0.375,2,Experiment 2 (test preview)
+156,control,visible,0.7891817065222528,21.0,easy,0.8,0,Experiment 2 (test preview)
+156,control,hidden,0.5793242521487494,21.0,easy,0.6,0,Experiment 2 (test preview)
+156,control,hidden_an,0.5793242521487494,21.0,easy,0.4444444444444444,1,Experiment 2 (test preview)
+157,control,visible,0.7539887164489482,21.0,easy,0.8,0,Experiment 2 (test preview)
+157,control,hidden,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+157,control,hidden_an,0.5,21.0,easy,0.3333333333333333,1,Experiment 2 (test preview)
+158,control,visible,0.6984652160025387,21.0,easy,0.7,0,Experiment 2 (test preview)
+158,control,hidden,0.9255320548339719,21.0,easy,0.9,0,Experiment 2 (test preview)
+158,control,hidden_an,0.8320183851339245,21.0,easy,0.8,0,Experiment 2 (test preview)
+159,control,visible,0.7539887164489482,21.0,easy,0.8,0,Experiment 2 (test preview)
+159,control,hidden,0.5299640517645717,21.0,easy,0.6,0,Experiment 2 (test preview)
+159,control,hidden_an,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+160,control,visible,0.7539887164489482,21.0,easy,0.8,0,Experiment 2 (test preview)
+160,control,hidden,0.598687660112452,21.0,easy,0.6,0,Experiment 2 (test preview)
+160,control,hidden_an,0.6637386974043527,21.0,easy,0.7,0,Experiment 2 (test preview)
+161,control,visible,0.9168273035060776,21.0,easy,0.8,0,Experiment 2 (test preview)
+161,control,hidden,0.6899744811276124,21.0,easy,0.7,0,Experiment 2 (test preview)
+161,control,hidden_an,0.598687660112452,21.0,easy,0.4444444444444444,1,Experiment 2 (test preview)
+162,control,visible,0.549833997312478,21.0,easy,0.6,0,Experiment 2 (test preview)
+162,control,hidden,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+162,control,hidden_an,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+163,control,visible,0.5,21.0,easy,0.6,0,Experiment 2 (test preview)
+163,control,hidden,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+163,control,hidden_an,0.617747874769249,21.0,easy,0.6,0,Experiment 2 (test preview)
+164,control,visible,0.7539887164489482,21.0,easy,0.8,0,Experiment 2 (test preview)
+164,control,hidden,0.6547534606063191,21.0,easy,0.7,0,Experiment 2 (test preview)
+164,control,hidden_an,0.569546223939229,21.0,easy,0.4,0,Experiment 2 (test preview)
+165,control,visible,0.6082590307465144,22.0,hard,0.6,0,Experiment 1 (no preview)
+165,control,hidden,0.6899744811276124,22.0,hard,0.7,0,Experiment 1 (no preview)
+165,control,hidden_an,0.6082590307465144,22.0,hard,0.75,2,Experiment 1 (no preview)
+166,prediction,visible,0.9873828393206613,21.0,easy,0.8,0,Experiment 1 (no preview)
+166,prediction,hidden,0.5,21.0,easy,0.625,2,Experiment 1 (no preview)
+166,prediction,hidden_an,0.6984652160025387,21.0,easy,,6,Experiment 1 (no preview)
+167,prediction,visible,0.7685247834990176,21.0,easy,0.7,0,Experiment 1 (no preview)
+167,prediction,hidden,0.826353352980995,21.0,easy,0.8,0,Experiment 1 (no preview)
+167,prediction,hidden_an,0.9873828393206613,21.0,easy,,5,Experiment 1 (no preview)
+168,prediction,visible,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+168,prediction,hidden,0.5,22.0,hard,0.2,0,Experiment 1 (no preview)
+168,prediction,hidden_an,0.5,22.0,hard,0.5,4,Experiment 1 (no preview)
+169,control,visible,0.6899744811276124,22.0,hard,0.7,0,Experiment 1 (no preview)
+169,control,hidden,0.549833997312478,22.0,hard,0.5,0,Experiment 1 (no preview)
+169,control,hidden_an,0.5,22.0,hard,0.375,2,Experiment 1 (no preview)
+170,explanation,visible,0.569546223939229,22.0,hard,0.5,0,Experiment 1 (no preview)
+170,explanation,hidden,0.8145725807070178,22.0,hard,0.7,0,Experiment 1 (no preview)
+170,explanation,hidden_an,0.9873828393206613,22.0,hard,0.8,0,Experiment 1 (no preview)
+171,prediction,visible,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+171,prediction,hidden,0.5199893401555817,22.0,hard,0.5,0,Experiment 1 (no preview)
+171,prediction,hidden_an,0.5,22.0,hard,0.42857142857142855,3,Experiment 1 (no preview)
+172,control,visible,0.8676111264579347,21.0,easy,0.8,0,Experiment 1 (no preview)
+172,control,hidden,0.9873828393206613,21.0,easy,0.9,0,Experiment 1 (no preview)
+172,control,hidden_an,0.7613327148429104,21.0,easy,0.4,0,Experiment 1 (no preview)
+173,prediction,visible,0.907207046882843,21.0,easy,0.9,0,Experiment 1 (no preview)
+173,prediction,hidden,0.6726070170677604,21.0,easy,0.6,0,Experiment 1 (no preview)
+173,prediction,hidden_an,0.5399148845555657,21.0,easy,,5,Experiment 1 (no preview)
+174,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 1 (no preview)
+174,control,hidden,0.6899744811276124,21.0,easy,0.7,0,Experiment 1 (no preview)
+174,control,hidden_an,0.5,21.0,easy,0.5,0,Experiment 1 (no preview)
+175,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 1 (no preview)
+175,explanation,hidden,0.569546223939229,22.0,hard,0.5,0,Experiment 1 (no preview)
+175,explanation,hidden_an,0.6364525402815663,22.0,hard,0.6,0,Experiment 1 (no preview)
+176,control,visible,0.8320183851339245,22.0,hard,0.8,0,Experiment 1 (no preview)
+176,control,hidden,0.5,22.0,hard,0.5,0,Experiment 1 (no preview)
+176,control,hidden_an,0.5,22.0,hard,0.5555555555555556,1,Experiment 1 (no preview)
+177,control,visible,0.7150421057009898,22.0,hard,0.6,0,Experiment 2 (test preview)
+177,control,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+177,control,hidden_an,0.5,22.0,hard,0.3333333333333333,1,Experiment 2 (test preview)
+178,control,visible,0.5399148845555657,22.0,hard,0.5,0,Experiment 2 (test preview)
+178,control,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+178,control,hidden_an,0.5,22.0,hard,0.5555555555555556,1,Experiment 2 (test preview)
+179,control,visible,0.7891817065222528,22.0,hard,0.7,0,Experiment 2 (test preview)
+179,control,hidden,0.6456563062257954,22.0,hard,0.6,0,Experiment 2 (test preview)
+179,control,hidden_an,0.7539887164489482,22.0,hard,0.5555555555555556,1,Experiment 2 (test preview)
+180,control,visible,0.6813537337890255,22.0,hard,0.7,0,Experiment 2 (test preview)
+180,control,hidden,0.5597136492671929,22.0,hard,0.5,0,Experiment 2 (test preview)
+180,control,hidden_an,0.5299640517645717,22.0,hard,0.6666666666666666,1,Experiment 2 (test preview)
+181,control,visible,0.738850006084249,22.0,hard,0.7,0,Experiment 2 (test preview)
+181,control,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+181,control,hidden_an,0.5,22.0,hard,0.6666666666666666,1,Experiment 2 (test preview)
+182,control,visible,0.7231218051243898,22.0,hard,0.7,0,Experiment 2 (test preview)
+182,control,hidden,0.549833997312478,22.0,hard,0.5,0,Experiment 2 (test preview)
+182,control,hidden_an,0.617747874769249,22.0,hard,0.625,2,Experiment 2 (test preview)
+183,control,visible,0.9873828393206613,22.0,hard,1.0,0,Experiment 2 (test preview)
+183,control,hidden,0.9255320548339719,22.0,hard,0.9,0,Experiment 2 (test preview)
+183,control,hidden_an,0.8629487074245403,22.0,hard,0.8,0,Experiment 2 (test preview)
+184,control,visible,0.6984652160025387,22.0,hard,0.7,0,Experiment 2 (test preview)
+184,control,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+184,control,hidden_an,0.5299640517645717,22.0,hard,0.4444444444444444,1,Experiment 2 (test preview)
+185,control,visible,0.8429045311145472,22.0,hard,0.8,0,Experiment 2 (test preview)
+185,control,hidden,0.9593009464285335,22.0,hard,0.9,0,Experiment 2 (test preview)
+185,control,hidden_an,0.9002495108803149,22.0,hard,0.7777777777777778,1,Experiment 2 (test preview)
+186,control,visible,0.731058578630005,22.0,hard,0.7,0,Experiment 2 (test preview)
+186,control,hidden,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+186,control,hidden_an,0.5,22.0,hard,0.2222222222222222,1,Experiment 2 (test preview)
+187,control,visible,0.9873828393206613,22.0,hard,0.9,0,Experiment 2 (test preview)
+187,control,hidden,0.9227277978633401,22.0,hard,0.8,0,Experiment 2 (test preview)
+187,control,hidden_an,0.8629487074245403,22.0,hard,0.75,2,Experiment 2 (test preview)
+188,control,visible,0.5793242521487494,22.0,hard,0.6,0,Experiment 2 (test preview)
+188,control,hidden,0.549833997312478,22.0,hard,0.5,0,Experiment 2 (test preview)
+188,control,hidden_an,0.6637386974043527,22.0,hard,0.5555555555555556,1,Experiment 2 (test preview)
+189,control,visible,0.9404756340234984,22.0,hard,0.9,0,Experiment 2 (test preview)
+189,control,hidden,0.549833997312478,22.0,hard,0.6,0,Experiment 2 (test preview)
+189,control,hidden_an,0.5299640517645717,22.0,hard,0.6666666666666666,1,Experiment 2 (test preview)
+190,control,visible,0.5597136492671929,22.0,hard,0.6,0,Experiment 2 (test preview)
+190,control,hidden,0.6637386974043527,22.0,hard,0.6,0,Experiment 2 (test preview)
+190,control,hidden_an,0.569546223939229,22.0,hard,0.5,2,Experiment 2 (test preview)
+191,control,visible,0.5597136492671929,22.0,hard,0.5,0,Experiment 2 (test preview)
+191,control,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+191,control,hidden_an,0.6637386974043527,22.0,hard,0.5,2,Experiment 2 (test preview)
+192,control,visible,0.7755640142690734,22.0,hard,0.7,0,Experiment 2 (test preview)
+192,control,hidden,0.6899744811276124,22.0,hard,0.7,0,Experiment 2 (test preview)
+192,control,hidden_an,0.6899744811276124,22.0,hard,0.75,2,Experiment 2 (test preview)
+193,control,visible,0.5099986668799654,22.0,hard,0.6,0,Experiment 2 (test preview)
+193,control,hidden,0.5890404340586651,22.0,hard,0.6,0,Experiment 2 (test preview)
+193,control,hidden_an,0.5399148845555657,22.0,hard,0.5,4,Experiment 2 (test preview)
+195,control,visible,0.731058578630005,22.0,hard,0.7,0,Experiment 2 (test preview)
+195,control,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+195,control,hidden_an,0.5,22.0,hard,0.4444444444444444,1,Experiment 2 (test preview)
+196,control,visible,0.7464939833376623,22.0,hard,0.7,0,Experiment 2 (test preview)
+196,control,hidden,0.6813537337890255,22.0,hard,0.7,0,Experiment 2 (test preview)
+196,control,hidden_an,0.6456563062257954,22.0,hard,0.7777777777777778,1,Experiment 2 (test preview)
+197,control,visible,0.6726070170677604,22.0,hard,0.6,0,Experiment 2 (test preview)
+197,control,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+197,control,hidden_an,0.6456563062257954,22.0,hard,0.375,2,Experiment 2 (test preview)
+198,control,visible,0.7068222210935675,22.0,hard,0.7,0,Experiment 2 (test preview)
+198,control,hidden,0.5399148845555657,22.0,hard,0.5,0,Experiment 2 (test preview)
+198,control,hidden_an,0.5,22.0,hard,0.5555555555555556,1,Experiment 2 (test preview)
+199,control,visible,0.738850006084249,22.0,hard,0.7,0,Experiment 2 (test preview)
+199,control,hidden,0.8532096601986175,22.0,hard,0.8,0,Experiment 2 (test preview)
+199,control,hidden_an,0.9873828393206613,22.0,hard,0.625,2,Experiment 2 (test preview)
+200,control,visible,0.8629487074245403,22.0,hard,0.9,0,Experiment 2 (test preview)
+200,control,hidden,0.6082590307465144,22.0,hard,0.7,0,Experiment 2 (test preview)
+200,control,hidden_an,0.6547534606063191,22.0,hard,0.6666666666666666,1,Experiment 2 (test preview)
+201,control,visible,0.6899744811276124,22.0,hard,0.6,0,Experiment 2 (test preview)
+201,control,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+201,control,hidden_an,0.6899744811276124,22.0,hard,0.5,2,Experiment 2 (test preview)
+202,control,visible,0.731058578630005,22.0,hard,0.7,0,Experiment 2 (test preview)
+202,control,hidden,0.826353352980995,22.0,hard,0.7,0,Experiment 2 (test preview)
+202,control,hidden_an,0.9873828393206613,22.0,hard,0.875,2,Experiment 2 (test preview)
+203,control,visible,0.6456563062257954,22.0,hard,0.6,0,Experiment 2 (test preview)
+203,control,hidden,0.9873828393206613,22.0,hard,0.9,0,Experiment 2 (test preview)
+203,control,hidden_an,0.9873828393206613,22.0,hard,0.8888888888888888,1,Experiment 2 (test preview)
+204,control,visible,0.9227277978633401,22.0,hard,0.9,0,Experiment 2 (test preview)
+204,control,hidden,0.8205384805926732,22.0,hard,0.8,0,Experiment 2 (test preview)
+204,control,hidden_an,0.8965995485417504,22.0,hard,0.875,2,Experiment 2 (test preview)
+205,control,visible,0.617747874769249,22.0,hard,0.6,0,Experiment 2 (test preview)
+205,control,hidden,0.8320183851339245,22.0,hard,0.7,0,Experiment 2 (test preview)
+205,control,hidden_an,0.9873828393206613,22.0,hard,0.8888888888888888,1,Experiment 2 (test preview)
+206,control,visible,0.738850006084249,22.0,hard,0.7,0,Experiment 2 (test preview)
+206,control,hidden,0.9333919644249092,22.0,hard,0.9,0,Experiment 2 (test preview)
+206,control,hidden_an,0.8375349374193038,22.0,hard,0.6666666666666666,4,Experiment 2 (test preview)
+207,control,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+207,control,hidden,0.5099986668799654,22.0,hard,0.6,0,Experiment 2 (test preview)
+207,control,hidden_an,0.5793242521487494,22.0,hard,0.5,2,Experiment 2 (test preview)
+208,control,visible,0.6899744811276124,22.0,hard,0.6,0,Experiment 2 (test preview)
+208,control,hidden,0.9255320548339719,22.0,hard,0.9,0,Experiment 2 (test preview)
+208,control,hidden_an,0.5299640517645717,22.0,hard,0.6666666666666666,1,Experiment 2 (test preview)
+209,control,visible,0.8375349374193038,22.0,hard,0.8,0,Experiment 2 (test preview)
+209,control,hidden,0.8021838885585818,22.0,hard,0.8,0,Experiment 2 (test preview)
+209,control,hidden_an,0.6984652160025387,22.0,hard,0.7,0,Experiment 2 (test preview)
+211,control,visible,0.9227277978633401,22.0,hard,0.9,0,Experiment 2 (test preview)
+211,control,hidden,0.7957596977159082,22.0,hard,0.8,0,Experiment 2 (test preview)
+211,control,hidden_an,0.6726070170677604,22.0,hard,0.6666666666666666,1,Experiment 2 (test preview)
+212,control,visible,0.6364525402815663,22.0,hard,0.6,0,Experiment 2 (test preview)
+212,control,hidden,0.6547534606063191,22.0,hard,0.6,0,Experiment 2 (test preview)
+212,control,hidden_an,0.598687660112452,22.0,hard,0.6,0,Experiment 2 (test preview)
+213,control,visible,0.5099986668799654,22.0,hard,0.5,0,Experiment 2 (test preview)
+213,control,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+213,control,hidden_an,0.5890404340586651,22.0,hard,0.4,0,Experiment 2 (test preview)
+214,control,visible,0.617747874769249,22.0,hard,0.6,0,Experiment 2 (test preview)
+214,control,hidden,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+214,control,hidden_an,0.5,22.0,hard,0.2222222222222222,1,Experiment 2 (test preview)
+215,control,visible,0.8021838885585818,22.0,hard,0.8,0,Experiment 2 (test preview)
+215,control,hidden,0.8429045311145472,22.0,hard,0.8,0,Experiment 2 (test preview)
+215,control,hidden_an,0.8721384336809187,22.0,hard,0.7777777777777778,1,Experiment 2 (test preview)
+216,control,visible,0.9168273035060776,22.0,hard,0.9,0,Experiment 2 (test preview)
+216,control,hidden,0.8481288363433408,22.0,hard,0.8,0,Experiment 2 (test preview)
+216,control,hidden_an,0.9873828393206613,22.0,hard,0.875,2,Experiment 2 (test preview)
+217,control,visible,0.6726070170677604,22.0,hard,0.7,0,Experiment 2 (test preview)
+217,control,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+217,control,hidden_an,0.549833997312478,22.0,hard,0.4444444444444444,1,Experiment 2 (test preview)
+218,control,visible,0.738850006084249,22.0,hard,0.7,0,Experiment 2 (test preview)
+218,control,hidden,0.5,22.0,hard,0.6,0,Experiment 2 (test preview)
+218,control,hidden_an,0.5,22.0,hard,0.5,2,Experiment 2 (test preview)
+219,prediction,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 1 (no preview)
+219,prediction,hidden,0.8205384805926732,21.0,easy,0.8,0,Experiment 1 (no preview)
+219,prediction,hidden_an,0.9873828393206613,21.0,easy,,6,Experiment 1 (no preview)
+220,explanation,visible,0.9002495108803149,21.0,easy,0.8,0,Experiment 1 (no preview)
+220,explanation,hidden,0.8320183851339245,21.0,easy,0.6,0,Experiment 1 (no preview)
+220,explanation,hidden_an,0.7824497764231125,21.0,easy,0.6,0,Experiment 1 (no preview)
+221,explanation,visible,0.5793242521487494,22.0,hard,0.6,0,Experiment 1 (no preview)
+221,explanation,hidden,0.5,22.0,hard,0.5,0,Experiment 1 (no preview)
+221,explanation,hidden_an,0.6984652160025387,22.0,hard,0.5,0,Experiment 1 (no preview)
+222,explanation,visible,0.7068222210935675,22.0,hard,0.5,0,Experiment 1 (no preview)
+222,explanation,hidden,0.5,22.0,hard,0.2,0,Experiment 1 (no preview)
+222,explanation,hidden_an,0.5399148845555657,22.0,hard,0.5,0,Experiment 1 (no preview)
+223,prediction,visible,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+223,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+223,prediction,hidden_an,0.5,22.0,hard,0.375,2,Experiment 1 (no preview)
+224,prediction,visible,0.7464939833376623,22.0,hard,0.7,0,Experiment 1 (no preview)
+224,prediction,hidden,0.9820137900379085,22.0,hard,0.7142857142857143,3,Experiment 1 (no preview)
+224,prediction,hidden_an,0.9873828393206613,22.0,hard,,6,Experiment 1 (no preview)
+225,explanation,visible,0.5,22.0,hard,0.3,0,Experiment 1 (no preview)
+225,explanation,hidden,0.6637386974043527,22.0,hard,0.6,0,Experiment 1 (no preview)
+225,explanation,hidden_an,0.6547534606063191,22.0,hard,0.5555555555555556,1,Experiment 1 (no preview)
+226,prediction,visible,0.598687660112452,22.0,hard,0.6,0,Experiment 1 (no preview)
+226,prediction,hidden,0.5,22.0,hard,0.3,0,Experiment 1 (no preview)
+226,prediction,hidden_an,0.5,22.0,hard,0.5,4,Experiment 1 (no preview)
+227,prediction,visible,0.9873828393206613,21.0,easy,0.9,0,Experiment 1 (no preview)
+227,prediction,hidden,0.8581489350995122,21.0,easy,0.75,2,Experiment 1 (no preview)
+227,prediction,hidden_an,0.973403006423134,21.0,easy,,6,Experiment 1 (no preview)
+228,explanation,visible,0.5299640517645717,21.0,easy,0.5,0,Experiment 1 (no preview)
+228,explanation,hidden,0.6364525402815663,21.0,easy,0.6,0,Experiment 1 (no preview)
+228,explanation,hidden_an,0.7068222210935675,21.0,easy,0.6,0,Experiment 1 (no preview)
+229,control,visible,0.7539887164489482,21.0,easy,0.8,0,Experiment 1 (no preview)
+229,control,hidden,0.6547534606063191,21.0,easy,0.7,0,Experiment 1 (no preview)
+229,control,hidden_an,0.6984652160025387,21.0,easy,0.6,0,Experiment 1 (no preview)
+230,control,visible,0.5199893401555817,21.0,easy,0.5,0,Experiment 1 (no preview)
+230,control,hidden,0.8084546514385326,21.0,easy,0.8,0,Experiment 1 (no preview)
+230,control,hidden_an,0.6364525402815663,21.0,easy,0.7,0,Experiment 1 (no preview)
+231,prediction,visible,0.5299640517645717,22.0,hard,0.5,0,Experiment 1 (no preview)
+231,prediction,hidden,0.7957596977159082,22.0,hard,0.7,0,Experiment 1 (no preview)
+231,prediction,hidden_an,0.6984652160025387,22.0,hard,0.7142857142857143,3,Experiment 1 (no preview)
+232,prediction,visible,0.7891817065222528,21.0,easy,0.8,0,Experiment 1 (no preview)
+232,prediction,hidden,0.5597136492671929,21.0,easy,0.5,0,Experiment 1 (no preview)
+232,prediction,hidden_an,0.5,21.0,easy,0.42857142857142855,3,Experiment 1 (no preview)
+233,prediction,visible,0.6364525402815663,22.0,hard,0.6,0,Experiment 1 (no preview)
+233,prediction,hidden,0.7464939833376623,22.0,hard,0.7,0,Experiment 1 (no preview)
+233,prediction,hidden_an,0.7613327148429104,22.0,hard,0.7,0,Experiment 1 (no preview)
+234,explanation,visible,0.5,21.0,easy,0.3,0,Experiment 1 (no preview)
+234,explanation,hidden,0.5099986668799654,21.0,easy,0.5,0,Experiment 1 (no preview)
+234,explanation,hidden_an,0.5099986668799654,21.0,easy,0.5,0,Experiment 1 (no preview)
+235,prediction,visible,0.8581489350995122,21.0,easy,0.8,0,Experiment 1 (no preview)
+235,prediction,hidden,0.5099986668799654,21.0,easy,0.4444444444444444,1,Experiment 1 (no preview)
+235,prediction,hidden_an,0.5,21.0,easy,,6,Experiment 1 (no preview)
+236,prediction,visible,0.7613327148429104,21.0,easy,0.8,0,Experiment 1 (no preview)
+236,prediction,hidden,0.7150421057009898,21.0,easy,0.7,0,Experiment 1 (no preview)
+236,prediction,hidden_an,0.7231218051243898,21.0,easy,0.7142857142857143,3,Experiment 1 (no preview)
+237,explanation,visible,0.6813537337890255,22.0,hard,0.6,0,Experiment 1 (no preview)
+237,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+237,explanation,hidden_an,0.5,22.0,hard,0.25,2,Experiment 1 (no preview)
+238,explanation,visible,0.5,21.0,easy,0.6,0,Experiment 1 (no preview)
+238,explanation,hidden,0.6456563062257954,21.0,easy,0.6,0,Experiment 1 (no preview)
+238,explanation,hidden_an,0.5099986668799654,21.0,easy,0.5,0,Experiment 1 (no preview)
+239,explanation,visible,0.731058578630005,21.0,easy,0.7,0,Experiment 1 (no preview)
+239,explanation,hidden,0.8481288363433408,21.0,easy,0.8,0,Experiment 1 (no preview)
+239,explanation,hidden_an,0.8429045311145472,21.0,easy,0.8,0,Experiment 1 (no preview)
+240,explanation,visible,0.598687660112452,21.0,easy,0.6,0,Experiment 1 (no preview)
+240,explanation,hidden,0.7539887164489482,21.0,easy,0.7,0,Experiment 1 (no preview)
+240,explanation,hidden_an,0.7755640142690734,21.0,easy,0.7,0,Experiment 1 (no preview)
+241,control,visible,0.6547534606063191,22.0,hard,0.6,0,Experiment 1 (no preview)
+241,control,hidden,0.7539887164489482,22.0,hard,0.7,0,Experiment 1 (no preview)
+241,control,hidden_an,0.6813537337890255,22.0,hard,0.625,2,Experiment 1 (no preview)
+242,control,visible,0.738850006084249,22.0,hard,0.6,0,Experiment 1 (no preview)
+242,control,hidden,0.6726070170677604,22.0,hard,0.5,0,Experiment 1 (no preview)
+242,control,hidden_an,0.8205384805926732,22.0,hard,0.625,2,Experiment 1 (no preview)
+243,control,visible,0.8375349374193038,22.0,hard,0.7,0,Experiment 1 (no preview)
+243,control,hidden,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+243,control,hidden_an,0.5,22.0,hard,0.2857142857142857,3,Experiment 1 (no preview)
+244,control,visible,0.5890404340586651,22.0,hard,0.6,0,Experiment 1 (no preview)
+244,control,hidden,0.5793242521487494,22.0,hard,0.5,0,Experiment 1 (no preview)
+244,control,hidden_an,0.598687660112452,22.0,hard,0.5555555555555556,1,Experiment 1 (no preview)
+245,control,visible,0.7539887164489482,21.0,easy,0.8,0,Experiment 1 (no preview)
+245,control,hidden,0.549833997312478,21.0,easy,0.6,0,Experiment 1 (no preview)
+245,control,hidden_an,0.5793242521487494,21.0,easy,0.5,0,Experiment 1 (no preview)
+246,control,visible,0.6364525402815663,21.0,easy,0.6,0,Experiment 1 (no preview)
+246,control,hidden,0.7068222210935675,21.0,easy,0.7,0,Experiment 1 (no preview)
+246,control,hidden_an,0.598687660112452,21.0,easy,0.6,0,Experiment 1 (no preview)
+247,control,visible,0.6637386974043527,21.0,easy,0.7,0,Experiment 1 (no preview)
+247,control,hidden,0.5,21.0,easy,0.5,0,Experiment 1 (no preview)
+247,control,hidden_an,0.5,21.0,easy,0.4,0,Experiment 1 (no preview)
+248,explanation,visible,0.7539887164489482,21.0,easy,0.7,0,Experiment 1 (no preview)
+248,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 1 (no preview)
+248,explanation,hidden_an,0.5,21.0,easy,0.3,0,Experiment 1 (no preview)
+249,explanation,visible,0.7150421057009898,21.0,easy,0.7,0,Experiment 1 (no preview)
+249,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 1 (no preview)
+249,explanation,hidden_an,0.5,21.0,easy,0.5,0,Experiment 1 (no preview)
+250,explanation,visible,0.7891817065222528,21.0,easy,0.7,0,Experiment 1 (no preview)
+250,explanation,hidden,0.9873828393206613,21.0,easy,0.9,0,Experiment 1 (no preview)
+250,explanation,hidden_an,0.9873828393206613,21.0,easy,0.7,0,Experiment 1 (no preview)
+251,explanation,visible,0.6082590307465144,21.0,easy,0.6,0,Experiment 1 (no preview)
+251,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 1 (no preview)
+251,explanation,hidden_an,0.5,21.0,easy,0.3,0,Experiment 1 (no preview)
+252,explanation,visible,0.6271477663131956,21.0,easy,0.6,0,Experiment 1 (no preview)
+252,explanation,hidden,0.617747874769249,21.0,easy,0.6,0,Experiment 1 (no preview)
+252,explanation,hidden_an,0.5793242521487494,21.0,easy,0.6,0,Experiment 1 (no preview)
+253,explanation,visible,0.5,21.0,easy,0.4,0,Experiment 1 (no preview)
+253,explanation,hidden,0.9168273035060776,21.0,easy,0.9,0,Experiment 1 (no preview)
+253,explanation,hidden_an,0.8429045311145472,21.0,easy,0.7,0,Experiment 1 (no preview)
+254,explanation,visible,0.5399148845555657,21.0,easy,0.5,0,Experiment 1 (no preview)
+254,explanation,hidden,0.738850006084249,21.0,easy,0.7,0,Experiment 1 (no preview)
+254,explanation,hidden_an,0.907207046882843,21.0,easy,0.8,0,Experiment 1 (no preview)
+255,explanation,visible,0.6899744811276124,21.0,easy,0.7,0,Experiment 1 (no preview)
+255,explanation,hidden,0.8084546514385326,21.0,easy,0.7,0,Experiment 1 (no preview)
+255,explanation,hidden_an,0.8928319295134718,21.0,easy,0.7,0,Experiment 1 (no preview)
+256,explanation,visible,0.5,21.0,easy,0.4,0,Experiment 1 (no preview)
+256,explanation,hidden,0.6082590307465144,21.0,easy,0.6,0,Experiment 1 (no preview)
+256,explanation,hidden_an,0.598687660112452,21.0,easy,0.6,0,Experiment 1 (no preview)
+257,explanation,visible,0.5,21.0,easy,0.5,0,Experiment 1 (no preview)
+257,explanation,hidden,0.598687660112452,21.0,easy,0.6,0,Experiment 1 (no preview)
+257,explanation,hidden_an,0.6456563062257954,21.0,easy,0.6,0,Experiment 1 (no preview)
+258,explanation,visible,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+258,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+258,explanation,hidden_an,0.5,22.0,hard,0.5,0,Experiment 1 (no preview)
+259,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 1 (no preview)
+259,explanation,hidden,0.5,22.0,hard,0.3,0,Experiment 1 (no preview)
+259,explanation,hidden_an,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+260,explanation,visible,0.5299640517645717,22.0,hard,0.5,0,Experiment 1 (no preview)
+260,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+260,explanation,hidden_an,0.5,22.0,hard,0.7,0,Experiment 1 (no preview)
+261,explanation,visible,0.9404756340234984,22.0,hard,0.7,0,Experiment 1 (no preview)
+261,explanation,hidden,0.5,22.0,hard,0.3,0,Experiment 1 (no preview)
+261,explanation,hidden_an,0.5,22.0,hard,0.1,0,Experiment 1 (no preview)
+262,explanation,visible,0.9308615796566532,22.0,hard,0.8,0,Experiment 1 (no preview)
+262,explanation,hidden,0.6271477663131956,22.0,hard,0.6,0,Experiment 1 (no preview)
+262,explanation,hidden_an,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+263,explanation,visible,0.617747874769249,22.0,hard,0.6,0,Experiment 1 (no preview)
+263,explanation,hidden,0.5399148845555657,22.0,hard,0.5,0,Experiment 1 (no preview)
+263,explanation,hidden_an,0.6364525402815663,22.0,hard,0.6,0,Experiment 1 (no preview)
+264,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 1 (no preview)
+264,explanation,hidden,0.5399148845555657,22.0,hard,0.5,0,Experiment 1 (no preview)
+264,explanation,hidden_an,0.7891817065222528,22.0,hard,0.7,0,Experiment 1 (no preview)
+265,explanation,visible,0.9468488636019362,22.0,hard,0.8,0,Experiment 1 (no preview)
+265,explanation,hidden,0.826353352980995,22.0,hard,0.7,0,Experiment 1 (no preview)
+265,explanation,hidden_an,0.7957596977159082,22.0,hard,0.8,0,Experiment 1 (no preview)
+266,explanation,visible,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+266,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+266,explanation,hidden_an,0.6547534606063191,22.0,hard,0.5,0,Experiment 1 (no preview)
+267,explanation,visible,0.5099986668799654,22.0,hard,0.5,0,Experiment 1 (no preview)
+267,explanation,hidden,0.5299640517645717,22.0,hard,0.5,0,Experiment 1 (no preview)
+267,explanation,hidden_an,0.7824497764231125,22.0,hard,0.7,0,Experiment 1 (no preview)
+268,explanation,visible,0.6813537337890255,22.0,hard,0.6,0,Experiment 1 (no preview)
+268,explanation,hidden,0.569546223939229,22.0,hard,0.5,0,Experiment 1 (no preview)
+268,explanation,hidden_an,0.7539887164489482,22.0,hard,0.7,0,Experiment 1 (no preview)
+269,control,visible,0.5,22.0,hard,0.5,0,Experiment 1 (no preview)
+269,control,hidden,0.5,22.0,hard,0.3,0,Experiment 1 (no preview)
+269,control,hidden_an,0.5,22.0,hard,0.4444444444444444,1,Experiment 1 (no preview)
+270,control,visible,0.598687660112452,22.0,hard,0.6,0,Experiment 1 (no preview)
+270,control,hidden,0.6456563062257954,22.0,hard,0.7,0,Experiment 1 (no preview)
+270,control,hidden_an,0.6984652160025387,22.0,hard,0.7,0,Experiment 1 (no preview)
+271,control,visible,0.5,22.0,hard,0.5,0,Experiment 1 (no preview)
+271,control,hidden,0.8532096601986175,22.0,hard,0.8,0,Experiment 1 (no preview)
+271,control,hidden_an,0.6364525402815663,22.0,hard,0.7777777777777778,1,Experiment 1 (no preview)
+272,control,visible,0.6082590307465144,22.0,hard,0.6,0,Experiment 1 (no preview)
+272,control,hidden,0.5,22.0,hard,0.5,0,Experiment 1 (no preview)
+272,control,hidden_an,0.5299640517645717,22.0,hard,0.5,0,Experiment 1 (no preview)
+273,control,visible,0.7685247834990176,22.0,hard,0.7,0,Experiment 1 (no preview)
+273,control,hidden,0.9873828393206613,22.0,hard,1.0,0,Experiment 1 (no preview)
+273,control,hidden_an,0.9873828393206613,22.0,hard,0.875,2,Experiment 1 (no preview)
+274,control,visible,0.7068222210935675,22.0,hard,0.7,0,Experiment 1 (no preview)
+274,control,hidden,0.6082590307465144,22.0,hard,0.6,0,Experiment 1 (no preview)
+274,control,hidden_an,0.7068222210935675,22.0,hard,0.625,2,Experiment 1 (no preview)
+275,control,visible,0.7685247834990176,22.0,hard,0.8,0,Experiment 1 (no preview)
+275,control,hidden,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+275,control,hidden_an,0.5299640517645717,22.0,hard,0.5,0,Experiment 1 (no preview)
+276,control,visible,0.8532096601986175,22.0,hard,0.8,0,Experiment 1 (no preview)
+276,control,hidden,0.8205384805926732,22.0,hard,0.8,0,Experiment 1 (no preview)
+276,control,hidden_an,0.8145725807070178,22.0,hard,0.7,0,Experiment 1 (no preview)
+277,control,visible,0.8205384805926732,22.0,hard,0.8,0,Experiment 1 (no preview)
+277,control,hidden,0.5,22.0,hard,0.5,0,Experiment 1 (no preview)
+277,control,hidden_an,0.5,22.0,hard,0.5,0,Experiment 1 (no preview)
+278,prediction,visible,0.738850006084249,22.0,hard,0.7,0,Experiment 1 (no preview)
+278,prediction,hidden,0.8021838885585818,22.0,hard,0.8,0,Experiment 1 (no preview)
+278,prediction,hidden_an,0.6726070170677604,22.0,hard,0.7142857142857143,3,Experiment 1 (no preview)
+279,prediction,visible,0.5,22.0,hard,0.1,0,Experiment 1 (no preview)
+279,prediction,hidden,0.5890404340586651,22.0,hard,0.5,0,Experiment 1 (no preview)
+279,prediction,hidden_an,0.6271477663131956,22.0,hard,0.625,2,Experiment 1 (no preview)
+280,prediction,visible,0.569546223939229,22.0,hard,0.5,0,Experiment 1 (no preview)
+280,prediction,hidden,0.5299640517645717,22.0,hard,0.5,0,Experiment 1 (no preview)
+280,prediction,hidden_an,0.5299640517645717,22.0,hard,0.5714285714285714,3,Experiment 1 (no preview)
+281,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 1 (no preview)
+281,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+281,prediction,hidden_an,0.5,22.0,hard,0.5,4,Experiment 1 (no preview)
+282,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 1 (no preview)
+282,prediction,hidden,0.5,22.0,hard,0.3,0,Experiment 1 (no preview)
+282,prediction,hidden_an,0.5,22.0,hard,0.42857142857142855,3,Experiment 1 (no preview)
+283,prediction,visible,0.6726070170677604,22.0,hard,0.7,0,Experiment 1 (no preview)
+283,prediction,hidden,0.6899744811276124,22.0,hard,0.6,0,Experiment 1 (no preview)
+283,prediction,hidden_an,0.8320183851339245,22.0,hard,,5,Experiment 1 (no preview)
+284,prediction,visible,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+284,prediction,hidden,0.5,22.0,hard,0.4,0,Experiment 1 (no preview)
+284,prediction,hidden_an,0.5597136492671929,22.0,hard,0.5,4,Experiment 1 (no preview)
+285,prediction,visible,0.569546223939229,22.0,hard,0.6,0,Experiment 1 (no preview)
+285,prediction,hidden,0.7231218051243898,22.0,hard,0.6,0,Experiment 1 (no preview)
+285,prediction,hidden_an,0.598687660112452,22.0,hard,0.625,2,Experiment 1 (no preview)
+286,control,visible,0.5,21.0,easy,0.4,0,Experiment 1 (no preview)
+286,control,hidden,0.5,21.0,easy,0.3,0,Experiment 1 (no preview)
+286,control,hidden_an,0.5,21.0,easy,0.375,2,Experiment 1 (no preview)
+287,control,visible,0.9037844582893072,21.0,easy,0.9,0,Experiment 1 (no preview)
+287,control,hidden,0.5399148845555657,21.0,easy,0.6,0,Experiment 1 (no preview)
+287,control,hidden_an,0.5,21.0,easy,0.5,0,Experiment 1 (no preview)
+288,control,visible,0.5,21.0,easy,0.3,0,Experiment 1 (no preview)
+288,control,hidden,0.5597136492671929,21.0,easy,0.6,0,Experiment 1 (no preview)
+288,control,hidden_an,0.5,21.0,easy,0.3333333333333333,1,Experiment 1 (no preview)
+289,control,visible,0.731058578630005,21.0,easy,0.7,0,Experiment 1 (no preview)
+289,control,hidden,0.5,21.0,easy,0.4,0,Experiment 1 (no preview)
+289,control,hidden_an,0.5,21.0,easy,0.3,0,Experiment 1 (no preview)
+290,control,visible,0.7539887164489482,21.0,easy,0.8,0,Experiment 1 (no preview)
+290,control,hidden,0.549833997312478,21.0,easy,0.6,0,Experiment 1 (no preview)
+290,control,hidden_an,0.549833997312478,21.0,easy,0.5,2,Experiment 1 (no preview)
+291,control,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 1 (no preview)
+291,control,hidden,0.5597136492671929,21.0,easy,0.6,0,Experiment 1 (no preview)
+291,control,hidden_an,0.598687660112452,21.0,easy,0.5,0,Experiment 1 (no preview)
+292,control,visible,0.7824497764231125,21.0,easy,0.8,0,Experiment 1 (no preview)
+292,control,hidden,0.7824497764231125,21.0,easy,0.8,0,Experiment 1 (no preview)
+292,control,hidden_an,0.598687660112452,21.0,easy,0.7,0,Experiment 1 (no preview)
+293,control,visible,0.598687660112452,21.0,easy,0.6,0,Experiment 1 (no preview)
+293,control,hidden,0.6813537337890255,21.0,easy,0.6,0,Experiment 1 (no preview)
+293,control,hidden_an,0.7613327148429104,21.0,easy,0.7,0,Experiment 1 (no preview)
+294,prediction,visible,0.9137258055040833,21.0,easy,0.9,0,Experiment 1 (no preview)
+294,prediction,hidden,0.9105199406664385,21.0,easy,0.8,0,Experiment 1 (no preview)
+294,prediction,hidden_an,0.9701133201963638,21.0,easy,,5,Experiment 1 (no preview)
+295,prediction,visible,0.8581489350995122,21.0,easy,0.8,0,Experiment 1 (no preview)
+295,prediction,hidden,0.935836123594826,21.0,easy,0.8,0,Experiment 1 (no preview)
+295,prediction,hidden_an,0.9873828393206613,21.0,easy,,5,Experiment 1 (no preview)
+296,prediction,visible,0.9873828393206613,21.0,easy,0.9,0,Experiment 1 (no preview)
+296,prediction,hidden,0.5,21.0,easy,0.5,2,Experiment 1 (no preview)
+296,prediction,hidden_an,0.6456563062257954,21.0,easy,,6,Experiment 1 (no preview)
+297,prediction,visible,0.7755640142690734,21.0,easy,0.5714285714285714,3,Experiment 1 (no preview)
+297,prediction,hidden,0.5,21.0,easy,0.3333333333333333,4,Experiment 1 (no preview)
+297,prediction,hidden_an,0.5,21.0,easy,,8,Experiment 1 (no preview)
+298,prediction,visible,0.6899744811276124,21.0,easy,0.6666666666666666,1,Experiment 1 (no preview)
+298,prediction,hidden,0.5,21.0,easy,0.375,2,Experiment 1 (no preview)
+298,prediction,hidden_an,0.5,21.0,easy,,6,Experiment 1 (no preview)
+299,prediction,visible,0.9105199406664385,21.0,easy,0.9,0,Experiment 1 (no preview)
+299,prediction,hidden,0.8021838885585818,21.0,easy,0.7,0,Experiment 1 (no preview)
+299,prediction,hidden_an,0.738850006084249,21.0,easy,,5,Experiment 1 (no preview)
+300,prediction,visible,0.9873828393206613,21.0,easy,1.0,0,Experiment 1 (no preview)
+300,prediction,hidden,0.598687660112452,21.0,easy,0.7,0,Experiment 1 (no preview)
+300,prediction,hidden_an,0.5,21.0,easy,,5,Experiment 1 (no preview)
+301,prediction,visible,0.7613327148429104,21.0,easy,0.8,0,Experiment 1 (no preview)
+301,prediction,hidden,0.5,21.0,easy,0.5,0,Experiment 1 (no preview)
+301,prediction,hidden_an,0.5,21.0,easy,0.42857142857142855,3,Experiment 1 (no preview)
+302,prediction,visible,0.6082590307465144,21.0,easy,0.5,0,Experiment 1 (no preview)
+302,prediction,hidden,0.7150421057009898,21.0,easy,0.625,2,Experiment 1 (no preview)
+302,prediction,hidden_an,0.7464939833376623,21.0,easy,,6,Experiment 1 (no preview)
+303,prediction,visible,0.5,22.0,hard,0.2,0,Experiment 1 (no preview)
+303,prediction,hidden,0.5597136492671929,22.0,hard,0.4,0,Experiment 1 (no preview)
+303,prediction,hidden_an,0.6899744811276124,22.0,hard,0.6666666666666666,4,Experiment 1 (no preview)
+304,prediction,visible,0.8481288363433408,22.0,hard,0.8,0,Experiment 2 (test preview)
+304,prediction,hidden,0.9426758241011312,22.0,hard,0.9,0,Experiment 2 (test preview)
+304,prediction,hidden_an,0.9873828393206613,22.0,hard,0.8571428571428571,3,Experiment 2 (test preview)
+305,explanation,visible,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+305,explanation,hidden,0.5299640517645717,22.0,hard,0.5,0,Experiment 2 (test preview)
+305,explanation,hidden_an,0.5,22.0,hard,0.2,0,Experiment 2 (test preview)
+306,control,visible,0.7464939833376623,22.0,hard,0.7,0,Experiment 2 (test preview)
+306,control,hidden,0.6271477663131956,22.0,hard,0.6,0,Experiment 2 (test preview)
+306,control,hidden_an,0.8532096601986175,22.0,hard,0.75,2,Experiment 2 (test preview)
+307,control,visible,0.6082590307465144,21.0,easy,0.6,0,Experiment 2 (test preview)
+307,control,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+307,control,hidden_an,0.5,21.0,easy,0.5,2,Experiment 2 (test preview)
+308,prediction,visible,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+308,prediction,hidden,0.549833997312478,21.0,easy,0.5,0,Experiment 2 (test preview)
+308,prediction,hidden_an,0.7068222210935675,21.0,easy,,5,Experiment 2 (test preview)
+309,prediction,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+309,prediction,hidden,0.6364525402815663,22.0,hard,0.5,0,Experiment 2 (test preview)
+309,prediction,hidden_an,0.6726070170677604,22.0,hard,0.6666666666666666,4,Experiment 2 (test preview)
+310,prediction,visible,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+310,prediction,hidden,0.907207046882843,21.0,easy,0.8,0,Experiment 2 (test preview)
+310,prediction,hidden_an,0.8375349374193038,21.0,easy,0.7142857142857143,3,Experiment 2 (test preview)
+311,prediction,visible,0.8721384336809187,21.0,easy,0.9,0,Experiment 2 (test preview)
+311,prediction,hidden,0.9308615796566532,21.0,easy,0.8,0,Experiment 2 (test preview)
+311,prediction,hidden_an,0.9873828393206613,21.0,easy,,5,Experiment 2 (test preview)
+312,prediction,visible,0.738850006084249,21.0,easy,0.7,0,Experiment 2 (test preview)
+312,prediction,hidden,0.5,21.0,easy,0.375,2,Experiment 2 (test preview)
+312,prediction,hidden_an,0.5,21.0,easy,,6,Experiment 2 (test preview)
+313,prediction,visible,0.5099986668799654,22.0,hard,0.5,0,Experiment 2 (test preview)
+313,prediction,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+313,prediction,hidden_an,0.5890404340586651,22.0,hard,,5,Experiment 2 (test preview)
+314,control,visible,0.6899744811276124,21.0,easy,0.7,0,Experiment 2 (test preview)
+314,control,hidden,0.6813537337890255,21.0,easy,0.7,0,Experiment 2 (test preview)
+314,control,hidden_an,0.6637386974043527,21.0,easy,0.6,0,Experiment 2 (test preview)
+315,explanation,visible,0.549833997312478,21.0,easy,0.5,0,Experiment 2 (test preview)
+315,explanation,hidden,0.8084546514385326,21.0,easy,0.8,0,Experiment 2 (test preview)
+315,explanation,hidden_an,0.8145725807070178,21.0,easy,0.8,0,Experiment 2 (test preview)
+316,explanation,visible,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+316,explanation,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+316,explanation,hidden_an,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+317,explanation,visible,0.5597136492671929,22.0,hard,0.5,0,Experiment 2 (test preview)
+317,explanation,hidden,0.6271477663131956,22.0,hard,0.6,0,Experiment 2 (test preview)
+317,explanation,hidden_an,0.6984652160025387,22.0,hard,0.7,0,Experiment 2 (test preview)
+318,explanation,visible,0.7613327148429104,22.0,hard,0.7,0,Experiment 2 (test preview)
+318,explanation,hidden,0.5,22.0,hard,0.4,0,Experiment 2 (test preview)
+318,explanation,hidden_an,0.6547534606063191,22.0,hard,0.8,0,Experiment 2 (test preview)
+319,control,visible,0.8676111264579347,22.0,hard,0.8,0,Experiment 2 (test preview)
+319,control,hidden,0.8145725807070178,22.0,hard,0.8,0,Experiment 2 (test preview)
+319,control,hidden_an,0.8320183851339245,22.0,hard,0.625,2,Experiment 2 (test preview)
+320,control,visible,0.9198270878271877,22.0,hard,0.9,0,Experiment 2 (test preview)
+320,control,hidden,0.6984652160025387,22.0,hard,0.7,0,Experiment 2 (test preview)
+320,control,hidden_an,0.6726070170677604,22.0,hard,0.5555555555555556,1,Experiment 2 (test preview)
+321,control,visible,0.8084546514385326,22.0,hard,0.7,0,Experiment 2 (test preview)
+321,control,hidden,0.5,22.0,hard,0.5,0,Experiment 2 (test preview)
+321,control,hidden_an,0.5,22.0,hard,0.3333333333333333,1,Experiment 2 (test preview)
+322,explanation,visible,0.5299640517645717,21.0,easy,0.5,0,Experiment 2 (test preview)
+322,explanation,hidden,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+322,explanation,hidden_an,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+323,explanation,visible,0.6813537337890255,21.0,easy,0.7,0,Experiment 2 (test preview)
+323,explanation,hidden,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+323,explanation,hidden_an,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+324,explanation,visible,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+324,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+324,explanation,hidden_an,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+325,control,visible,0.876532952434776,21.0,easy,0.9,0,Experiment 2 (test preview)
+325,control,hidden,0.6813537337890255,21.0,easy,0.7,0,Experiment 2 (test preview)
+325,control,hidden_an,0.7957596977159082,21.0,easy,0.9,0,Experiment 2 (test preview)
+326,control,visible,0.7539887164489482,21.0,easy,0.8,0,Experiment 2 (test preview)
+326,control,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+326,control,hidden_an,0.5,21.0,easy,0.3333333333333333,1,Experiment 2 (test preview)
+327,prediction,visible,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+327,prediction,hidden,0.5,22.0,hard,0.3,0,Experiment 2 (test preview)
+327,prediction,hidden_an,0.5,22.0,hard,,5,Experiment 2 (test preview)
+328,explanation,visible,0.7685247834990176,21.0,easy,0.8,0,Experiment 2 (test preview)
+328,explanation,hidden,0.6082590307465144,21.0,easy,0.6,0,Experiment 2 (test preview)
+328,explanation,hidden_an,0.7068222210935675,21.0,easy,0.7,0,Experiment 2 (test preview)
+329,explanation,visible,0.8145725807070178,21.0,easy,0.8,0,Experiment 2 (test preview)
+329,explanation,hidden,0.5399148845555657,21.0,easy,0.5,0,Experiment 2 (test preview)
+329,explanation,hidden_an,0.6456563062257954,21.0,easy,0.5,0,Experiment 2 (test preview)
+330,explanation,visible,0.598687660112452,21.0,easy,0.6,0,Experiment 2 (test preview)
+330,explanation,hidden,0.8021838885585818,21.0,easy,0.8,0,Experiment 2 (test preview)
+330,explanation,hidden_an,0.731058578630005,21.0,easy,0.8,0,Experiment 2 (test preview)
+331,explanation,visible,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+331,explanation,hidden,0.6726070170677604,21.0,easy,0.7,0,Experiment 2 (test preview)
+331,explanation,hidden_an,0.5793242521487494,21.0,easy,0.7,0,Experiment 2 (test preview)
+332,explanation,visible,0.8205384805926732,21.0,easy,0.8,0,Experiment 2 (test preview)
+332,explanation,hidden,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+332,explanation,hidden_an,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+333,explanation,visible,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+333,explanation,hidden,0.6364525402815663,21.0,easy,0.6,0,Experiment 2 (test preview)
+333,explanation,hidden_an,0.731058578630005,21.0,easy,0.6,0,Experiment 2 (test preview)
+334,explanation,visible,0.5,21.0,easy,0.6,0,Experiment 2 (test preview)
+334,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+334,explanation,hidden_an,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+335,explanation,visible,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+335,explanation,hidden,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+335,explanation,hidden_an,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+336,explanation,visible,0.5,21.0,easy,0.6,0,Experiment 2 (test preview)
+336,explanation,hidden,0.8807970779778824,21.0,easy,0.7,0,Experiment 2 (test preview)
+336,explanation,hidden_an,0.7891817065222528,21.0,easy,0.7,0,Experiment 2 (test preview)
+337,explanation,visible,0.7068222210935675,21.0,easy,0.7,0,Experiment 2 (test preview)
+337,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+337,explanation,hidden_an,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+338,explanation,visible,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+338,explanation,hidden,0.5099986668799654,21.0,easy,0.5,0,Experiment 2 (test preview)
+338,explanation,hidden_an,0.5099986668799654,21.0,easy,0.5,0,Experiment 2 (test preview)
+339,explanation,visible,0.6813537337890255,21.0,easy,0.7,0,Experiment 2 (test preview)
+339,explanation,hidden,0.5890404340586651,21.0,easy,0.6,0,Experiment 2 (test preview)
+339,explanation,hidden_an,0.5,21.0,easy,0.6,0,Experiment 2 (test preview)
+340,explanation,visible,0.617747874769249,21.0,easy,0.6,0,Experiment 2 (test preview)
+340,explanation,hidden,0.5199893401555817,21.0,easy,0.5,0,Experiment 2 (test preview)
+340,explanation,hidden_an,0.617747874769249,21.0,easy,0.5,0,Experiment 2 (test preview)
+341,explanation,visible,0.6984652160025387,21.0,easy,0.7,0,Experiment 2 (test preview)
+341,explanation,hidden,0.6364525402815663,21.0,easy,0.6,0,Experiment 2 (test preview)
+341,explanation,hidden_an,0.6456563062257954,21.0,easy,0.6,0,Experiment 2 (test preview)
+342,explanation,visible,0.6082590307465144,21.0,easy,0.6,0,Experiment 2 (test preview)
+342,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+342,explanation,hidden_an,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+343,explanation,visible,0.598687660112452,21.0,easy,0.6,0,Experiment 2 (test preview)
+343,explanation,hidden,0.6899744811276124,21.0,easy,0.7,0,Experiment 2 (test preview)
+343,explanation,hidden_an,0.7068222210935675,21.0,easy,0.7,0,Experiment 2 (test preview)
+344,explanation,visible,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+344,explanation,hidden,0.5793242521487494,21.0,easy,0.6,0,Experiment 2 (test preview)
+344,explanation,hidden_an,0.5,21.0,easy,0.5,2,Experiment 2 (test preview)
+345,explanation,visible,0.8581489350995122,21.0,easy,0.8,0,Experiment 2 (test preview)
+345,explanation,hidden,0.8084546514385326,21.0,easy,0.8,0,Experiment 2 (test preview)
+345,explanation,hidden_an,0.731058578630005,21.0,easy,0.6,0,Experiment 2 (test preview)
+346,explanation,visible,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+346,explanation,hidden,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+346,explanation,hidden_an,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+347,explanation,visible,0.5793242521487494,21.0,easy,0.6,0,Experiment 2 (test preview)
+347,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+347,explanation,hidden_an,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+348,explanation,visible,0.6364525402815663,21.0,easy,0.6,0,Experiment 2 (test preview)
+348,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+348,explanation,hidden_an,0.5199893401555817,21.0,easy,0.5,0,Experiment 2 (test preview)
+349,explanation,visible,0.7824497764231125,21.0,easy,0.8,0,Experiment 2 (test preview)
+349,explanation,hidden,0.826353352980995,21.0,easy,0.8,0,Experiment 2 (test preview)
+349,explanation,hidden_an,0.8429045311145472,21.0,easy,0.8,0,Experiment 2 (test preview)
+351,explanation,visible,0.8807970779778824,21.0,easy,0.9,0,Experiment 2 (test preview)
+351,explanation,hidden,0.8849332679544502,21.0,easy,0.9,0,Experiment 2 (test preview)
+351,explanation,hidden_an,0.8429045311145472,21.0,easy,0.9,0,Experiment 2 (test preview)
+352,explanation,visible,0.5,21.0,easy,0.3,0,Experiment 2 (test preview)
+352,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+352,explanation,hidden_an,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+353,explanation,visible,0.8205384805926732,21.0,easy,0.8,0,Experiment 2 (test preview)
+353,explanation,hidden,0.826353352980995,21.0,easy,0.8,0,Experiment 2 (test preview)
+353,explanation,hidden_an,0.8429045311145472,21.0,easy,0.8,0,Experiment 2 (test preview)
+354,explanation,visible,0.7068222210935675,21.0,easy,0.7,0,Experiment 2 (test preview)
+354,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+354,explanation,hidden_an,0.569546223939229,21.0,easy,0.6,0,Experiment 2 (test preview)
+355,explanation,visible,0.5299640517645717,21.0,easy,0.5,0,Experiment 2 (test preview)
+355,explanation,hidden,0.617747874769249,21.0,easy,0.6,0,Experiment 2 (test preview)
+355,explanation,hidden_an,0.5793242521487494,21.0,easy,0.6,0,Experiment 2 (test preview)
+356,explanation,visible,0.617747874769249,21.0,easy,0.6,0,Experiment 2 (test preview)
+356,explanation,hidden,0.6813537337890255,21.0,easy,0.7,0,Experiment 2 (test preview)
+356,explanation,hidden_an,0.617747874769249,21.0,easy,0.7,0,Experiment 2 (test preview)
+357,explanation,visible,0.5299640517645717,21.0,easy,0.6,0,Experiment 2 (test preview)
+357,explanation,hidden,0.907207046882843,21.0,easy,0.9,0,Experiment 2 (test preview)
+357,explanation,hidden_an,0.8676111264579347,21.0,easy,0.9,0,Experiment 2 (test preview)
+358,explanation,visible,0.7150421057009898,21.0,easy,0.7,0,Experiment 2 (test preview)
+358,explanation,hidden,0.7231218051243898,21.0,easy,0.7,0,Experiment 2 (test preview)
+358,explanation,hidden_an,0.6726070170677604,21.0,easy,0.7,0,Experiment 2 (test preview)
+359,explanation,visible,0.5597136492671929,21.0,easy,0.6,0,Experiment 2 (test preview)
+359,explanation,hidden,0.5890404340586651,21.0,easy,0.6,0,Experiment 2 (test preview)
+359,explanation,hidden_an,0.5199893401555817,21.0,easy,0.6,0,Experiment 2 (test preview)
+360,explanation,visible,0.6899744811276124,21.0,easy,0.7,0,Experiment 2 (test preview)
+360,explanation,hidden,0.6899744811276124,21.0,easy,0.7,0,Experiment 2 (test preview)
+360,explanation,hidden_an,0.5793242521487494,21.0,easy,0.7,0,Experiment 2 (test preview)
+361,explanation,visible,0.7891817065222528,21.0,easy,0.8,0,Experiment 2 (test preview)
+361,explanation,hidden,0.6456563062257954,21.0,easy,0.6,0,Experiment 2 (test preview)
+361,explanation,hidden_an,0.6984652160025387,21.0,easy,0.6,0,Experiment 2 (test preview)
+362,explanation,visible,0.7231218051243898,21.0,easy,0.7,0,Experiment 2 (test preview)
+362,explanation,hidden,0.5793242521487494,21.0,easy,0.6,0,Experiment 2 (test preview)
+362,explanation,hidden_an,0.598687660112452,21.0,easy,0.6,0,Experiment 2 (test preview)
+363,explanation,visible,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+363,explanation,hidden,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+363,explanation,hidden_an,0.5,21.0,easy,0.4,0,Experiment 2 (test preview)
+364,explanation,visible,0.7068222210935675,21.0,easy,0.7,0,Experiment 2 (test preview)
+364,explanation,hidden,0.6271477663131956,21.0,easy,0.6,0,Experiment 2 (test preview)
+364,explanation,hidden_an,0.6456563062257954,21.0,easy,0.6,0,Experiment 2 (test preview)
+365,explanation,visible,0.7231218051243898,21.0,easy,0.7,0,Experiment 2 (test preview)
+365,explanation,hidden,0.8145725807070178,21.0,easy,0.8,0,Experiment 2 (test preview)
+365,explanation,hidden_an,0.8676111264579347,21.0,easy,0.8,0,Experiment 2 (test preview)
+366,explanation,visible,0.6547534606063191,21.0,easy,0.7,0,Experiment 2 (test preview)
+366,explanation,hidden,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+366,explanation,hidden_an,0.5,21.0,easy,0.5,0,Experiment 2 (test preview)
+367,explanation,visible,0.6984652160025387,21.0,easy,0.7,0,Experiment 2 (test preview)
+367,explanation,hidden,0.6082590307465144,21.0,easy,0.6,0,Experiment 2 (test preview)
+367,explanation,hidden_an,0.6271477663131956,21.0,easy,0.6,0,Experiment 2 (test preview)
+368,explanation,visible,0.5,21.0,easy,0.2,0,Experiment 2 (test preview)
+368,explanation,hidden,0.5597136492671929,21.0,easy,0.6,0,Experiment 2 (test preview)
+368,explanation,hidden_an,0.5,21.0,easy,0.6,0,Experiment 2 (test preview)

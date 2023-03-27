@@ -25,3 +25,4 @@ data/trials_merged_anonymized.csv
 data_raw/
 data_openlab/
 data_prolific/
+scripts_py/__pycache__/PEC_functions.cpython-311.pyc
