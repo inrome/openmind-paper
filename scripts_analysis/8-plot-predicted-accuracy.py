@@ -50,7 +50,7 @@ for ax, title in zip(g.axes.flat, ["Visible", "Hidden (Normative)", "Hidden (Alt
 g.despine(left=True)
 
 plt.legend(loc='upper left', bbox_to_anchor=(-2.1, 1.3), ncol=2, title="Finite-State Machine:")
-save_path = os.path.join(current_dir, '../outputs/predicted_accuracy_alpha0_violin.png')
+save_path = os.path.join(current_dir, '../outputs/figures/predicted_accuracy_alpha0_violin.png')
 plt.savefig(save_path, dpi=300, bbox_inches="tight")
 plt.show()
 
@@ -80,7 +80,7 @@ for ax, title in zip(g.axes.flat, ["Visible", "Hidden (Normative)", "Hidden (Alt
 g.despine(left=True)
 
 plt.legend(loc='upper left', bbox_to_anchor=(-2.1, 1.3), ncol=2, title="Finite-State Machine:")
-save_path = os.path.join(current_dir, '../outputs/predicted_accuracy_alpha0_boxplot.png')
+save_path = os.path.join(current_dir, '../outputs/figures/predicted_accuracy_alpha0_boxplot.png')
 plt.savefig(save_path, dpi=300, bbox_inches="tight")
 plt.show()
 
@@ -104,7 +104,7 @@ for ax, title in zip(g.axes.flat, ["Easy", "Hard"]):
 g.despine(left=True)
 
 plt.legend(loc='upper left', bbox_to_anchor=(-1.1, 1.3), ncol=2, title="Finite-State Machine:")
-save_path = os.path.join(current_dir, '../outputs/predicted_accuracy_alpha0_violin_an-sensitive-only.png')
+save_path = os.path.join(current_dir, '../outputs/figures/predicted_accuracy_alpha0_violin_an-sensitive-only.png')
 plt.savefig(save_path, dpi=300, bbox_inches="tight")
 plt.show()
 
@@ -125,7 +125,7 @@ for ax, title in zip(g.axes.flat, ["Easy", "Hard"]):
 g.despine(left=True)
 
 plt.legend(loc='upper left', bbox_to_anchor=(-1.1, 1.3), ncol=2, title="Model for hidden tasks:")
-save_path = os.path.join(current_dir, '../outputs/predicted_accuracy_alpha0_boxplot-ansensitive-subset.png')
+save_path = os.path.join(current_dir, '../outputs/figures/predicted_accuracy_alpha0_boxplot-ansensitive-subset.png')
 plt.savefig(save_path, dpi=300, bbox_inches="tight")
 plt.show()
 
@@ -154,7 +154,7 @@ for ax, title in zip(g.axes.flat, ["Easy", "Hard"]):
 g.despine(left=True)
 
 plt.legend(loc='upper left', bbox_to_anchor=(-1.1, 1.3), ncol=2, title="Model for hidden tasks:")
-save_path = os.path.join(current_dir, '../outputs/predicted_accuracy_alpha0_pointplot-ansensitive-subset.png')
+save_path = os.path.join(current_dir, '../outputs/figures/predicted_accuracy_alpha0_pointplot-ansensitive-subset.png')
 plt.savefig(save_path, dpi=300, bbox_inches="tight")
 plt.show()
  
