@@ -1,3 +1,5 @@
+# Description: This script generates learning trials from the raw data
+
 import pandas as pd
 import os
 import numpy as np

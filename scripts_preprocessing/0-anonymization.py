@@ -1,11 +1,13 @@
+# Description: This script merges multiple files into two dataframes and removes data from participants that did not complete the experiment
+
 import pandas as pd
 from datetime import date
 import numpy as np
 import os
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-openlab_path = os.path.join(current_dir, "..", "data_openlab/")
-prolific_path = os.path.join(current_dir, "..", "data_prolific/")
+openlab_path = os.path.join(current_dir, "..", "data_openlab/") # these folder is not in the repo
+prolific_path = os.path.join(current_dir, "..", "data_prolific/") # these folder is not in the repo
 
 # get all files in openlab folder with .xlsx extension
 files_openlab = [f for f in os.listdir(openlab_path) if f.endswith('.xlsx')]

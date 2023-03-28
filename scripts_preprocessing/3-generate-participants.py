@@ -1,3 +1,5 @@
+# Description: Generate participants.csv from trials_raw_anonymized.csv and prolific_raw_anonymized.csv
+
 import pandas as pd
 import os
 

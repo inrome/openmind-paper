@@ -1,3 +1,5 @@
+# Generates test trials for all participants (test_PEC, test_prediction, test_control, test_explanation)
+
 import pandas as pd
 import os
 import numpy as np

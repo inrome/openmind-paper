@@ -1,3 +1,5 @@
+# Create a pickle containing all data from the csv files
+
 import pandas as pd
 import pickle
 import os
