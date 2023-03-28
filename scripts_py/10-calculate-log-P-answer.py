@@ -25,9 +25,12 @@ def compute_log_p_answer(task, response,
 
 # %%
 def compute_log_p_answer_for_trials(trials_vis, trials_hid, task, beta):
-    log_p_answers = {'visible': [], 'hidden': [], 'hidden_an': []}
+    log_p_answers = {'visible': [], 'hidden': [], 'hidden_an': [], 
+                     'hidden_normative_subset': [], 'hidden_an_subset': []}
 
+    # visible trials
     for index, row in trials_vis.iterrows():
+        # fix option values
         if task == 'explanation':
             option_1 = 1
             option_2 = 2
@@ -47,6 +50,7 @@ def compute_log_p_answer_for_trials(trials_vis, trials_hid, task, beta):
                                             row['R_i_mm_eps_0.1'], beta)
         log_p_answers["visible"].append(log_p_answer)
 
+    # hidden trials
     for index, row in trials_hid.iterrows():
         if task == 'explanation':
             option_1 = 1
@@ -54,20 +58,35 @@ def compute_log_p_answer_for_trials(trials_vis, trials_hid, task, beta):
         else:
             option_1 = row['option_1']
             option_2 = row['option_2']
+        
+        # Normative model
         log_p_answer = compute_log_p_answer(task, row['response'],
                                             option_1, option_2,
                                             row['option_1_p_mm'],
                                             row['option_2_p_mm'],
                                             row['R_i_mm_eps_0.1'], beta)
+        
         log_p_answers["hidden"].append(log_p_answer)
+        
+        # Normative model: Only consider AN-sensitive trials
+        if abs(row['R_i_mm_eps_0.1'] - row['R_i_mm_an_eps_0.1']) > 0.1 or \
+            row['response_correct_mm'] != row['response_correct_mm_an']:
 
+            log_p_answers["hidden_normative_subset"].append(log_p_answer)
+
+        # Alternative neglect model
         log_p_answer = compute_log_p_answer(task, row['response'],
                                             option_1, option_2,
                                             row['option_1_p_mm_an'],
                                             row['option_2_p_mm_an'],
                                             row['R_i_mm_an_eps_0.1'],
                                             beta)
+        
         log_p_answers["hidden_an"].append(log_p_answer)
+        # Alternative neglect model: Only consider AN-sensitive trials
+        if abs(row['R_i_mm_eps_0.1'] - row['R_i_mm_an_eps_0.1']) > 0.1 or \
+            row['response_correct_mm'] != row['response_correct_mm_an']:
+            log_p_answers["hidden_an_subset"].append(log_p_answer)
 
     return log_p_answers
 
@@ -120,7 +139,7 @@ for participant_id in sample.keys():
         predicted_accuracy[condition] = (math.e ** (R_i * max_beta_condition)) / (
                     math.e ** (R_i * max_beta_condition) + math.e ** (-1 * R_i * max_beta_condition))
 
-    # if trials_vis['response_correct_mm'] has more than 2 non-NaN values, calculate mean
+    # if trials_vis['response_correct_mm'] has more than 5 NaNs, set accuracy to NaN
     mm_accuracy = {}
     mm_accuracy['visible'] = trials_vis['response_correct_mm'].mean(skipna = True) if \
         trials_vis['response_correct_mm'].isna().sum() < 5 else np.nan
@@ -144,49 +163,3 @@ for participant_id in sample.keys():
 save_path = os.path.join(current_dir, '../outputs/trials_with_max_beta.pickle')
 with open(save_path, 'wb') as f:
     pickle.dump(sample, f)
-#%%
-
-# export 'predicted_accuracy' to csv file:
-results_all = pd.DataFrame()
-for participant_id in sample.keys():
-    results = pd.DataFrame() 
-    tmp_acc = pd.DataFrame(sample[participant_id]['predicted_accuracy'], index=[0])
-    results = pd.concat([results, tmp_acc], axis=1)
-
-    # add participant_id and task to results
-    results['participant_id'] = participant_id
-    results['task'] = sample[participant_id]['task']
-
-    # relocate participant_id and task to first and second column
-    results = results[['participant_id', 'task', 'visible', 'hidden', 'hidden_an']]
-
-
-    # reformat results condition columns (visible, hidden, hidden_an) into long format
-    results = pd.melt(results, id_vars=['participant_id', 'task'], value_vars=['visible', 'hidden', 'hidden_an'],
-                      var_name='condition', value_name='predicted_accuracy')
-
-    # add fsm to results
-    # if fsm_number == 21, then fsm_type = 'easy', else fsm_type = 'hard'
-    results['fsm_number'] = imported_participants[imported_participants['participant_id'] == participant_id]['fsm_number'].values[0]
-    results['fsm_type'] = 'easy' if results['fsm_number'].values[0] == 21 else 'hard'
-
-    # add mm_accuracy to results
-    results_accuracy = pd.DataFrame(sample[participant_id]['mm_accuracy'], index=[0]) 
-    results_accuracy = pd.melt(results_accuracy, value_vars=['visible', 'hidden', 'hidden_an'],
-                                 var_name='condition', value_name='mm_accuracy') # reformat into long format
-    results = pd.merge(results, results_accuracy, on='condition') 
-    
-
-    #add 'count_nan'
-    results_count_nan = pd.DataFrame(sample[participant_id]['count_nan'], index=[0])
-    results_count_nan = pd.melt(results_count_nan, value_vars=['visible', 'hidden', 'hidden_an'],
-                                var_name='condition', value_name='count_nan') # reformat into long format
-    results = pd.merge(results, results_count_nan, on='condition')
-
-    results['learning_condition'] = sample[participant_id]['trials_vis']['learning_condition'].values[0]
-
-    results_all = pd.concat([results_all, results], ignore_index=True)
-
-save_path_acc = os.path.join(current_dir, '../outputs/predicted_accuracy.csv')
-
-results_all.to_csv(save_path_acc, index=False)
