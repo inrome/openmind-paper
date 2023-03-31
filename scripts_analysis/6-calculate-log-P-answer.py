@@ -158,6 +158,7 @@ for participant_id in sample.keys():
     sample[participant_id]['predicted_accuracy'] = predicted_accuracy
     sample[participant_id]['mm_accuracy'] = mm_accuracy
     sample[participant_id]['count_nan'] = count_nan
+    sample[participant_id]['hidden_subset_count'] = len(all_betas[0.0]['hidden_an_subset'])
 #%%
 # save sample to pickle file
 save_path = os.path.join(current_dir, '../outputs/trials_with_max_beta.pickle')
