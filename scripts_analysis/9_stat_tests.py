@@ -79,13 +79,13 @@ def stat_test(data, task = ['control', 'prediction', 'explanation'],
     # sort the dataframe
     if tests is not None:
         tests = tests.sort_values(by='cohen', key=abs, ascending=False)
-        tests['p-value'] = tests['p-corr'].fillna(tests['p-unc'])
+        #tests['p-value'] = tests['p-corr'].fillna(tests['p-unc'])
 
         # round all float values to 3 decimals
         tests = tests.round(3)
 
         # remove columns "Paired", "Parametric", "alternative", "p-unc", "p-corr", "p-adjust"
-        tests = tests.drop(columns=['Paired', 'Parametric', 'alternative', 'p-unc', 'p-corr', 'p-adjust'])
+        #tests = tests.drop(columns=['Paired', 'Parametric', 'alternative', 'p-unc', 'p-corr', 'p-adjust'])
     
         # if there is subset column, move it to the front
         if 'subset' in tests.columns:
@@ -99,7 +99,7 @@ def stat_test(data, task = ['control', 'prediction', 'explanation'],
 
 
 # Are there differences between PEC
-tests = stat_test(ss_betas, task = ['prediction', 'explanation', 'control'],
-                condition = ['hidden_an', 'hidden'],
-                fsm_type = ['easy', 'hard'])
+tests = stat_test(ss_betas, task = ['explanation'],
+                condition = ['hidden_normative_subset', 'hidden_an_subset'],
+                fsm_type = ['hard'])
 
