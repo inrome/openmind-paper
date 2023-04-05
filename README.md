@@ -9,7 +9,9 @@
 * `outputs` — the outputs of the scripts in `scripts_analysis`. 
 
 ## How to load data
+
 `data/imported_clean_data.pickle` contains 5 pandas DataFrames corresponding to the csv files 'participants', 'trials_learning', 'trials_prediction', 'trials_control', 'trials_explanation'. To load all of them, use this code: 
+
 ```python
 import os
 import pickle
@@ -23,16 +25,26 @@ with open(data_path, 'rb') as f:
 ```
 
 ## Analysis
-- `scripts_analysis/1-mental-models.py` - generates `outputs/mental_models.pickle` which contains a dictionary with the mental models for each participant calculated from the data in `trials_learning`.
-- `scripts_analysis/2-add-PEC-probabilities.py` - uses `PEC_functions.py` to calculate the probabilities for answer optionsin prediction, explanation, and control test conditions for visibe and hidden forms of tasks. The results are saved in `outputs/trials_with_PEC_mm.pickle`.
-- `scripts_analysis/3-calculate-Ri.py` — uses option probabilites to calculate _Ri_ values for each test question. The results are saved in `outputs/trials_with_Ri.pickle`. 
-- `scripts_analysis/4-add-MM-accuracy.py` — updates `trials_with_Ri.pickle` by adding the response accuracy calculated from the mental models (`response_correct_mm` for normative calculations for PEC and `response_correct_mm_an` — calculations under alternative neglect assumptions). The results are saved in `outputs/trials_with_Ri_and_MM_accuracy.pickle`.
-- `scripts_analysis/5-export-csv-with-Ri-and-accuracy.py` — exports the data from `trials_with_Ri.pickle` to `outputs/all_trials_with_Ri.csv`.
-- `scripts_analysis/6-calculate-log-P-answer.py`
- 1. Calculates the **log probabilities** for each response for _beta_ ranged from 0 to 1.1
- 2. Estimates **max beta** for visible, hidden (normative) and hidden (alternative neglect) cases
- 3. Calculates **predicted accuracy** as based on max beta and assumin Ri = 2. The results are saved in `outputs/trials_with_max_beta.pickle`.
-- `scripts_analysis/7-export-predicted-accuracy-to-csv.py` — exports the data from `trials_with_max_beta.pickle` to `outputs/predicted_accuracy.csv`.
+
+The following scripts can be found in the `scripts_analysis/` folder:
+
+`1-mental-models.py` — generates `outputs/mental_models.pickle` which contains a dictionary with the mental models for each participant calculated from the data in `trials_learning`.
+
+`2-add-PEC-probabilities.py` - uses `PEC_functions.py` to calculate the probabilities for answer optionsin prediction, explanation, and control test conditions for visibe and hidden forms of tasks. The results are saved in `outputs/trials_with_PEC_mm.pickle`.
+
+`3-calculate-Ri.py` — uses option probabilites to calculate _Ri_ values for each test question. The results are saved in `outputs/trials_with_Ri.pickle`. 
+
+`4-add-MM-accuracy.py` — updates `trials_with_Ri.pickle` by adding the response accuracy calculated from the mental models (`response_correct_mm` for normative calculations for PEC and `response_correct_mm_an` — calculations under alternative neglect assumptions). The results are saved in `outputs/trials_with_Ri_and_MM_accuracy.pickle`
+
+`5-export-csv-with-Ri-and-accuracy.py` — exports the data from `trials_with_Ri.pickle` to `outputs/all_trials_with_Ri.csv`.
+
+`6-calculate-log-P-answer.py`
+1. Calculates the **log probabilities** for each response for _beta_ ranged from 0 to 1.1
+2. Estimates **max beta** for visible, hidden (normative) and hidden (alternative neglect) cases.
+3. Calculates **predicted accuracy** as based on max beta and assumin Ri = 2. The results are saved in `outputs/trials_with_max_beta.pickle`.
+4. Counts NaN values in Hidden-AN cases and the number of AN-sensitive questions.
+
+`7-export-predicted-accuracy-to-csv.py` — exports the data from `trials_with_max_beta.pickle` to `outputs/predicted_accuracy.csv`.
 
 ## Related Projects
 
