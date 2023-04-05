@@ -8,13 +8,15 @@ predicted_accuracy_path = os.path.join(current_dir, '../outputs/predicted_accura
 ss_betas = pd.read_csv(predicted_accuracy_path)
 
 # function that generates a subset of the data
-def subset_data(data, task=None, condition=None, fsm_type=None):
+def subset_data(data, task=None, condition=None, fsm_type=None, learning_condition=None):
     if task:
         data = data[data['task'].isin(task)]
     if condition:
         data = data[data['condition'].isin(condition)]
     if fsm_type:
         data = data[data['fsm_type'].isin(fsm_type)]
+    if learning_condition:
+        data = data[data['learning_condition'].isin(learning_condition)]
 
     return data
 
@@ -22,9 +24,10 @@ def subset_data(data, task=None, condition=None, fsm_type=None):
 # function that runs the statistical test for all factors that have 2 or more levels
 def stat_test(data, task = ['control', 'prediction', 'explanation'], 
                 condition = ['visible', 'hidden', 'hidden_an', 'hidden_normative_subset','hidden_an_subset'], 
-                fsm_type = ['easy', 'hard']):
+                fsm_type = ['easy', 'hard'], 
+                learning_condition = ['Experiment 1 (no preview)', 'Experiment 2 (test preview)']):
     # subset the data
-    data = subset_data(data, task, condition, fsm_type)
+    data = subset_data(data, task, condition, fsm_type, learning_condition)
     
     
     factors = ['task', 'condition', 'fsm_type'] # all factors
@@ -75,17 +78,24 @@ def stat_test(data, task = ['control', 'prediction', 'explanation'],
                                     effsize='cohen', return_desc=True)
             tmp['subset'] = task
             tests = pd.concat([tests, tmp], axis=0, ignore_index=True)         
-        
+    # if learning_condition has 2 levels, see if it affect the dv
+    if len(data['learning_condition'].unique()) == 2:
+        tmp = pg.pairwise_tests(data, dv=dv, within=within_factor, subject=within_id, between = 'learning_condition',
+                                    parametric=parametric, padjust=adjust_method, 
+                                    effsize='cohen', return_desc=True)
+        tests = pd.concat([tests, tmp], axis=0, ignore_index=True)
+
     # sort the dataframe
     if tests is not None:
         tests = tests.sort_values(by='cohen', key=abs, ascending=False)
-        #tests['p-value'] = tests['p-corr'].fillna(tests['p-unc'])
+        if 'p-corr' in tests.columns:
+            tests['p-value'] = tests['p-corr'].fillna(tests['p-unc'])
+            tests = tests.drop(columns=['Paired', 'Parametric', 'alternative', 'p-unc', 'p-corr', 'p-adjust'])
 
         # round all float values to 3 decimals
         tests = tests.round(3)
 
         # remove columns "Paired", "Parametric", "alternative", "p-unc", "p-corr", "p-adjust"
-        #tests = tests.drop(columns=['Paired', 'Parametric', 'alternative', 'p-unc', 'p-corr', 'p-adjust'])
     
         # if there is subset column, move it to the front
         if 'subset' in tests.columns:
@@ -100,6 +110,7 @@ def stat_test(data, task = ['control', 'prediction', 'explanation'],
 
 # Are there differences between PEC
 tests = stat_test(ss_betas, task = ['explanation'],
-                condition = ['hidden_normative_subset', 'hidden_an_subset'],
-                fsm_type = ['hard'])
+                condition = ['visible', 'hidden'],
+                fsm_type = ['hard', 'easy'], 
+                learning_condition = ['Experiment 1 (no preview)', 'Experiment 2 (test preview)'])
 
