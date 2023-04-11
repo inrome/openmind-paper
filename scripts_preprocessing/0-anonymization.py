@@ -57,6 +57,10 @@ prolific_merged = prolific_merged[~prolific_merged['Participant id'].isin(codes_
 # check if all codes are unique in prolific data
 assert len(prolific_merged['Participant id'].unique()) == len(prolific_merged['Participant id'])
 
+# sort prolific_merged by Completed at and update index
+prolific_merged = prolific_merged.sort_values(by='Completed at')
+prolific_merged = prolific_merged.reset_index(drop=True)
+
 # create new participant_id
 prolific_merged['participant_id'] = prolific_merged.index + 1
 
@@ -78,6 +82,7 @@ prolific_merged = prolific_merged[['participant_id'] + [col for col in prolific_
 
 # add learning_condition == "Experiment 2 (test preview)" if timestamp > 2023-02-01 and "Experiment 1 (no preview)" otherwise
 trials_merged['learning_condition'] = np.where(trials_merged['timestamp'] > '2023-02-01', 'Experiment 2 (test preview)', 'Experiment 1 (no preview)')
+
 
 # save data
 prolific_merged.to_csv(os.path.join(current_dir, "..", "data_raw", "prolific_raw_anonymized.csv"), index=False)

@@ -1,374 +1,374 @@
-participant_id,test_condition,fsm_number,timestamp,q_estimate,q_stategy_scale,q_strategy,subject_age,subject_sex,subject_ethnicity,subject_timeTaken
-1,prediction,21.0,2023-03-23T15:46:14.107Z,10.0,familiarity,test the way the emoji changes the reaction to the bot.,31,Male,Mixed,508
-2,prediction,21.0,2023-03-23T15:52:44.479Z,10.0,recall,Try to do different combinations of the two emojis and see how it reacts differently,21,Female,Mixed,493
-3,prediction,21.0,2023-03-23T15:59:27.310Z,10.0,familiarity,That during the practice phase to experiment with different paterns.,25,Male,White,476
-4,prediction,21.0,2023-03-23T15:58:46.120Z,13.0,rule,"Keep track of the emojis appearing before in a pattern, when thinking through how each button interacts with the sequence.",27,Male,White,756
-5,prediction,21.0,2023-03-23T16:04:41.029Z,10.0,familiarity,Look at what follows every time the chatbot sends an emoji. see if you can establish a pattern with the mood of the emoji and the sequence.,30,Female,Black,519
-6,prediction,21.0,2023-03-23T16:07:03.434Z,10.0,rule,"Find the loops, thus the rules, and then gather the triggers that break the loops thus creating other rules. (Admittedly, I could not recall some of the things I learned, sorry.)",40,Female,White,613
-7,prediction,21.0,2023-03-23T16:06:30.429Z,10.0,intuition,I would tell my friend that after a certain emoji sequences answers are basically set in a pattern,30,Male,Asian,371
-8,prediction,21.0,2023-03-23T16:09:51.505Z,10.0,intuition,Pay close attention,21,Male,Mixed,494
-9,prediction,21.0,2023-03-23T16:19:03.742Z,16.0,recall,I would advise my friend to pay close attention to the patterns of the emojis and what the two emojis you can use do to these patterns.,27,Male,Other,490
-10,prediction,22.0,2023-03-22T20:10:41.809Z,10.0,intuition,Note the patterns and trust your gut. Do not second guess.,29,Male,Asian,504
-11,prediction,21.0,2023-03-23T16:28:16.659Z,10.0,familiarity,use your intuition on what occurred more frequently in the intro,43,Female,White,560
-12,prediction,21.0,2023-03-23T16:35:19.697Z,13.0,rule,"Try to remember as many of the previous interactions you had in the previous phase as possible and look for patterns
-",28,Female,White,524
-13,prediction,21.0,2023-03-23T16:37:53.538Z,13.0,rule,"To look for patterns in the chatbot's responses, and if they still don't know an answer, to just follow their intuition ",25,Female,White,715
-14,prediction,21.0,2023-03-23T16:36:47.244Z,13.0,rule,Use repetition in the testing phase to establish the pattern per response.,28,Female,White,603
-15,prediction,21.0,2023-03-23T16:42:34.630Z,10.0,recall,"The ""thumbs up"" emoji usually makes the chatbot repeat its previous emoji. The ""blue heart"" emoji seems more complicated but often switches between the ""surprised"" emoji and the ""wink/tounge out"" emoji.",21,Female,White,731
-16,prediction,21.0,2023-03-23T16:41:51.555Z,10.0,familiarity,"Pay attention to the patterns in the first section, some things are repeated or only used once.",30,Male,White,530
-17,prediction,21.0,2023-03-23T16:43:57.262Z,10.0,familiarity,figure out the heart's pattern because the thumbs-up pattern was easier to identify,31,Female,White,389
-18,prediction,21.0,2023-03-23T16:45:43.326Z,10.0,familiarity,I would suggest trying to look for a pattern. Try to see if certain emojis only follow specific ones.,38,Female,Black,611
-19,prediction,21.0,2023-03-23T16:49:30.938Z,13.0,familiarity,try all different algorithms,24,Male,White,415
-20,prediction,21.0,2023-03-23T16:50:08.183Z,13.0,recall,Probe the chatbot thoroughly with a strategy while you have a chance before the main quiz.,36,Male,Asian,669
-21,prediction,21.0,2023-03-23T16:50:16.736Z,10.0,familiarity,find the pattern between liking and hearting. try them each several times to learn the pattern if it exists,32,Male,Other,1486
-22,prediction,21.0,2023-03-23T16:54:45.307Z,13.0,intuition,"I would tell him to go with his gut, but to also try and rely on the patterns that was initially set up in the first part of the experiment.",21,Male,White,626
-23,prediction,21.0,2023-03-23T16:53:16.973Z,10.0,familiarity,"I have no idea, haha. Try to recognize patterns such as keeping tack of most used emojis responding to the emoji that you press and what emojis occur in a pattern depending on what series of emojis you press.",22,Female,Asian,555
-24,prediction,21.0,2023-03-23T16:54:41.066Z,16.0,rule,to pay attention to what order the responses are for the hearts. The thumbs up always seems to be the same response,24,Female,Asian,405
-25,prediction,21.0,2023-03-23T16:55:26.433Z,10.0,familiarity,Try to learn a pattern by trying different emoji in varying orders and patterns to learn what the responses are likely to be. ,41,Male,White,671
-26,prediction,21.0,2023-03-23T16:56:44.357Z,13.0,rule,There seems to be a pattern. Thumbs up seems to mean repeat emoji. Heart seems to be different emoji. Not 100% but very close.,45,Male,Asian,578
-27,prediction,21.0,2023-03-23T16:57:52.873Z,13.0,rule,"I would tell them to focus on exploring different ""paths"" the chatbot takes based on the responses and then keep repeating them to try and verify if they are actually a pattern.",42,Male,White,595
-28,prediction,21.0,2023-03-23T17:01:26.248Z,10.0,intuition,"Try to look for a pattern, but if you do not see one, use your intuition.",47,Female,White,878
-29,prediction,21.0,2023-03-23T16:59:47.501Z,10.0,intuition,Good luck,33,Male,White,432
-31,prediction,21.0,2023-03-23T17:01:15.850Z,10.0,rule,Try to find a pattern in the learning phase.,44,Male,White,506
-32,prediction,21.0,2023-03-23T17:02:08.717Z,10.0,rule,I would find a pattern as quickly as possible and use the remaining time to practice it,32,Male,White,390
-33,prediction,21.0,2023-03-23T17:16:01.986Z,10.0,rule,"The thumb will cycle to the same two emojis, but try to learn that the emojis have when using the blue heart.",18,Male,White,1195
-34,prediction,21.0,2023-03-23T17:05:53.864Z,10.0,recall,I would advise findings patterns and memorizing them.,19,Female,White,380
-35,prediction,21.0,2023-03-23T17:07:39.214Z,13.0,rule,"the thumbs up is usually replied to with the same emoji, while the heart is responded to with staggering emojis",33,Male,White,589
-36,prediction,21.0,2023-03-23T17:09:42.989Z,16.0,recall,it repeats every 5th time.,41,Female,Asian,445
-37,prediction,21.0,2023-03-23T17:10:01.054Z,19.0,rule,"Notice the patterns that the ChatBox uses. If given consecutive ""thumbs ups"" the ChatBox will either reply with a shocked emoji or a cool face emoji. Depending on the first emoji, there is a pattern for the emojis or it just sends the same one.",24,Female,Asian,405
-38,prediction,21.0,2023-03-23T17:11:50.267Z,13.0,recall,"In the first phase, pay close attention to the patterns. Try not to do the same pattern too many times in a row.",30,Female,White,529
-39,prediction,21.0,2023-03-23T17:13:38.868Z,,familiarity,remember the pattern,34,Female,Asian,546
-40,prediction,21.0,2023-03-23T17:13:45.859Z,10.0,familiarity,Memory!,26,Female,White,451
-41,prediction,21.0,2023-03-23T17:14:42.697Z,10.0,other,Watch the pattern of the previous answers,47,Female,Black,577
-42,prediction,22.0,2023-03-22T19:12:35.391Z,10.0,intuition,Look for any patterns when first chatting with the bot in the test stage.,34,Female,White,562
-43,prediction,22.0,2023-03-22T19:31:15.128Z,10.0,intuition,Pay attention to how it responds to you changing emojis and patterns in it's responses.,20,Female,White,444
-44,prediction,22.0,2023-03-22T19:49:58.901Z,10.0,recall,I didn't figure out many patterns other than that sometimes when i did the thumbs up multiple times i got the glasses face emoji back and sometimes when i did the heart multiple times i get the surprised face emoji back.,26,Male,White,680
-45,prediction,22.0,2023-03-22T19:51:39.656Z,13.0,familiarity,I would advise them to pick up on patterns of different kinds of responses in the learning phase.,20,Female,White,497
-46,prediction,22.0,2023-03-22T19:55:00.826Z,10.0,intuition,to remember,20,Male,Black,641
-48,prediction,22.0,2023-03-22T20:13:12.635Z,,intuition,Just guess,26,Male,White,396
-49,prediction,22.0,2023-03-22T20:15:29.953Z,10.0,familiarity,I don't believe there's a trick to finding out which emoji the bot would send. I would tell them to guess and hope it's right.,21,Female,Mixed,599
-50,prediction,22.0,2023-03-22T20:19:38.143Z,10.0,rule,"to test the pattern in the test phase, you cant get it all but you'll get a little of it at least",30,Female,Asian,826
-51,prediction,22.0,2023-03-22T20:19:53.711Z,10.0,intuition,Try to remember the patterns from the first phase. ,21,Female,White,499
-52,prediction,22.0,2023-03-22T20:21:01.051Z,10.0,familiarity,The only emoji that gets three in a row is the shocked face.,30,Male,White,609
-53,prediction,22.0,2023-03-22T20:24:41.085Z,10.0,recall,Test different interactions quickly because I ran out of time thinking about the patterns.,22,Male,Asian,617
-54,prediction,22.0,2023-03-22T20:29:18.342Z,13.0,recall,Hearts mostly resulted in shocked face. Thumbs up cycled mostly evenly through the 3 other choices.,24,Female,White,673
-55,prediction,22.0,2023-03-22T20:32:46.992Z,10.0,familiarity,i would ask my friend to rely on familiarity from the learning phase and see how bot responds to repeative same messages.,33,Male,Asian,1195
-56,prediction,22.0,2023-03-22T20:31:02.933Z,10.0,intuition,"I would focus on the patterns of the emojis you send, and how the bot responds to it",25,Female,Asian,419
-57,prediction,22.0,2023-03-22T20:35:55.004Z,10.0,recall,Try to repeat patterns in the learning phase as much as you can. Otherwise just try to go with your gut,27,Female,White,602
-58,prediction,22.0,2023-03-22T20:35:16.343Z,10.0,guess,"Try your best to find a pattern in the responses. If you're unable to, just give your best guess. ",29,Male,White,580
-59,prediction,22.0,2023-03-22T20:37:10.437Z,13.0,recall,the chatbot has a tendency to repeat responses if your response is the same. Otherwise switch it up. ,47,Male,White,539
-60,prediction,22.0,2023-03-22T20:37:35.792Z,13.0,intuition,The bot is surprised when you heart it,20,Male,White,361
-61,prediction,22.0,2023-03-22T20:38:26.417Z,10.0,intuition,go with your gut,43,Male,White,478
-62,prediction,22.0,2023-03-22T20:38:14.797Z,13.0,familiarity,I would just say to try and remember the past conversations you had with the chatbot as well as using your intuition.,23,Female,Asian,555
-63,prediction,22.0,2023-03-22T20:41:17.045Z,10.0,recall,Study how the bot reacts to your inputs and test if your theory holds water.,23,Male,White,789
-64,prediction,22.0,2023-03-22T20:39:26.058Z,10.0,recall,"Ascertain which responses cause an emoji to repeat, then you know what to expect for 50% of the responses. Then the other half is about memory and pattern. ",25,Female,Mixed,534
-65,prediction,22.0,2023-03-22T20:41:08.934Z,10.0,rule,Try your best to find a pattern with just hearts.  Then try to find the thumbs up pattern.,30,Female,Asian,660
-66,prediction,22.0,2023-03-22T20:41:12.277Z,10.0,rule,"To look for a pattern, and if you can't find one quickly, to guess.",31,Male,White,449
-67,prediction,22.0,2023-03-22T20:41:23.350Z,13.0,recall,"Test various patterns, and try to memorize them. Also, at the same time, try to figure out the rule. For the actual test, recall what was memorized. If not sure, try to apply the rule that was found.",39,Male,Asian,535
-68,prediction,22.0,2023-03-22T20:41:16.984Z,16.0,intuition,To just trust his gut. ,27,Male,White,316
-69,prediction,22.0,2023-03-22T20:42:51.629Z,16.0,recall,"Sunglasses and surprised face often repeat, while laughing alternates with the other emojis.",38,Male,White,561
-70,prediction,22.0,2023-03-22T20:44:10.076Z,13.0,intuition,"I would tell them to just go with their gut, and don't stress it to much.",20,Male,White,1040
-71,prediction,22.0,2023-03-22T20:44:04.479Z,10.0,guess,dont think about it because im pretty sure its random,26,Female,DATA_EXPIRED,506
-72,prediction,22.0,2023-03-22T20:45:54.101Z,13.0,rule,"Look for patterns and if you can't find that, guess?",38,Female,Mixed,565
-73,prediction,22.0,2023-03-22T20:45:28.009Z,10.0,intuition,use gut instinct,40,Male,Asian,542
-74,prediction,22.0,2023-03-22T20:47:15.631Z,13.0,intuition,"I would advise relying on memory and intuition, and focusing on patterns. ",21,Female,White,483
-75,prediction,22.0,2023-03-22T20:48:51.229Z,10.0,recall,"To pay close attention to the responses to each emoji sent. Sometimes sending the same one multiple times in a row changes the response, so pay attention!
-",37,Female,Mixed,485
-76,prediction,22.0,2023-03-22T20:50:04.475Z,10.0,familiarity,Try to memorize the patterns,24,Female,White,548
-77,prediction,22.0,2023-03-22T20:53:06.671Z,10.0,intuition,"I would advise to look for a pattern, or what emoji corresponds with what emoji. I would also use the test function extensively to familiarize themself with the chatbot's use of emojis in response to those you have to use.",27,Male,White,955
-78,prediction,22.0,2023-03-22T20:54:40.087Z,10.0,intuition,try and remember the pattern ,32,Female,White,440
-79,prediction,22.0,2023-03-22T20:56:17.525Z,16.0,recall,"Take your time when learning the chatbot, so that you can rely on patterns and memorization. ",47,Male,White,699
-80,prediction,22.0,2023-03-22T20:57:07.846Z,10.0,familiarity,take note of the patterns you see & the how some patterns repeat themselves with certain emojis. ,36,Female,White,861
-81,prediction,22.0,2023-03-22T20:56:49.162Z,13.0,rule,"I would advise them to understand the rate of which the Chatbot uses when responding to one of my emojis. For example, I noticed that the Chatbot wouldn't use the shock emote for one of the options, so I kept that observation in mind and applied it to the actual questions.",18,Male,Asian,538
-82,prediction,22.0,2023-03-22T20:56:10.907Z,10.0,rule,Try to record every selection and result you make in the 45 practice questions and then when you are taking the test look for pattern recognition in what you recorded (or the opposite thereof if no pattern is present for a question). When in doubt just guess.,42,Male,White,811
-83,explanation,22.0,2023-03-21T19:20:02.538Z,10.0,guess,I would try to test a few patterns in the training session and memorize their outcomes.,27,Female,Asian,556
-84,explanation,22.0,2023-03-21T19:29:22.021Z,13.0,recall,I would tell them to try and count the number of different emojis and look for patterns.,21,Female,White,423
-85,explanation,22.0,2023-03-21T19:34:59.763Z,10.0,guess,To try to see if there is a patter because I couldn't find one.,24,Female,White,378
-86,explanation,22.0,2023-03-21T19:35:16.766Z,13.0,recall,"Familiarity, memory and observation is required to ace this test.",33,Male,Asian,551
-87,explanation,22.0,2023-03-21T19:37:29.030Z,13.0,rule,"I would suggest they do something different than I did. Be more methodical when going through the testing it out phase. Look at the combination of emoji's to spot a pattern,  not just the emoji and chatbot response.",45,Female,Mixed,666
-88,explanation,22.0,2023-03-21T19:44:01.208Z,10.0,familiarity,It hard to know when the emoji response will change.,30,Male,White,383
-89,explanation,22.0,2023-03-21T19:53:20.732Z,10.0,intuition,follow the pattern,22,Male,Black,501
-90,explanation,22.0,2023-03-21T19:49:07.813Z,10.0,rule,Think about how the chatbot responds to an emoji you sent previously. See if the emoji you send now follows a pattern set by the one previously.,18,Male,Other,851
-91,explanation,22.0,2023-03-21T19:50:07.612Z,13.0,recall,I would tell them to produce several different patterns of thumbs and hearts and based on the responses remember what responses the bot gives.,20,Female,Black,677
-92,explanation,22.0,2023-03-21T19:52:54.264Z,16.0,recall,Focus on doing hearts first and pay attention to which emojis follow the most and then switch to thumbs up and see which emojis follow the most. Then try going back and forth and paying attention to 2 messages ahead to see which emojis come. ,36,Female,White,558
-93,explanation,22.0,2023-03-21T19:53:42.775Z,13.0,intuition,to rember the paterns from the ones that where correct and try and guess,25,Male,White,427
-94,explanation,22.0,2023-03-21T20:05:15.462Z,,familiarity,"Spam one set of options first, then spam the other options. Notate what emojis you see more often, then spam a mix of the two and know that sometimes the chatbots latest response is not effected by your last response but the previous response.",30,Male,Mixed,894
-95,explanation,22.0,2023-03-21T20:04:49.606Z,10.0,intuition,"Pay careful attention to the trend in emoji responses. When unsure, rely on your gut feeling.",28,Female,White,423
-96,explanation,22.0,2023-03-21T20:07:15.672Z,10.0,familiarity,Try to remember the rules from the first task. Maybe even write them down. There were definite patterns but I forgot most of them by the time we got to the testing task,32,Female,White,710
-97,explanation,22.0,2023-03-21T20:06:46.630Z,16.0,rule,"I would advise them to memorize the different combinations and how the chatbot reacts to these combinations. Usually 3 different combinations will produce different results and if you can figure out the pattern, then it will be easier to predict what the chatbot would respond.",31,Male,Asian,784
-98,explanation,22.0,2023-03-21T20:11:35.132Z,13.0,recall,Remember the patterns from the learning phase.,31,Male,White,506
-99,explanation,22.0,2023-03-21T20:11:27.356Z,16.0,rule,Try to find a pattern. ,26,Male,Mixed,397
-100,explanation,22.0,2023-03-21T20:11:20.143Z,13.0,intuition,I would advise them to examine the patterns the best they can and go with their gut.,34,Male,White,439
-101,explanation,22.0,2023-03-21T20:12:02.869Z,,familiarity,"I guess if there actually is a pattern to this thing: I would say, pay attention to the first and third responses the bot gives. If they're the same, then the first human response mattered more. But if the first and third responses are different, then the second human response had a greater impact and changed things.",20,Male,White,710
-102,explanation,22.0,2023-03-21T20:14:18.438Z,10.0,familiarity,Just go with what feels right!,22,Female,White,387
-103,explanation,22.0,2023-03-21T20:14:58.611Z,16.0,rule,Note when an emoji is the same if you use the same response or if it follows a pattern of changing,32,Female,White,577
-104,explanation,22.0,2023-03-21T20:17:32.530Z,13.0,intuition,try to see the changes in emojis from the chatbot then you then the chatbot. if cannot tell just pick blue heart,18,Male,Mixed,430
-105,explanation,22.0,2023-03-21T20:17:36.713Z,10.0,intuition,I would advise they look for patterns in the chatbot's response based on the question and answer given during the learning phase.,23,Female,White,665
-106,explanation,22.0,2023-03-21T20:17:45.424Z,10.0,familiarity,Pay attention to what emojis cause different responses versus the same responses from the chatbot.,29,Female,White,659
-107,explanation,22.0,2023-03-21T20:19:07.409Z,,intuition,"I would tell them to go with their gut. Also, imagine that you are the one texting in the conversation. ",31,Male,White,577
-108,explanation,22.0,2023-03-21T20:19:37.949Z,13.0,rule,"repetitions of the same input have less impact the second time, otherwise the heart has more impact.",30,Male,White,507
-109,explanation,22.0,2023-03-21T20:21:23.432Z,10.0,intuition,To be more deliberate in the testing phase. ,27,Female,Mixed,417
-110,explanation,22.0,2023-03-21T20:21:59.442Z,13.0,familiarity,Pay attention to what sets of 2 responses seem to correlate with the chatbot's response,21,Male,White,609
-111,explanation,22.0,2023-03-21T20:22:23.891Z,13.0,recall,"Just get a feel for how it responds to your emoticon and if it keeps giving the same response, try to remember which emoticon you used that started it.",38,Male,White,1010
-112,explanation,22.0,2023-03-21T20:25:07.932Z,10.0,intuition,"I would suggest trying to find a pattern in the chatbot responses. If they were not able to do that, use your intuition.",20,Female,White,1200
-113,explanation,22.0,2023-03-21T20:28:59.820Z,10.0,recall,Put a few of the same emojiis in a row and remember the response patten.,18,Male,White,663
-114,explanation,22.0,2023-03-21T20:25:23.365Z,19.0,familiarity,Get familiar with the responses given for each emoji.   The most common responses make the most sense given the context.,38,Male,White,422
-115,explanation,22.0,2023-03-21T20:25:57.154Z,10.0,guess,Focus on the training part to find a pattern,27,Male,White,379
-116,explanation,22.0,2023-03-21T20:27:18.148Z,10.0,intuition,Focus on the order of emoji responses to subsequent inputs that you put in. Try to remember the pattern that occurs when using only one emoji as an input.,33,Male,White,697
-117,explanation,22.0,2023-03-21T20:33:55.208Z,10.0,intuition,I would say just go with your gut feeling because I couldn't figure out a pattern at all.,32,Female,Black,952
-118,explanation,22.0,2023-03-21T20:33:12.194Z,,guess,Take your best guess as there does not really seem to be a pattern. ,38,Female,White,447
-119,explanation,22.0,2023-03-21T20:34:55.536Z,10.0,intuition,I have no advice.,35,Female,White,636
-120,explanation,22.0,2023-03-21T20:34:32.292Z,13.0,familiarity,Try to find patterns and do your best to recognize when emojis repeat themselves. ,34,Female,White,523
-121,explanation,22.0,2023-03-21T20:34:42.175Z,13.0,familiarity,Find patterns,27,Female,White,454
-122,explanation,22.0,2023-03-21T20:35:21.189Z,16.0,rule,"In a lot of the situations, the previous emoji influences the chat robot's decision/response.",21,Female,White,533
-123,control,21.0,2023-03-21T21:10:32.794Z,13.0,familiarity,test all patterns,29,Female,Asian,408
-124,control,21.0,2023-03-21T21:28:38.822Z,10.0,recall,It might be best to associate the faces with colors since the hear is blue and the thumb is yellow.,20,Male,White,448
-125,control,21.0,2023-03-21T21:32:58.284Z,,intuition,"To remember the patterns that are shown, but to not waste too much time thinking about patterns in the test phase because some of the options don't have any patterns",22,Female,White,698
-126,control,21.0,2023-03-21T21:40:00.458Z,16.0,rule,look for a pattern/repetition ,24,Female,White,610
-127,control,21.0,2023-03-21T21:35:26.188Z,13.0,intuition,Good luck. It seems fairly random. ,45,Male,White,517
-128,control,21.0,2023-03-21T21:41:15.387Z,10.0,familiarity,Remember the patterns,24,Female,White,523
-129,control,21.0,2023-03-21T21:41:40.534Z,13.0,rule,Notice which emojis the bot responds with most often for both options in different contexts. Try pressing the same one several times as well.,22,Female,Mixed,554
-130,control,21.0,2023-03-21T21:54:38.005Z,16.0,recall,find out which thumbs up gets a different reaction since the heart gets a different reaction every time but usually the thumb gets a repeat,30,Male,White,747
-131,control,21.0,2023-03-21T21:57:05.989Z,13.0,rule,pay attention to how the two emojis react to cause different patterns than each single emoji on their own.,29,Female,White,655
-132,control,21.0,2023-03-21T21:58:24.490Z,10.0,recall,"Focus to try to recall messages from the first phase, in my opinion there is no benefit on looking for a pattern.",19,Male,White,605
-133,control,21.0,2023-03-21T22:01:29.185Z,13.0,familiarity,Try everything in the learning stage; any pattern that you can think of.,20,Female,Asian,694
-134,control,21.0,2023-03-21T22:12:37.314Z,13.0,recall,"Notice how loops work, and which emojis produce which sequences or loops when repeated. Try to find general patterns.",33,Male,White,740
-135,control,21.0,2023-03-21T22:13:38.258Z,10.0,rule,"To pay attention to what emojis garner what response most often, and if you send the same emoji twice in a row or more, if it responds the same each time or strays",24,Female,White,558
-136,control,21.0,2023-03-21T22:15:04.804Z,13.0,rule,"Heart=different response, thumb=same response, but the examples in the test don't follow the rules so you have to ignore some of ""your responses"" and just follow the rule to get the chatbot to answer correctly",40,Female,White,746
-137,control,21.0,2023-03-21T22:15:50.214Z,16.0,intuition,I would explain to my friend that there may be a pattern associated with the emojis when you use a certain pattern of responses. I believe using your memory to remember the output emojis could perhaps be the best way to excel at the test task. Trying various combinations of emojis would be very helpful during the test.,32,Male,Other,713
-138,control,21.0,2023-03-21T22:16:08.405Z,10.0,familiarity,Note what faces change depending on which emoji you choose,19,Male,Mixed,500
-139,control,21.0,2023-03-21T22:18:35.533Z,10.0,familiarity,I would advise them to pay close attention,20,Female,Mixed,479
-140,control,21.0,2023-03-21T22:18:28.869Z,10.0,recall,write down the conversation in a piece of paper and look for patterns.,23,Male,Other,872
-141,control,21.0,2023-03-21T22:24:54.692Z,19.0,rule,"If you want to change the chatbot's output, it will randomly choose an emoji if you input heart. If you want to keep the chatbot's output the same, in most instances, it will use the same emoji after you use a thumbs up. However, the chatbot will always go from winking to a shocked face, no matter your input in between.",33,Female,White,849
-142,control,21.0,2023-03-21T22:29:17.310Z,13.0,familiarity,Rely on your memory and also the familiarity of the bot,30,Male,White,537
-143,control,21.0,2023-03-21T22:34:37.364Z,19.0,rule,"Each pairing of a message from the chatbot (one of four emojis) and your response (one of two emojis) leads to a specific outcome, either the same emoji every time or an alternating pair of emojis. Try to recognize and remember the outcome for each message/response pair.",20,Female,White,1038
-144,control,21.0,2023-03-21T22:32:25.855Z,19.0,recall,click each button the whole time between each question,24,Male,Black,584
-145,control,21.0,2023-03-21T22:33:47.210Z,16.0,recall,"Try to make a diagram in your head of where each emoji leads based on your response, and look for fixed points and cycles.",20,Male,White,493
-146,control,21.0,2023-03-21T22:54:00.694Z,13.0,familiarity,"I would say the best way to do it is write out a decision tree for each response and record the results, than consult with your findings.",36,Male,White,647
-147,control,21.0,2023-03-21T22:41:39.066Z,10.0,recall,Use lots of different patterns in the practice round part of the study and pay attention to how the chatbot responds.,41,Male,White,657
-148,control,21.0,2023-03-21T22:42:38.496Z,10.0,familiarity,Pay attention to the chatbot responses to the emojis,36,Male,White,630
-149,control,21.0,2023-03-21T22:44:37.035Z,13.0,rule,To use the thumbs up to get the bot to produce the same response and the heart to change it.,40,Female,White,771
-150,control,21.0,2023-03-21T22:45:01.314Z,10.0,rule,Keep track of what the responses are for each emoji.,40,Female,White,511
-151,control,21.0,2023-03-21T22:46:44.935Z,13.0,familiarity,remember the sequence that aren't just the same response,26,Male,White,768
-152,control,21.0,2023-03-21T22:47:07.070Z,10.0,intuition,I have no advice,32,Female,White,349
-153,control,21.0,2023-03-21T22:48:45.695Z,10.0,familiarity,Pay better attention to the order of the emojis. ,20,Female,White,479
-154,control,21.0,2023-03-21T22:51:55.802Z,13.0,recall,String together a few of each emoji consecutively to see the patterns. Then interchange them.,20,Male,White,638
-155,control,21.0,2023-03-21T22:58:48.232Z,10.0,rule,Memorize the relationships between the emoji and memorize the rules. A thumbs up or a heart after one emoji should lead to another.,34,Male,Mixed,1060
-156,control,21.0,2023-03-21T22:55:07.672Z,13.0,recall,The best strategy is to just go with your gut instinct,34,Male,DATA_EXPIRED,1238
-157,control,21.0,2023-03-21T22:51:24.054Z,16.0,familiarity,if it is a shocked emoji then it is most likely a response to thumbs up. the blue heart gets responses that are totally random,42,Male,White,731
-158,control,21.0,2023-03-21T22:53:20.500Z,,familiarity,I hope you learn something that I didn't.   This was completely random to me and now my brain hurts trying to figure out some kind of pattern.  Or maybe i'm really dumb.  We'll see.  ,44,Male,White,570
-159,control,21.0,2023-03-21T22:54:42.436Z,19.0,recall,watching closely to remember the pattern,24,Female,White,671
-160,control,21.0,2023-03-21T22:54:25.410Z,13.0,recall,"Try to find a pattern. And if you don't know an answer, go off of your gut.",27,Male,White,867
-161,control,21.0,2023-03-21T22:55:11.864Z,10.0,rule,See if you can learn a pattern of responses from the chatbot based on the emojis you choose. You can learn a pattern from trying each emoji a few times.,37,Female,White,662
-162,control,21.0,2023-03-21T23:03:59.303Z,10.0,intuition,go with your gut,33,Female,Black,591
-163,control,21.0,2023-03-21T23:06:23.639Z,19.0,rule,"Remember the  patterns of the emoji, and one response comes up more than the other.",45,Female,White,898
-164,control,21.0,2023-03-21T23:12:34.067Z,19.0,rule,I would advise them to pay attention to how the bot responds to the emojis,DATA_EXPIRED,Female,Black,1054
-165,control,22.0,2023-01-23T23:14:30.630Z,10.0,,Try to do simple patterns of emojis multiple times to see the most common responses by the bot.,20,Male,Asian,379
-166,prediction,21.0,2023-01-23T23:14:45.993Z,16.0,,Pick the emoji not show on text screen.,24,Male,Mixed,475
-167,prediction,21.0,2023-01-23T23:22:35.246Z,10.0,,Try to find a pattern in the first part of the study.,31,Female,White,427
-168,control,22.0,2023-01-23T23:29:44.484Z,13.0,,I'd tell them to experiment with the chat bot in groups of three messages to better replicate the situations that they'll be asked to predict.,19,Male,White,589
-169,control,22.0,2023-01-23T23:30:37.671Z,10.0,,Study the trends and patterns of the chatbot.,21,Male,Other,533
-170,explanation,22.0,2023-01-23T23:31:20.611Z,10.0,,Look at the pictures carefully and think of the patterns you saw in the learning phase. Sometimes you can guess what the hidden emoji is by remembering the patterns.,28,Female,Asian,493
-171,prediction,22.0,2023-01-23T23:32:49.203Z,10.0,,I would advise them to closely pay attention to the first phase. This would help in the second phase.,26,Female,White,627
-172,control,21.0,2023-01-23T23:40:52.929Z,16.0,,I would advise to pay attention as well as try for different patterns.  I would ask what made the sunglasses always pop out.,34,Male,Black,556
-173,prediction,21.0,2023-01-23T23:45:53.326Z,10.0,,interchange which emojis you send and do different combinations of them (like which ones go after which) ,23,Female,White,568
-174,control,21.0,2023-01-23T23:46:32.708Z,13.0,,"take notes, look for patterns",21,Female,White,1143
-175,explanation,22.0,2023-01-23T23:46:26.183Z,13.0,,I would advise my friend to look for patterns beyond the obvious.,18,Male,Asian,326
-176,control,22.0,2023-01-24T00:31:06.575Z,10.0,,"Try and pay attention less to the emoji in response, but more to the two emoji combinations you had done beforehand.",20,Female,Other,766
-177,control,22.0,2023-03-22T21:58:42.583Z,10.0,recall,The heart emoji gets a mostly consistent response compared to the thumbs up,19,Female,White,538
-178,control,22.0,2023-03-22T22:02:54.475Z,10.0,familiarity,"Try and see if you can recognize patterns within the system. There are only four responses from it, but there are so many combinations of interactions.",25,Female,White,766
-179,control,22.0,2023-03-22T22:12:03.626Z,16.0,rule,"You will only get the surprised face emoji in response to a heart. As soon as you switch back to the thumb's up, you'll get one of the other three emojis in reply.",32,Female,White,689
-180,control,22.0,2023-03-22T22:12:03.905Z,16.0,intuition,"Just go with your gut, it's fun ",26,Female,White,732
-181,control,22.0,2023-03-22T22:28:21.499Z,10.0,intuition,Pay attention to patterns in the first learning phase,27,Female,White,822
-182,control,22.0,2023-03-22T22:29:17.801Z,13.0,intuition,To respond how you would in a real life conversation,27,Female,Other,433
-183,control,22.0,2023-03-22T22:29:54.217Z,13.0,recall,Try to create a flowchart in your mind of what responses will be generated from specific emojis.,25,Female,Asian,812
-184,control,22.0,2023-03-22T22:36:42.918Z,10.0,intuition,Try to figure out if there is a pattern between the sequence of emojis that the computer uses.,46,Female,White,716
-185,control,22.0,2023-03-22T22:38:42.438Z,13.0,familiarity,Look for patterns outside of just one above the other,25,Female,White,627
-186,control,22.0,2023-03-22T22:39:33.575Z,,guess,I have no idea how to excel at this task. It seemed very random and I did not notice a pattern.,29,Female,White,808
-187,control,22.0,2023-03-22T22:39:25.384Z,10.0,rule,"The bot is more likely to respond with certain emojis when given a particular emoji, however it is not always guaranteed which emoji will be given out.",23,Male,Asian,669
-188,control,22.0,2023-03-22T22:45:05.616Z,10.0,rule,Try to follow your intuition.,37,Male,Asian,628
-189,control,22.0,2023-03-22T22:45:15.009Z,13.0,recall,Keep track of the responses in both patterns of individual and two responses combined together to find all possible patterns and their respective output.,19,Male,Mixed,524
-190,control,22.0,2023-03-22T22:50:47.815Z,10.0,intuition,You have to figure out which response will cause the chatbot to give certain answers,27,Female,White,807
-191,control,22.0,2023-03-22T22:50:50.050Z,13.0,recall,Remember the pattern,34,Female,White,330
-192,control,22.0,2023-03-22T22:55:20.602Z,10.0,familiarity,To try out as many combinations with the emojis to find a pattern that the computer chat is doing,28,Female,Other,844
-193,control,22.0,2023-03-22T22:55:31.754Z,10.0,familiarity,Try and remember from the learning phase.,19,Female,Asian,487
-195,control,22.0,2023-03-22T23:00:04.538Z,10.0,guess,I think the emojis change every time you switch between heart and thumbs up but overall it seems very random,23,Female,White,444
-196,control,22.0,2023-03-22T23:03:11.054Z,13.0,familiarity,Pick up on patterns used after 2 or 3 responses to see what the chatbot does,31,Female,White,573
-197,control,22.0,2023-03-22T23:04:09.266Z,10.0,familiarity,Attempt to uncover the pattern. If you can't look for specific emojis for the responses. ,20,Female,White,461
-198,control,22.0,2023-03-22T23:04:41.648Z,13.0,intuition,Try to pay attention to which emojis go together,27,Female,White,561
-199,control,22.0,2023-03-22T23:04:49.570Z,10.0,intuition,"Try to notice a pattern. Most seem random, but I think a couple responses are predictable.",46,Female,White,501
-200,control,22.0,2023-03-22T23:06:44.380Z,10.0,recall,Write stuff down.,39,Male,White,650
-201,control,22.0,2023-03-22T23:09:16.025Z,13.0,intuition,"Keep note of the patterns, or sets, of the emojis and how many appear in a sequence. ",35,Male,Other,547
-202,control,22.0,2023-03-22T23:20:33.839Z,10.0,recall,To pay close attention to the AI's patterns. ,26,Female,White,1038
-203,control,22.0,2023-03-22T23:13:01.598Z,10.0,familiarity,"I would tell my friend that if you added a heart, it would show a guy with glasses or a mouth open. and a thumbs up would show a tongue out and x eyes emoji ",22,Male,White,560
-204,control,22.0,2023-03-22T23:21:37.310Z,13.0,intuition,To trust their gut and use intuition to answer. ,21,Male,Asian,617
-205,control,22.0,2023-03-22T23:23:27.708Z,16.0,familiarity,spam one emote with every face and see the outcomes and trey to remember that ,26,Male,Mixed,751
-206,control,22.0,2023-03-22T23:23:04.081Z,10.0,familiarity,I would advise that they take into consideration the fact that combinations of responses can affect the chat bot's responses.,27,Male,Mixed,717
-207,control,22.0,2023-03-22T23:27:53.858Z,10.0,intuition,You don't have enough time to figure out the algorithm. Just guess and go. ,28,Male,Mixed,2332
-208,control,22.0,2023-03-22T23:29:21.968Z,,rule,Look at the previous emojis to see what emoji invoked a specific response from it. There is a pattern.,29,Male,Black,575
-209,control,22.0,2023-03-22T23:29:40.494Z,13.0,familiarity,"The hearts usually indicate a surprised or tongue out emoji, the thumbs up is usually anything else.",19,Male,White,410
-211,control,22.0,2023-03-22T23:32:57.981Z,13.0,recall,To pay attention to the reactions of the emojis per selection,28,Male,Mixed,384
-212,control,22.0,2023-03-22T23:33:15.684Z,13.0,recall,You should look for what the buttons do as operators instead of emojis. ,22,Male,White,452
-213,control,22.0,2023-03-22T23:35:36.237Z,10.0,intuition,"Really try to test different patterns and switching between the emojis! I did a lot of testing using the same emoji in a row but didn't get the switching rules
-",29,Male,White,536
-214,control,22.0,2023-03-22T23:35:16.342Z,10.0,familiarity,To pay attention to the reactions from the start and notice the difference emojis when selecting only one option at a time and not alternating his emoji's .,32,Male,White,547
-215,control,22.0,2023-03-22T23:43:38.501Z,13.0,recall,I would advise him to see a pattern. The key is to see the message we are replying to and the message we're sending and then observing the reply. I found it consistent along the pattern x + y = z which I realised way too late. I could identify the correct pattern if given a second chance,25,Male,Asian,635
-216,control,22.0,2023-03-22T23:43:43.778Z,10.0,recall,"Try to learn a pattern and follow it, because there seemed to be one.",23,Male,Asian,421
-217,control,22.0,2023-03-23T14:22:11.684Z,13.0,recall,"To try to study patterns in the AI's emojis, and what different scenarios of either heart or thumbs up can make the AI say. ",23,Male,Asian,885
-218,control,22.0,2023-03-23T14:24:44.918Z,10.0,intuition,I would tell him to try to focus on the alternating patterns.,21,Male,White,511
-219,prediction,21.0,2023-01-24T17:22:46.322Z,10.0,intuition,pay attention ,22,Female,Other,537
-220,explanation,21.0,2023-01-24T18:01:05.138Z,,rule,"To keep an eye for the love emoji because that is the only one that whenever you input on the system, it will change the chatbot emoji. Fot the thumb emoji, it will give the same respond for the chatbot. ",31,Female,Asian,707
-221,explanation,22.0,2023-01-24T18:04:00.142Z,10.0,intuition,I literally have no clue,19,Male,White,812
-222,prediction,22.0,2023-01-24T18:02:39.756Z,,guess,heart will always end with the surprised emoji. The like will use the current emoji and cycle through all of the emojis,20,Male,Asian,23247
-223,prediction,22.0,2023-01-24T18:06:29.227Z,10.0,intuition,focus on trying random response and then make multiple same response to the emoji for comparison,33,Male,Asian,596
-224,prediction,22.0,2023-01-24T18:11:08.955Z,10.0,familiarity,Try different combinations in the replies,24,Male,Asian,539
-225,explanation,22.0,2023-01-24T18:14:50.984Z,13.0,intuition,"watch every other reaction
-",26,Male,Other,327
-226,prediction,22.0,2023-01-24T18:20:34.838Z,10.0,familiarity,"Maybe try and learn the patterns in the first task. Can't really memorize it all, but pay much more attention to the responses in the first task. ",28,Male,Asian,584
-227,prediction,21.0,2023-01-24T18:26:06.398Z,16.0,rule,"after a thumbs up, it is mostly surprise face. and after a like it usually alternates among the four options ",40,Female,Black,623
-228,explanation,21.0,2023-01-24T18:29:00.939Z,10.0,rule,"I would advise them to view the emojis as binary inputs like 0 or 1 and then try patterns in groups of four. 0-0-0-1, 0010, etc. Then to observe what changed and what stayed the same. I used my test time with the bot poorly.",36,Male,DATA_EXPIRED,704
-229,control,21.0,2023-01-24T18:29:20.541Z,13.0,intuition,Focus on the pattern and see what emojis pop up with each chat ,21,Female,Black,415
-230,control,21.0,2023-01-24T18:29:37.236Z,19.0,intuition,"I would advice him to follow his intuition.
-If only he's familiar with the two emojis presented, and when or how it is used then he should do",36,Male,Black,761
-231,prediction,22.0,2023-01-24T18:30:34.410Z,10.0,intuition,"don't try too hard to see a pattern, it doesn't seem like there is one",28,Female,White,317
-232,prediction,21.0,2023-01-24T18:36:35.251Z,13.0,recall,Mastery of the chatbot responses sequentially.,39,Male,Black,793
-233,prediction,22.0,2023-01-24T18:37:17.836Z,10.0,recall,"When you see a surprised face followed by a heart the answer will be a surprised face, use your intuition for the rest of the questions.",29,Female,White,586
-234,explanation,21.0,2023-01-24T18:37:54.831Z,10.0,guess,Try to find the patterns during the test phase,28,Female,Asian,386
-235,prediction,21.0,2023-01-24T18:40:39.776Z,10.0,familiarity,Watch the pattern during the blue hearts. The thumbs up produces the same results so don't waste the responses on that.,24,Female,White,535
-236,prediction,21.0,2023-01-24T18:43:46.106Z,10.0,familiarity,"try a wider variety of options during the test phase
-",22,Female,White,487
-237,explanation,22.0,2023-01-24T19:03:54.527Z,10.0,intuition,Have good memory. I myself do not have good memory. ,28,Male,White,605
-238,explanation,21.0,2023-01-24T20:52:28.973Z,10.0,guess,Notice patterns in learning phase.,21,Female,White,519
-239,explanation,21.0,2023-01-24T21:00:49.301Z,10.0,rule,The thumbs up usually makes it repeat its last emoji,28,Male,Black,445
-240,explanation,21.0,2023-01-24T21:30:55.384Z,16.0,intuition,Pick an emoji and see how the chatbot responds,24,Male,White,544
-241,control,22.0,2023-01-24T22:02:01.340Z,10.0,intuition,Look for patterns in the learning phase. Understand what duplicates mean.,25,Female,White,463
-242,control,22.0,2023-01-24T22:03:37.908Z,10.0,familiarity,To try out more combinations,30,Male,Asian,481
-243,control,22.0,2023-01-24T22:23:09.717Z,10.0,familiarity,Pay close attention during the beginning practice and spot any patterns. ,21,Female,Asian,519
-244,control,22.0,2023-01-24T22:24:23.969Z,10.0,recall,I would tell him to pay attention to what emojis change when presented with one of the prompts vs the other. It seems the thumb changes more emojis than the heart does. ,21,Male,White,601
-245,control,21.0,2023-01-24T23:26:35.581Z,16.0,rule,"The thumbs-up emoji gives a confused emoji. The heart emoji gives a different emoji, every thing but the confused emoji. ",22,Female,Asian,419
-246,control,21.0,2023-01-24T23:45:13.739Z,,rule,try to find a pattern in how the ai responds,23,Female,White,519
-247,control,21.0,2023-01-25T00:16:57.845Z,16.0,rule,Pay attention to when does the bot use specific emojis and how to trigger them,20,Male,White,929
-248,explanation,21.0,2023-01-27T16:26:52.984Z,,rule,test out the patterns ,34,Female,Mixed,564
-249,explanation,21.0,2023-01-27T16:31:36.697Z,13.0,familiarity,write down the pattern of the chats response and frequency to the different emojis during the practice phase,22,Female,White,541
-250,explanation,21.0,2023-01-27T16:31:21.270Z,10.0,intuition,Just try to guess as best as you can.,35,Male,White,360
-251,explanation,21.0,2023-01-27T16:31:56.305Z,10.0,intuition,Memorize what triggers the certain patterns of emojis. ,24,Male,White,573
-252,explanation,21.0,2023-01-27T16:31:53.679Z,10.0,guess,"I have no idea, I couldn't figure it out!!",23,Female,White,552
-253,explanation,21.0,2023-01-27T16:32:20.436Z,10.0,recall,"learn the mixes and order of inputs to guess outputs.
-",29,Male,White,741
-254,explanation,21.0,2023-01-27T16:32:38.966Z,16.0,rule,"I would say that heart emojis cause laughter, sunglasses emojis, and thumbs up cause astonishment.  ",35,Female,White,633
-255,explanation,21.0,2023-01-27T16:45:06.909Z,16.0,recall,Just do you best and probably best just to use your intuition. ,39,Male,White,1069
-256,explanation,21.0,2023-01-27T16:33:16.132Z,10.0,familiarity,Blue heart changes the emoji.,18,Male,Black,387
-257,explanation,21.0,2023-01-27T17:16:06.968Z,13.0,recall,Try to catch what the patterns are. And memorize the sequences. ,28,Female,Other,649
-258,explanation,22.0,2023-01-27T17:50:41.287Z,10.0,rule,Watch how the emoji changes when you make a different emoji change. There might be a pattern to it.,23,Male,White,456
-259,explanation,22.0,2023-01-27T18:05:44.095Z,13.0,rule,"Make patterns with the learning phase and use them in the test phase, and note that the pattern can also depend on the previous chatbot input",19,Male,Asian,568
-260,explanation,22.0,2023-01-27T18:07:21.390Z,10.0,intuition,I would advise using different patterns in the testing phase,21,Female,White,418
-261,explanation,22.0,2023-01-27T18:09:29.552Z,10.0,intuition,I would advise them to have fun and go with their gut.,28,Female,White,353
-262,explanation,22.0,2023-01-27T18:12:38.316Z,13.0,intuition,Repeated actions are good to test the bot.,34,Male,Mixed,559
-263,explanation,22.0,2023-01-27T18:13:18.121Z,10.0,intuition,"monitor the changes between each click, multiples and how often each response is recorded from each emoji response you supply",32,Male,White,439
-264,explanation,22.0,2023-01-27T18:15:23.021Z,,intuition,Don't over think it and just go with what feels right. I would also probably advice spending more time trying to find a pattern.,24,Female,Other,568
-265,explanation,22.0,2023-01-27T18:15:43.688Z,13.0,familiarity,Really test out the differences in reactions in the TEST phase. this will help you get multiple answers and come up with a good solution. ,32,Male,Mixed,420
-266,explanation,22.0,2023-01-27T18:17:55.576Z,10.0,familiarity,Take note of more than just patterns from one emoji in a row.,31,Female,White,468
-267,explanation,22.0,2023-01-27T18:23:51.013Z,13.0,rule,I would tell them to memorize the patterns of the emoji interactions. It seems chatbot will always give you a certain emote when you use either heart or thumbs up. ,24,Female,White,665
-268,explanation,22.0,2023-01-27T18:26:45.066Z,13.0,intuition,Try and use the same emoji for the first few responses to see if that changes the response. And see if any certain combination changes the response.,41,Female,White,597
-269,control,22.0,2023-01-27T18:56:49.826Z,10.0,familiarity,I would recommend my friend to really play and try to find the pattern with the emoji's. To really try out all options and see what he/she gets. ,23,Female,Other,1002
-270,control,22.0,2023-01-27T19:02:57.872Z,19.0,recall,Notice the patterns and try to memorize which pattern goes with what emoji,26,Female,White,469
-271,control,22.0,2023-01-27T19:16:09.634Z,10.0,none,Track the emoji pattern,42,Female,White,460
-272,control,22.0,2023-01-27T19:19:26.253Z,10.0,rule,There is a pattern so follow it.,23,Female,Black,814
-273,control,22.0,2023-01-27T19:26:34.881Z,10.0,intuition,Try to memorize all the sequences in all the different patterns.,DATA_EXPIRED,Male,White,616
-274,control,22.0,2023-01-27T19:28:54.792Z,13.0,rule,Try lots of random combinations of emojis in strings and pay attention to how the chat responds to different patterns. ,27,Male,White,405
-275,control,22.0,2023-01-27T19:29:52.596Z,10.0,rule,Try to see a pattern that arises with the chose of emoji's you use.,18,Male,Asian,470
-276,control,22.0,2023-01-27T19:34:24.029Z,,rule,It seems like repeating the same emoji towards the chatbot results in a better of chance of the chatbot sending a certain emoji over and over in response.,27,Male,White,527
-277,control,22.0,2023-01-27T19:39:18.256Z,,guess,"choose at random - if there's any kind of pattern, it's impossible to discern.",30,Male,White,506
-278,prediction,22.0,2023-01-27T20:01:02.322Z,13.0,recall,"If first heart responds with shock face, most likely shock faces will continue as long as you send hearts. Sunglasses faces come in pairs or triples. ",28,Female,White,433
-279,prediction,22.0,2023-01-27T20:07:49.651Z,10.0,recall,I would advise to look at the patterns during the test phase to see which emoji was being used in response to certain emojis.,21,Female,Asian,377
-280,prediction,22.0,2023-01-27T20:19:25.996Z,10.0,intuition,I would tell him that I don't think the chat bot is random but I didn't find a pattern.,33,Male,White,361
-281,prediction,22.0,2023-01-27T20:22:12.221Z,10.0,intuition,Pick up on the pattern and have a reason behind picking the hearts and thumbs up at the start. ,25,Male,White,502
-282,prediction,22.0,2023-01-27T20:29:23.497Z,,guess,I could not find a strategy that I thought worked. I thought it was pretty random. I couldn't figure out any patterns. ,35,Female,White,524
-283,prediction,22.0,2023-01-27T20:33:21.020Z,10.0,familiarity,"To just relax, and follow your gut, because I couldn't find any patterns.",42,Female,White,551
-284,prediction,22.0,2023-01-27T20:34:16.404Z,10.0,familiarity,study the pattern ,29,Male,Black,437
-285,prediction,22.0,2023-01-27T20:41:39.993Z,10.0,recall,"If you switch your emoji response - i.e. change from a thumbs up to a heart - the AI will ALWAYS change the smiley face it sends back. However, if you use the same emoji twice - i.e. a blue heart twice - the emoji sent back is USUALLY the same (but not always).",33,Male,White,520
-286,control,21.0,2023-01-27T21:14:13.432Z,10.0,recall,try to have a strategy you use in the test phase to make the second phase much easier,45,Male,Black,842
-287,control,21.0,2023-01-27T21:15:11.308Z,10.0,recall,Remember the responses and learn the pattern.,22,Female,Black,532
-288,control,21.0,2023-01-27T21:16:04.365Z,10.0,familiarity,Don't think to hard about it and just go with your gut feeling if you're unable to decide what you think may be the correct answer.,47,Female,Other,558
-289,control,21.0,2023-01-27T21:43:56.099Z,16.0,rule,"just think back on how the bot responded to the emojis you used
-",25,Female,White,426
-290,control,21.0,2023-01-27T21:46:58.967Z,10.0,familiarity,I felt like I received more varied emoji's with the heart emjoi.,31,Male,White,464
-291,control,21.0,2023-01-27T21:50:12.544Z,10.0,recall,Try to pay attention to the patterns the chat bot is answering with.,28,Female,White,437
-292,control,21.0,2023-01-27T21:52:41.733Z,13.0,intuition,"try and remember the sequence of responses from the AI after you do repetitive messaging
-",26,Male,White,363
-293,control,21.0,2023-01-27T21:56:43.422Z,10.0,familiarity,"I would tell them to focus on the pattern and pay more attention to round one bot interaction.
-",27,Male,Black,915
-294,prediction,21.0,2023-01-27T22:24:29.481Z,13.0,recall,Memorize the chat answer for each of your inputs.  ,19,Male,Black,815
-295,prediction,21.0,2023-01-27T22:32:06.642Z,13.0,recall,To try to figure out what the response was to each combination and to make sure you are figuring out the hidden emoji when you do the questions later before coming up with the correct answer. ,31,Female,White,657
-296,prediction,21.0,2023-01-27T22:37:15.816Z,16.0,familiarity,Look for the patterns using the colors in the emojis rather than what the emojis are. ,20,Female,White,398
-297,prediction,21.0,2023-01-27T22:38:17.236Z,10.0,rule,I'm not sure there's a strategy for guessing emoj's.,23,Male,White,268
-298,prediction,21.0,2023-01-27T22:40:33.946Z,,intuition,the thumb up emoji is usually the gasp face and the heart emoji response is usually not the same every time so pick a different one than previously responded with,23,Female,White,716
-299,prediction,21.0,2023-01-27T22:53:40.457Z,10.0,intuition,"Try to find a pattern in the first part. I thought I saw a couple but the more answers I put, the more I thought I was wrong.",23,Male,Asian,381
-300,prediction,21.0,2023-01-27T23:09:54.856Z,16.0,rule,Pay attention to the patterns.,33,Female,Other,630
-301,prediction,21.0,2023-01-28T18:43:57.070Z,13.0,intuition,I would advise to take note of any patterns or similarities between sets,18,Male,Asian,738
-302,prediction,21.0,2023-01-28T18:56:33.290Z,10.0,familiarity,"Look for any patters, but be willing to make some guesses. ",41,Female,White,557
-303,prediction,22.0,2023-01-28T19:52:35.479Z,,intuition,"If you see a pattern in the learn phase, repeat it several times to make sure it's actually a pattern. There were patterns i thought i figured out, that then changed and told me they weren't patterns, and this is possibly pure randomness.",31,Male,White,691
-304,prediction,22.0,2023-02-11T18:59:07.615Z,10.0,familiarity,try different combinations of emojis during the practice phase to try to see if there is any pattern,22,Female,White,565
-305,explanation,22.0,2023-02-11T19:14:34.206Z,10.0,guess,Try to find a pattern if you can. That way you won't be guessing blindly. ,24,Female,Black,428
-306,control,22.0,2023-02-11T19:20:38.145Z,10.0,intuition,Pay attention to series of messages rather than responses to a single message,20,Female,White,773
-307,control,21.0,2023-02-11T19:28:57.997Z,13.0,recall,"Try to create patterns that you can easily remember. Alternate, or possibly only use the same emoji.",23,Male,White,712
-308,prediction,21.0,2023-02-11T19:29:38.507Z,13.0,familiarity,Try to sense a pattern based on the responses you get from sending a particular emoji. Imagine the potential responses depending on what emoji has been sent already.,33,Male,Mixed,645
-309,prediction,22.0,2023-02-11T19:29:33.211Z,13.0,intuition,Test the pattern of response depending on the emoji you use,25,Female,White,417
-310,prediction,21.0,2023-02-11T19:31:04.426Z,10.0,familiarity,try to look for a pattern in responses,28,Female,Asian,433
-311,prediction,21.0,2023-02-11T19:33:16.981Z,10.0,familiarity,Use both emojis as much as you can and try your own patterns before it's over.,20,Female,White,521
-312,prediction,21.0,2023-02-11T19:36:45.039Z,13.0,familiarity,pay attention to the responses for each emoji,22,Male,White,465
-313,prediction,22.0,2023-02-11T19:39:27.334Z,10.0,rule,If you thumbs up it at some point will go to cool glasses. If you heart it will eventually end up O:.,25,Male,Mixed,778
-314,control,21.0,2023-02-11T19:45:49.648Z,13.0,intuition,Don't try to find a pattern. ,27,Male,White,548
-315,explanation,21.0,2023-02-11T19:47:07.162Z,13.0,familiarity,I would advise taking notes on the the patterns for every 2 responses. Then I would recommend studying it to see if there are trends.,31,Male,White,622
-316,explanation,22.0,2023-02-11T20:32:38.827Z,10.0,rule,"If the bot responds with a surprised face, it means it hasn't seen that emoji in that block of chat yet. It cycles through emojis until it keeps repeating one when you keep pressing the same emoji to send.",20,Female,White,458
-317,explanation,22.0,2023-02-11T20:39:20.253Z,16.0,rule,see the chatbots pattern and memorize.,32,Male,Other,2416
-318,explanation,22.0,2023-02-11T20:38:36.814Z,10.0,intuition,"Pay attention to how the chatbot reacts to the different emojis, and how the next reaction is.",30,Male,White,529
-319,control,22.0,2023-02-11T21:37:59.566Z,16.0,recall,Try different combinations,30,Male,Asian,943
-320,control,22.0,2023-02-11T21:44:24.807Z,10.0,familiarity,Try to pay attention to when you click each emoji in a row. The answers change based on your last emoji.,26,Female,White,529
-321,control,22.0,2023-02-11T21:45:28.231Z,10.0,intuition,"Try to find any patterns in the responses, but otherwise go with your gut.",22,Female,White,375
-322,explanation,21.0,2023-02-11T22:31:04.441Z,,intuition,"I hope you have a better sense of patterns than I do, because I have no idea how to advice you on this task. Good luck. ",34,Female,White,573
-323,explanation,21.0,2023-02-11T22:38:50.253Z,,rule,If the last two emoticons you sent are identical then choose your prior message. If the two emoticons are different then choose your most recent message.,31,Male,White,758
-324,explanation,21.0,2023-02-11T22:54:30.158Z,10.0,familiarity,I would say choose the thumbs up emoticon whenever the open mouth would reply. As well i would say to just choose which answer feels the most familiar to u.,20,Male,Black,965
-325,control,21.0,2023-02-11T23:32:56.855Z,16.0,rule,I would advise to use the blue heart to change the emoji and the thumbs up if they want to change it or keep it on the shocked face emoji. I would also tell them to pay attention to what the laughing crying face rule is because that one confused me. ,19,Female,White,613
-326,control,21.0,2023-02-11T23:39:03.734Z,16.0,recall,I will advise them to remember the previous section (memory from the previous exercise) and go from there,28,Male,Black,765
-327,prediction,22.0,2023-02-12T00:07:12.650Z,10.0,guess,I genuinely had no strategy. I was choosing randomly.,28,Female,White,535
-328,explanation,21.0,2023-03-21T16:07:43.520Z,13.0,recall,"Sometimes you will need to guess the answer, but it's better to remember the patterns. ",35,Female,White,483
-329,explanation,21.0,2023-03-21T16:17:55.152Z,13.0,rule,"Thumbs up to keep the surprised emoji, blue heart to change it to something else, otherwise mostly guessing.",18,Male,White,719
-330,explanation,21.0,2023-03-21T16:20:47.591Z,13.0,familiarity,Blue hearts are more likely to be based on the first response compared to thumbs up,23,Male,Asian,596
-331,explanation,21.0,2023-03-21T16:25:09.967Z,16.0,intuition,Read the instructions very well and and be fast and accurate,29,Male,Black,1702
-332,explanation,21.0,2023-03-21T16:28:32.975Z,10.0,familiarity,find the pattern in response by clicking the same response,26,Male,Asian,841
-333,explanation,21.0,2023-03-21T16:32:54.857Z,16.0,familiarity,"To use his own way of deduction, and be gracious with the 45 test runs",18,Male,White,1043
-334,explanation,21.0,2023-03-21T16:35:15.204Z,10.0,recall,It seems like a majority of the correct responses were the top emoji I had.,25,Male,Asian,519
-335,explanation,21.0,2023-03-21T16:39:01.008Z,10.0,recall,I would test out different combinations and to also take note of the answers from the learning phase.,24,Female,Asian,409
-336,explanation,21.0,2023-03-21T16:40:28.579Z,13.0,rule,Follow the pattern and as it was stated the earlier reaction can impact the latter ,28,Male,White,526
-337,explanation,21.0,2023-03-21T16:40:40.952Z,10.0,guess,I would tell them to guess. I don't understand any patterns to help excel in this task.,33,Female,White,513
-338,explanation,21.0,2023-03-21T16:49:50.056Z,10.0,intuition,Take time when doing the practice and choosing your responses to try to learn how the chatbot thinks.,20,Female,Black,456
-339,explanation,21.0,2023-03-21T16:51:35.435Z,10.0,intuition,go with your gut feelings,26,Male,Asian,659
-340,explanation,21.0,2023-03-21T16:55:25.162Z,10.0,familiarity,To simply tests different variations and find the pattern.,24,Male,White,627
-341,explanation,21.0,2023-03-21T16:55:18.918Z,19.0,rule,Pay attention to the patterns of how the bot responds to each emoji. (I noticed that after the thumbs up it was always the same shock emoji. The response for the blue heart seemed to be dependent on a pattern/based on the response of a previous blue heart). ,28,Female,White,541
-342,explanation,21.0,2023-03-21T16:56:21.501Z,16.0,familiarity,Pay attention to the differences in options after each selection.,31,Male,Mixed,661
-343,explanation,21.0,2023-03-21T16:56:42.125Z,13.0,recall,The heart has much greater and long lasting impact than the thumbs up.,28,Female,White,426
-344,explanation,21.0,2023-03-21T16:58:07.898Z,10.0,familiarity,pay attention to how it reacts to the heart and what happens if you switch to thumbs up after a heart on each response,27,Male,Asian,600
-345,explanation,21.0,2023-03-21T16:59:13.100Z,10.0,recall,Pay attention to how the chatbot responds in the training phase as it may help so you don't have to blindly guess.,37,Female,White,615
-346,explanation,21.0,2023-03-21T17:01:22.244Z,13.0,intuition,I always looked at the thumbs up option because that one usually meant that you would get the emoji with their mouth open,22,Female,Asian,572
-347,explanation,21.0,2023-03-21T17:03:28.378Z,10.0,recall,Make sure to find patterns in the area before the test task. And that it seems as though the second to last response has more of an impact on the results than the last response. ,36,Female,White,671
-348,explanation,21.0,2023-03-21T17:02:35.217Z,13.0,recall,Pay attention in the training portion,27,Male,White,661
-349,explanation,21.0,2023-03-21T17:04:50.061Z,10.0,rule,Remember the order that you respond with emojis and patterns in the chatbots response. ,21,Male,Mixed,1284
-351,explanation,21.0,2023-03-21T17:09:51.686Z,13.0,familiarity,I would have them see the difference of emojis that the heart vs thumbs up gave way. If the emoji is the surprised one then it would have less influence compared to a happy/cool emoji.,34,Female,White,603
-352,explanation,21.0,2023-03-21T17:22:05.233Z,10.0,recall,Study the responses from the learning task,32,Male,Black,2281
-353,explanation,21.0,2023-03-21T17:14:37.941Z,13.0,rule,"I would tell them to find a pattern in the chat bots response, to  your emojis.",19,Male,White,889
-354,explanation,21.0,2023-03-21T17:11:27.967Z,13.0,recall,To notice the responses after each emoji sent and to send the same emoji a few times to notice any patterns. ,26,Female,Black,677
-355,explanation,21.0,2023-03-21T17:12:01.322Z,19.0,recall,Choose the message directly above the response in question. It seems to have been correct 100% of the time in the learning phase.,35,Male,White,756
-356,explanation,21.0,2023-03-21T17:12:57.257Z,13.0,intuition,To rely on your gut and to focus really hard on it. Try to stay calm.,18,Female,Asian,349
-357,explanation,21.0,2023-03-21T17:13:01.794Z,10.0,familiarity,"Given that I didn't find a pattern, I don't think I would be a good person to give advice. I would tell them though that they should try to find a pattern of how the bot reacts to each emoji based on the previous emoji it sent.",34,Male,White,556
-358,explanation,21.0,2023-03-21T17:14:11.976Z,13.0,recall,"Emojis are coming in a pattern no matter what. so, try to connect with pattern",39,Male,Asian,725
-359,explanation,21.0,2023-03-21T17:12:40.210Z,13.0,recall,Pay attention to the learning phase,24,Male,White,498
-360,explanation,21.0,2023-03-21T17:14:45.863Z,10.0,recall,"I would avoid too many repeat entries of the thumbs up character. Also, try to find a pattern. I was unable.",39,Male,White,631
-361,explanation,21.0,2023-03-21T17:13:53.862Z,10.0,intuition,Rely on intuition. Then hope it's randomized! ,46,Female,White,531
-362,explanation,21.0,2023-03-21T17:15:21.569Z,10.0,intuition,Pay attention and try to discern a pattern.,26,Female,White,468
-363,explanation,21.0,2023-03-21T17:18:52.933Z,13.0,familiarity,find the pattern that the blue heart is creating in relation to the thumbs up,42,Female,White,600
-364,explanation,21.0,2023-03-21T17:19:32.470Z,19.0,recall,Click all the hearts and see how the emoji change. Then spam the thumbs up and see how they stay the same each time.,28,Female,White,388
-365,explanation,21.0,2023-03-21T17:21:22.070Z,10.0,recall,"Memorize the patterns in the training stage, and try different combinations of emojis to prompt different possible questions.",24,Female,White,622
-366,explanation,21.0,2023-03-21T17:21:38.086Z,13.0,rule,test the way the bot responds over a span of a few messages with the two different emojis. Try to find a pattern here. ,22,Female,White,476
-367,explanation,21.0,2023-03-21T17:21:48.689Z,10.0,guess,i advise them to be patient,19,Female,Black,370
-368,explanation,21.0,2023-03-21T17:25:40.156Z,10.0,intuition,Follow the patterns,19,Female,Asian,401
+participant_id,test_condition,fsm_number,timestamp,q_estimate,q_stategy_scale,q_strategy,subject_age,subject_sex,subject_ethnicity,subject_timeTaken,learning_condition
+1,control,22.0,2023-01-23T23:14:30.630Z,10.0,,Try to do simple patterns of emojis multiple times to see the most common responses by the bot.,20,Male,Asian,379,Experiment 1 (no preview)
+2,prediction,21.0,2023-01-23T23:14:45.993Z,16.0,,Pick the emoji not show on text screen.,24,Male,Mixed,475,Experiment 1 (no preview)
+3,prediction,21.0,2023-01-23T23:22:35.246Z,10.0,,Try to find a pattern in the first part of the study.,31,Female,White,427,Experiment 1 (no preview)
+4,explanation,22.0,2023-01-23T23:31:20.611Z,10.0,,Look at the pictures carefully and think of the patterns you saw in the learning phase. Sometimes you can guess what the hidden emoji is by remembering the patterns.,28,Female,Asian,493,Experiment 1 (no preview)
+5,control,22.0,2023-01-23T23:29:44.484Z,13.0,,I'd tell them to experiment with the chat bot in groups of three messages to better replicate the situations that they'll be asked to predict.,19,Male,White,589,Experiment 1 (no preview)
+6,control,22.0,2023-01-23T23:30:37.671Z,10.0,,Study the trends and patterns of the chatbot.,21,Male,Other,533,Experiment 1 (no preview)
+7,prediction,22.0,2023-01-23T23:32:49.203Z,10.0,,I would advise them to closely pay attention to the first phase. This would help in the second phase.,26,Female,White,627,Experiment 1 (no preview)
+8,control,21.0,2023-01-23T23:40:52.929Z,16.0,,I would advise to pay attention as well as try for different patterns.  I would ask what made the sunglasses always pop out.,34,Male,Black,556,Experiment 1 (no preview)
+9,explanation,22.0,2023-01-23T23:46:26.183Z,13.0,,I would advise my friend to look for patterns beyond the obvious.,18,Male,Asian,326,Experiment 1 (no preview)
+10,prediction,21.0,2023-01-23T23:45:53.326Z,10.0,,interchange which emojis you send and do different combinations of them (like which ones go after which) ,23,Female,White,568,Experiment 1 (no preview)
+11,control,21.0,2023-01-23T23:46:32.708Z,13.0,,"take notes, look for patterns",21,Female,White,1143,Experiment 1 (no preview)
+12,control,22.0,2023-01-24T00:31:06.575Z,10.0,,"Try and pay attention less to the emoji in response, but more to the two emoji combinations you had done beforehand.",20,Female,Other,766,Experiment 1 (no preview)
+13,prediction,21.0,2023-01-24T17:22:46.322Z,10.0,intuition,pay attention ,22,Female,Other,537,Experiment 1 (no preview)
+14,explanation,21.0,2023-01-24T18:01:05.138Z,,rule,"To keep an eye for the love emoji because that is the only one that whenever you input on the system, it will change the chatbot emoji. Fot the thumb emoji, it will give the same respond for the chatbot. ",31,Female,Asian,707,Experiment 1 (no preview)
+15,explanation,22.0,2023-01-24T18:04:00.142Z,10.0,intuition,I literally have no clue,19,Male,White,812,Experiment 1 (no preview)
+16,prediction,22.0,2023-01-24T18:06:29.227Z,10.0,intuition,focus on trying random response and then make multiple same response to the emoji for comparison,33,Male,Asian,596,Experiment 1 (no preview)
+17,prediction,22.0,2023-01-24T18:11:08.955Z,10.0,familiarity,Try different combinations in the replies,24,Male,Asian,539,Experiment 1 (no preview)
+18,explanation,22.0,2023-01-24T18:14:50.984Z,13.0,intuition,"watch every other reaction
+",26,Male,Other,327,Experiment 1 (no preview)
+19,prediction,22.0,2023-01-24T18:20:34.838Z,10.0,familiarity,"Maybe try and learn the patterns in the first task. Can't really memorize it all, but pay much more attention to the responses in the first task. ",28,Male,Asian,584,Experiment 1 (no preview)
+20,prediction,21.0,2023-01-24T18:26:06.398Z,16.0,rule,"after a thumbs up, it is mostly surprise face. and after a like it usually alternates among the four options ",40,Female,Black,623,Experiment 1 (no preview)
+21,prediction,22.0,2023-01-24T18:30:34.410Z,10.0,intuition,"don't try too hard to see a pattern, it doesn't seem like there is one",28,Female,White,317,Experiment 1 (no preview)
+22,control,21.0,2023-01-24T18:29:20.541Z,13.0,intuition,Focus on the pattern and see what emojis pop up with each chat ,21,Female,Black,415,Experiment 1 (no preview)
+23,explanation,21.0,2023-01-24T18:29:00.939Z,10.0,rule,"I would advise them to view the emojis as binary inputs like 0 or 1 and then try patterns in groups of four. 0-0-0-1, 0010, etc. Then to observe what changed and what stayed the same. I used my test time with the bot poorly.",36,Male,DATA_EXPIRED,704,Experiment 1 (no preview)
+24,control,21.0,2023-01-24T18:29:37.236Z,19.0,intuition,"I would advice him to follow his intuition.
+If only he's familiar with the two emojis presented, and when or how it is used then he should do",36,Male,Black,761,Experiment 1 (no preview)
+25,explanation,21.0,2023-01-24T18:37:54.831Z,10.0,guess,Try to find the patterns during the test phase,28,Female,Asian,386,Experiment 1 (no preview)
+26,prediction,22.0,2023-01-24T18:37:17.836Z,10.0,recall,"When you see a surprised face followed by a heart the answer will be a surprised face, use your intuition for the rest of the questions.",29,Female,White,586,Experiment 1 (no preview)
+27,prediction,21.0,2023-01-24T18:36:35.251Z,13.0,recall,Mastery of the chatbot responses sequentially.,39,Male,Black,793,Experiment 1 (no preview)
+28,prediction,21.0,2023-01-24T18:40:39.776Z,10.0,familiarity,Watch the pattern during the blue hearts. The thumbs up produces the same results so don't waste the responses on that.,24,Female,White,535,Experiment 1 (no preview)
+29,prediction,21.0,2023-01-24T18:43:46.106Z,10.0,familiarity,"try a wider variety of options during the test phase
+",22,Female,White,487,Experiment 1 (no preview)
+30,explanation,22.0,2023-01-24T19:03:54.527Z,10.0,intuition,Have good memory. I myself do not have good memory. ,28,Male,White,605,Experiment 1 (no preview)
+31,explanation,21.0,2023-01-24T20:52:28.973Z,10.0,guess,Notice patterns in learning phase.,21,Female,White,519,Experiment 1 (no preview)
+32,explanation,21.0,2023-01-24T21:00:49.301Z,10.0,rule,The thumbs up usually makes it repeat its last emoji,28,Male,Black,445,Experiment 1 (no preview)
+33,explanation,21.0,2023-01-24T21:30:55.384Z,16.0,intuition,Pick an emoji and see how the chatbot responds,24,Male,White,544,Experiment 1 (no preview)
+34,control,22.0,2023-01-24T22:02:01.340Z,10.0,intuition,Look for patterns in the learning phase. Understand what duplicates mean.,25,Female,White,463,Experiment 1 (no preview)
+35,control,22.0,2023-01-24T22:03:37.908Z,10.0,familiarity,To try out more combinations,30,Male,Asian,481,Experiment 1 (no preview)
+36,control,22.0,2023-01-24T22:23:09.717Z,10.0,familiarity,Pay close attention during the beginning practice and spot any patterns. ,21,Female,Asian,519,Experiment 1 (no preview)
+37,control,22.0,2023-01-24T22:24:23.969Z,10.0,recall,I would tell him to pay attention to what emojis change when presented with one of the prompts vs the other. It seems the thumb changes more emojis than the heart does. ,21,Male,White,601,Experiment 1 (no preview)
+38,control,21.0,2023-01-24T23:26:35.581Z,16.0,rule,"The thumbs-up emoji gives a confused emoji. The heart emoji gives a different emoji, every thing but the confused emoji. ",22,Female,Asian,419,Experiment 1 (no preview)
+39,control,21.0,2023-01-24T23:45:13.739Z,,rule,try to find a pattern in how the ai responds,23,Female,White,519,Experiment 1 (no preview)
+40,prediction,22.0,2023-01-24T18:02:39.756Z,,guess,heart will always end with the surprised emoji. The like will use the current emoji and cycle through all of the emojis,20,Male,Asian,23247,Experiment 1 (no preview)
+41,control,21.0,2023-01-25T00:16:57.845Z,16.0,rule,Pay attention to when does the bot use specific emojis and how to trigger them,20,Male,White,929,Experiment 1 (no preview)
+42,explanation,21.0,2023-01-27T16:26:52.984Z,,rule,test out the patterns ,34,Female,Mixed,564,Experiment 1 (no preview)
+43,explanation,21.0,2023-01-27T16:31:21.270Z,10.0,intuition,Just try to guess as best as you can.,35,Male,White,360,Experiment 1 (no preview)
+44,explanation,21.0,2023-01-27T16:33:16.132Z,10.0,familiarity,Blue heart changes the emoji.,18,Male,Black,387,Experiment 1 (no preview)
+45,explanation,21.0,2023-01-27T16:31:36.697Z,13.0,familiarity,write down the pattern of the chats response and frequency to the different emojis during the practice phase,22,Female,White,541,Experiment 1 (no preview)
+46,explanation,21.0,2023-01-27T16:31:56.305Z,10.0,intuition,Memorize what triggers the certain patterns of emojis. ,24,Male,White,573,Experiment 1 (no preview)
+47,explanation,21.0,2023-01-27T16:31:53.679Z,10.0,guess,"I have no idea, I couldn't figure it out!!",23,Female,White,552,Experiment 1 (no preview)
+48,explanation,21.0,2023-01-27T16:32:38.966Z,16.0,rule,"I would say that heart emojis cause laughter, sunglasses emojis, and thumbs up cause astonishment.  ",35,Female,White,633,Experiment 1 (no preview)
+49,explanation,21.0,2023-01-27T16:32:20.436Z,10.0,recall,"learn the mixes and order of inputs to guess outputs.
+",29,Male,White,741,Experiment 1 (no preview)
+50,explanation,21.0,2023-01-27T16:45:06.909Z,16.0,recall,Just do you best and probably best just to use your intuition. ,39,Male,White,1069,Experiment 1 (no preview)
+51,explanation,21.0,2023-01-27T17:16:06.968Z,13.0,recall,Try to catch what the patterns are. And memorize the sequences. ,28,Female,Other,649,Experiment 1 (no preview)
+52,explanation,22.0,2023-01-27T17:50:41.287Z,10.0,rule,Watch how the emoji changes when you make a different emoji change. There might be a pattern to it.,23,Male,White,456,Experiment 1 (no preview)
+53,explanation,22.0,2023-01-27T18:07:21.390Z,10.0,intuition,I would advise using different patterns in the testing phase,21,Female,White,418,Experiment 1 (no preview)
+54,explanation,22.0,2023-01-27T18:05:44.095Z,13.0,rule,"Make patterns with the learning phase and use them in the test phase, and note that the pattern can also depend on the previous chatbot input",19,Male,Asian,568,Experiment 1 (no preview)
+55,explanation,22.0,2023-01-27T18:09:29.552Z,10.0,intuition,I would advise them to have fun and go with their gut.,28,Female,White,353,Experiment 1 (no preview)
+56,explanation,22.0,2023-01-27T18:12:38.316Z,13.0,intuition,Repeated actions are good to test the bot.,34,Male,Mixed,559,Experiment 1 (no preview)
+57,explanation,22.0,2023-01-27T18:13:18.121Z,10.0,intuition,"monitor the changes between each click, multiples and how often each response is recorded from each emoji response you supply",32,Male,White,439,Experiment 1 (no preview)
+58,explanation,22.0,2023-01-27T18:15:43.688Z,13.0,familiarity,Really test out the differences in reactions in the TEST phase. this will help you get multiple answers and come up with a good solution. ,32,Male,Mixed,420,Experiment 1 (no preview)
+59,explanation,22.0,2023-01-27T18:15:23.021Z,,intuition,Don't over think it and just go with what feels right. I would also probably advice spending more time trying to find a pattern.,24,Female,Other,568,Experiment 1 (no preview)
+60,explanation,22.0,2023-01-27T18:17:55.576Z,10.0,familiarity,Take note of more than just patterns from one emoji in a row.,31,Female,White,468,Experiment 1 (no preview)
+61,explanation,22.0,2023-01-27T18:23:51.013Z,13.0,rule,I would tell them to memorize the patterns of the emoji interactions. It seems chatbot will always give you a certain emote when you use either heart or thumbs up. ,24,Female,White,665,Experiment 1 (no preview)
+62,explanation,22.0,2023-01-27T18:26:45.066Z,13.0,intuition,Try and use the same emoji for the first few responses to see if that changes the response. And see if any certain combination changes the response.,41,Female,White,597,Experiment 1 (no preview)
+63,control,22.0,2023-01-27T18:56:49.826Z,10.0,familiarity,I would recommend my friend to really play and try to find the pattern with the emoji's. To really try out all options and see what he/she gets. ,23,Female,Other,1002,Experiment 1 (no preview)
+64,control,22.0,2023-01-27T19:02:57.872Z,19.0,recall,Notice the patterns and try to memorize which pattern goes with what emoji,26,Female,White,469,Experiment 1 (no preview)
+65,control,22.0,2023-01-27T19:16:09.634Z,10.0,none,Track the emoji pattern,42,Female,White,460,Experiment 1 (no preview)
+66,control,22.0,2023-01-27T19:19:26.253Z,10.0,rule,There is a pattern so follow it.,23,Female,Black,814,Experiment 1 (no preview)
+67,control,22.0,2023-01-27T19:28:54.792Z,13.0,rule,Try lots of random combinations of emojis in strings and pay attention to how the chat responds to different patterns. ,27,Male,White,405,Experiment 1 (no preview)
+68,control,22.0,2023-01-27T19:26:34.881Z,10.0,intuition,Try to memorize all the sequences in all the different patterns.,,Male,White,616,Experiment 1 (no preview)
+69,control,22.0,2023-01-27T19:29:52.596Z,10.0,rule,Try to see a pattern that arises with the chose of emoji's you use.,18,Male,Asian,470,Experiment 1 (no preview)
+70,control,22.0,2023-01-27T19:34:24.029Z,,rule,It seems like repeating the same emoji towards the chatbot results in a better of chance of the chatbot sending a certain emoji over and over in response.,27,Male,White,527,Experiment 1 (no preview)
+71,control,22.0,2023-01-27T19:39:18.256Z,,guess,"choose at random - if there's any kind of pattern, it's impossible to discern.",30,Male,White,506,Experiment 1 (no preview)
+72,prediction,22.0,2023-01-27T20:01:02.322Z,13.0,recall,"If first heart responds with shock face, most likely shock faces will continue as long as you send hearts. Sunglasses faces come in pairs or triples. ",28,Female,White,433,Experiment 1 (no preview)
+73,prediction,22.0,2023-01-27T20:07:49.651Z,10.0,recall,I would advise to look at the patterns during the test phase to see which emoji was being used in response to certain emojis.,21,Female,Asian,377,Experiment 1 (no preview)
+74,prediction,22.0,2023-01-27T20:19:25.996Z,10.0,intuition,I would tell him that I don't think the chat bot is random but I didn't find a pattern.,33,Male,White,361,Experiment 1 (no preview)
+75,prediction,22.0,2023-01-27T20:22:12.221Z,10.0,intuition,Pick up on the pattern and have a reason behind picking the hearts and thumbs up at the start. ,25,Male,White,502,Experiment 1 (no preview)
+76,prediction,22.0,2023-01-27T20:29:23.497Z,,guess,I could not find a strategy that I thought worked. I thought it was pretty random. I couldn't figure out any patterns. ,35,Female,White,524,Experiment 1 (no preview)
+77,prediction,22.0,2023-01-27T20:34:16.404Z,10.0,familiarity,study the pattern ,29,Male,Black,437,Experiment 1 (no preview)
+78,prediction,22.0,2023-01-27T20:33:21.020Z,10.0,familiarity,"To just relax, and follow your gut, because I couldn't find any patterns.",42,Female,White,551,Experiment 1 (no preview)
+79,prediction,22.0,2023-01-27T20:41:39.993Z,10.0,recall,"If you switch your emoji response - i.e. change from a thumbs up to a heart - the AI will ALWAYS change the smiley face it sends back. However, if you use the same emoji twice - i.e. a blue heart twice - the emoji sent back is USUALLY the same (but not always).",33,Male,White,520,Experiment 1 (no preview)
+80,control,21.0,2023-01-27T21:15:11.308Z,10.0,recall,Remember the responses and learn the pattern.,22,Female,Black,532,Experiment 1 (no preview)
+81,control,21.0,2023-01-27T21:16:04.365Z,10.0,familiarity,Don't think to hard about it and just go with your gut feeling if you're unable to decide what you think may be the correct answer.,47,Female,Other,558,Experiment 1 (no preview)
+82,control,21.0,2023-01-27T21:14:13.432Z,10.0,recall,try to have a strategy you use in the test phase to make the second phase much easier,45,Male,Black,842,Experiment 1 (no preview)
+83,control,21.0,2023-01-27T21:43:56.099Z,16.0,rule,"just think back on how the bot responded to the emojis you used
+",25,Female,White,426,Experiment 1 (no preview)
+84,control,21.0,2023-01-27T21:46:58.967Z,10.0,familiarity,I felt like I received more varied emoji's with the heart emjoi.,31,Male,White,464,Experiment 1 (no preview)
+85,control,21.0,2023-01-27T21:50:12.544Z,10.0,recall,Try to pay attention to the patterns the chat bot is answering with.,28,Female,White,437,Experiment 1 (no preview)
+86,control,21.0,2023-01-27T21:52:41.733Z,13.0,intuition,"try and remember the sequence of responses from the AI after you do repetitive messaging
+",26,Male,White,363,Experiment 1 (no preview)
+87,control,21.0,2023-01-27T21:56:43.422Z,10.0,familiarity,"I would tell them to focus on the pattern and pay more attention to round one bot interaction.
+",27,Male,Black,915,Experiment 1 (no preview)
+88,prediction,21.0,2023-01-27T22:24:29.481Z,13.0,recall,Memorize the chat answer for each of your inputs.  ,19,Male,Black,815,Experiment 1 (no preview)
+89,prediction,21.0,2023-01-27T22:32:06.642Z,13.0,recall,To try to figure out what the response was to each combination and to make sure you are figuring out the hidden emoji when you do the questions later before coming up with the correct answer. ,31,Female,White,657,Experiment 1 (no preview)
+90,prediction,21.0,2023-01-27T22:38:17.236Z,10.0,rule,I'm not sure there's a strategy for guessing emoj's.,23,Male,White,268,Experiment 1 (no preview)
+91,prediction,21.0,2023-01-27T22:37:15.816Z,16.0,familiarity,Look for the patterns using the colors in the emojis rather than what the emojis are. ,20,Female,White,398,Experiment 1 (no preview)
+92,prediction,21.0,2023-01-27T22:40:33.946Z,,intuition,the thumb up emoji is usually the gasp face and the heart emoji response is usually not the same every time so pick a different one than previously responded with,23,Female,White,716,Experiment 1 (no preview)
+93,prediction,21.0,2023-01-27T22:53:40.457Z,10.0,intuition,"Try to find a pattern in the first part. I thought I saw a couple but the more answers I put, the more I thought I was wrong.",23,Male,Asian,381,Experiment 1 (no preview)
+94,prediction,21.0,2023-01-27T23:09:54.856Z,16.0,rule,Pay attention to the patterns.,33,Female,Other,630,Experiment 1 (no preview)
+95,prediction,21.0,2023-01-28T18:43:57.070Z,13.0,intuition,I would advise to take note of any patterns or similarities between sets,18,Male,Asian,738,Experiment 1 (no preview)
+96,prediction,21.0,2023-01-28T18:56:33.290Z,10.0,familiarity,"Look for any patters, but be willing to make some guesses. ",41,Female,White,557,Experiment 1 (no preview)
+97,prediction,22.0,2023-01-28T19:52:35.479Z,,intuition,"If you see a pattern in the learn phase, repeat it several times to make sure it's actually a pattern. There were patterns i thought i figured out, that then changed and told me they weren't patterns, and this is possibly pure randomness.",31,Male,White,691,Experiment 1 (no preview)
+98,prediction,22.0,2023-02-11T18:59:07.615Z,10.0,familiarity,try different combinations of emojis during the practice phase to try to see if there is any pattern,22,Female,White,565,Experiment 2 (test preview)
+99,explanation,22.0,2023-02-11T19:14:34.206Z,10.0,guess,Try to find a pattern if you can. That way you won't be guessing blindly. ,24,Female,Black,428,Experiment 2 (test preview)
+100,control,22.0,2023-02-11T19:20:38.145Z,10.0,intuition,Pay attention to series of messages rather than responses to a single message,20,Female,White,773,Experiment 2 (test preview)
+101,prediction,22.0,2023-02-11T19:29:33.211Z,13.0,intuition,Test the pattern of response depending on the emoji you use,25,Female,White,417,Experiment 2 (test preview)
+102,prediction,21.0,2023-02-11T19:31:04.426Z,10.0,familiarity,try to look for a pattern in responses,28,Female,Asian,433,Experiment 2 (test preview)
+103,control,21.0,2023-02-11T19:28:57.997Z,13.0,recall,"Try to create patterns that you can easily remember. Alternate, or possibly only use the same emoji.",23,Male,White,712,Experiment 2 (test preview)
+104,prediction,21.0,2023-02-11T19:29:38.507Z,13.0,familiarity,Try to sense a pattern based on the responses you get from sending a particular emoji. Imagine the potential responses depending on what emoji has been sent already.,33,Male,Mixed,645,Experiment 2 (test preview)
+105,prediction,21.0,2023-02-11T19:33:16.981Z,10.0,familiarity,Use both emojis as much as you can and try your own patterns before it's over.,20,Female,White,521,Experiment 2 (test preview)
+106,prediction,21.0,2023-02-11T19:36:45.039Z,13.0,familiarity,pay attention to the responses for each emoji,22,Male,White,465,Experiment 2 (test preview)
+107,prediction,22.0,2023-02-11T19:39:27.334Z,10.0,rule,If you thumbs up it at some point will go to cool glasses. If you heart it will eventually end up O:.,25,Male,Mixed,778,Experiment 2 (test preview)
+108,control,21.0,2023-02-11T19:45:49.648Z,13.0,intuition,Don't try to find a pattern. ,27,Male,White,548,Experiment 2 (test preview)
+109,explanation,21.0,2023-02-11T19:47:07.162Z,13.0,familiarity,I would advise taking notes on the the patterns for every 2 responses. Then I would recommend studying it to see if there are trends.,31,Male,White,622,Experiment 2 (test preview)
+110,explanation,22.0,2023-02-11T20:32:38.827Z,10.0,rule,"If the bot responds with a surprised face, it means it hasn't seen that emoji in that block of chat yet. It cycles through emojis until it keeps repeating one when you keep pressing the same emoji to send.",20,Female,White,458,Experiment 2 (test preview)
+111,explanation,22.0,2023-02-11T20:38:36.814Z,10.0,intuition,"Pay attention to how the chatbot reacts to the different emojis, and how the next reaction is.",30,Male,White,529,Experiment 2 (test preview)
+112,explanation,22.0,2023-02-11T20:39:20.253Z,16.0,rule,see the chatbots pattern and memorize.,32,Male,Other,2416,Experiment 2 (test preview)
+113,control,22.0,2023-02-11T21:45:28.231Z,10.0,intuition,"Try to find any patterns in the responses, but otherwise go with your gut.",22,Female,White,375,Experiment 2 (test preview)
+114,control,22.0,2023-02-11T21:44:24.807Z,10.0,familiarity,Try to pay attention to when you click each emoji in a row. The answers change based on your last emoji.,26,Female,White,529,Experiment 2 (test preview)
+115,control,22.0,2023-02-11T21:37:59.566Z,16.0,recall,Try different combinations,30,Male,Asian,943,Experiment 2 (test preview)
+116,explanation,21.0,2023-02-11T22:31:04.441Z,,intuition,"I hope you have a better sense of patterns than I do, because I have no idea how to advice you on this task. Good luck. ",34,Female,White,573,Experiment 2 (test preview)
+117,explanation,21.0,2023-02-11T22:38:50.253Z,,rule,If the last two emoticons you sent are identical then choose your prior message. If the two emoticons are different then choose your most recent message.,31,Male,White,758,Experiment 2 (test preview)
+118,explanation,21.0,2023-02-11T22:54:30.158Z,10.0,familiarity,I would say choose the thumbs up emoticon whenever the open mouth would reply. As well i would say to just choose which answer feels the most familiar to u.,20,Male,Black,965,Experiment 2 (test preview)
+119,control,21.0,2023-02-11T23:32:56.855Z,16.0,rule,I would advise to use the blue heart to change the emoji and the thumbs up if they want to change it or keep it on the shocked face emoji. I would also tell them to pay attention to what the laughing crying face rule is because that one confused me. ,19,Female,White,613,Experiment 2 (test preview)
+120,control,21.0,2023-02-11T23:39:03.734Z,16.0,recall,I will advise them to remember the previous section (memory from the previous exercise) and go from there,28,Male,Black,765,Experiment 2 (test preview)
+121,prediction,22.0,2023-02-12T00:07:12.650Z,10.0,guess,I genuinely had no strategy. I was choosing randomly.,28,Female,White,535,Experiment 2 (test preview)
+122,explanation,21.0,2023-03-21T16:07:43.520Z,13.0,recall,"Sometimes you will need to guess the answer, but it's better to remember the patterns. ",35,Female,White,483,Experiment 2 (test preview)
+123,explanation,21.0,2023-03-21T16:17:55.152Z,13.0,rule,"Thumbs up to keep the surprised emoji, blue heart to change it to something else, otherwise mostly guessing.",18,Male,White,719,Experiment 2 (test preview)
+124,explanation,21.0,2023-03-21T16:20:47.591Z,13.0,familiarity,Blue hearts are more likely to be based on the first response compared to thumbs up,23,Male,Asian,596,Experiment 2 (test preview)
+125,explanation,21.0,2023-03-21T16:28:32.975Z,10.0,familiarity,find the pattern in response by clicking the same response,26,Male,Asian,841,Experiment 2 (test preview)
+126,explanation,21.0,2023-03-21T16:35:15.204Z,10.0,recall,It seems like a majority of the correct responses were the top emoji I had.,25,Male,Asian,519,Experiment 2 (test preview)
+127,explanation,21.0,2023-03-21T16:39:01.008Z,10.0,recall,I would test out different combinations and to also take note of the answers from the learning phase.,24,Female,Asian,409,Experiment 2 (test preview)
+128,explanation,21.0,2023-03-21T16:40:40.952Z,10.0,guess,I would tell them to guess. I don't understand any patterns to help excel in this task.,33,Female,White,513,Experiment 2 (test preview)
+129,explanation,21.0,2023-03-21T16:40:28.579Z,13.0,rule,Follow the pattern and as it was stated the earlier reaction can impact the latter ,28,Male,White,526,Experiment 2 (test preview)
+130,explanation,21.0,2023-03-21T16:32:54.857Z,16.0,familiarity,"To use his own way of deduction, and be gracious with the 45 test runs",18,Male,White,1043,Experiment 2 (test preview)
+131,explanation,21.0,2023-03-21T16:25:09.967Z,16.0,intuition,Read the instructions very well and and be fast and accurate,29,Male,Black,1702,Experiment 2 (test preview)
+132,explanation,21.0,2023-03-21T16:49:50.056Z,10.0,intuition,Take time when doing the practice and choosing your responses to try to learn how the chatbot thinks.,20,Female,Black,456,Experiment 2 (test preview)
+133,explanation,21.0,2023-03-21T16:51:35.435Z,10.0,intuition,go with your gut feelings,26,Male,Asian,659,Experiment 2 (test preview)
+134,explanation,21.0,2023-03-21T16:56:42.125Z,13.0,recall,The heart has much greater and long lasting impact than the thumbs up.,28,Female,White,426,Experiment 2 (test preview)
+135,explanation,21.0,2023-03-21T16:55:18.918Z,19.0,rule,Pay attention to the patterns of how the bot responds to each emoji. (I noticed that after the thumbs up it was always the same shock emoji. The response for the blue heart seemed to be dependent on a pattern/based on the response of a previous blue heart). ,28,Female,White,541,Experiment 2 (test preview)
+136,explanation,21.0,2023-03-21T16:55:25.162Z,10.0,familiarity,To simply tests different variations and find the pattern.,24,Male,White,627,Experiment 2 (test preview)
+137,explanation,21.0,2023-03-21T16:56:21.501Z,16.0,familiarity,Pay attention to the differences in options after each selection.,31,Male,Mixed,661,Experiment 2 (test preview)
+138,explanation,21.0,2023-03-21T16:58:07.898Z,10.0,familiarity,pay attention to how it reacts to the heart and what happens if you switch to thumbs up after a heart on each response,27,Male,Asian,600,Experiment 2 (test preview)
+139,explanation,21.0,2023-03-21T16:59:13.100Z,10.0,recall,Pay attention to how the chatbot responds in the training phase as it may help so you don't have to blindly guess.,37,Female,White,615,Experiment 2 (test preview)
+140,explanation,21.0,2023-03-21T17:01:22.244Z,13.0,intuition,I always looked at the thumbs up option because that one usually meant that you would get the emoji with their mouth open,22,Female,Asian,572,Experiment 2 (test preview)
+141,explanation,21.0,2023-03-21T17:02:35.217Z,13.0,recall,Pay attention in the training portion,27,Male,White,661,Experiment 2 (test preview)
+142,explanation,21.0,2023-03-21T17:03:28.378Z,10.0,recall,Make sure to find patterns in the area before the test task. And that it seems as though the second to last response has more of an impact on the results than the last response. ,36,Female,White,671,Experiment 2 (test preview)
+143,explanation,21.0,2023-03-21T17:12:57.257Z,13.0,intuition,To rely on your gut and to focus really hard on it. Try to stay calm.,18,Female,Asian,349,Experiment 2 (test preview)
+144,explanation,21.0,2023-03-21T17:09:51.686Z,13.0,familiarity,I would have them see the difference of emojis that the heart vs thumbs up gave way. If the emoji is the surprised one then it would have less influence compared to a happy/cool emoji.,34,Female,White,603,Experiment 2 (test preview)
+145,explanation,21.0,2023-03-21T17:12:40.210Z,13.0,recall,Pay attention to the learning phase,24,Male,White,498,Experiment 2 (test preview)
+146,explanation,21.0,2023-03-21T17:13:01.794Z,10.0,familiarity,"Given that I didn't find a pattern, I don't think I would be a good person to give advice. I would tell them though that they should try to find a pattern of how the bot reacts to each emoji based on the previous emoji it sent.",34,Male,White,556,Experiment 2 (test preview)
+147,explanation,21.0,2023-03-21T17:11:27.967Z,13.0,recall,To notice the responses after each emoji sent and to send the same emoji a few times to notice any patterns. ,26,Female,Black,677,Experiment 2 (test preview)
+148,explanation,21.0,2023-03-21T17:13:53.862Z,10.0,intuition,Rely on intuition. Then hope it's randomized! ,46,Female,White,531,Experiment 2 (test preview)
+149,explanation,21.0,2023-03-21T17:15:21.569Z,10.0,intuition,Pay attention and try to discern a pattern.,26,Female,White,468,Experiment 2 (test preview)
+150,explanation,21.0,2023-03-21T17:14:45.863Z,10.0,recall,"I would avoid too many repeat entries of the thumbs up character. Also, try to find a pattern. I was unable.",39,Male,White,631,Experiment 2 (test preview)
+151,explanation,21.0,2023-03-21T17:12:01.322Z,19.0,recall,Choose the message directly above the response in question. It seems to have been correct 100% of the time in the learning phase.,35,Male,White,756,Experiment 2 (test preview)
+152,explanation,21.0,2023-03-21T17:14:11.976Z,13.0,recall,"Emojis are coming in a pattern no matter what. so, try to connect with pattern",39,Male,Asian,725,Experiment 2 (test preview)
+153,explanation,21.0,2023-03-21T17:04:50.061Z,10.0,rule,Remember the order that you respond with emojis and patterns in the chatbots response. ,21,Male,Mixed,1284,Experiment 2 (test preview)
+154,explanation,21.0,2023-03-21T17:19:32.470Z,19.0,recall,Click all the hearts and see how the emoji change. Then spam the thumbs up and see how they stay the same each time.,28,Female,White,388,Experiment 2 (test preview)
+155,explanation,21.0,2023-03-21T17:14:37.941Z,13.0,rule,"I would tell them to find a pattern in the chat bots response, to  your emojis.",19,Male,White,889,Experiment 2 (test preview)
+156,explanation,21.0,2023-03-21T17:21:48.689Z,10.0,guess,i advise them to be patient,19,Female,Black,370,Experiment 2 (test preview)
+157,explanation,21.0,2023-03-21T17:18:52.933Z,13.0,familiarity,find the pattern that the blue heart is creating in relation to the thumbs up,42,Female,White,600,Experiment 2 (test preview)
+158,explanation,21.0,2023-03-21T17:21:38.086Z,13.0,rule,test the way the bot responds over a span of a few messages with the two different emojis. Try to find a pattern here. ,22,Female,White,476,Experiment 2 (test preview)
+159,explanation,21.0,2023-03-21T17:21:22.070Z,10.0,recall,"Memorize the patterns in the training stage, and try different combinations of emojis to prompt different possible questions.",24,Female,White,622,Experiment 2 (test preview)
+160,explanation,21.0,2023-03-21T17:25:40.156Z,10.0,intuition,Follow the patterns,19,Female,Asian,401,Experiment 2 (test preview)
+161,explanation,21.0,2023-03-21T17:22:05.233Z,10.0,recall,Study the responses from the learning task,32,Male,Black,2281,Experiment 2 (test preview)
+162,explanation,22.0,2023-03-21T19:20:02.538Z,10.0,guess,I would try to test a few patterns in the training session and memorize their outcomes.,27,Female,Asian,556,Experiment 2 (test preview)
+163,explanation,22.0,2023-03-21T19:29:22.021Z,13.0,recall,I would tell them to try and count the number of different emojis and look for patterns.,21,Female,White,423,Experiment 2 (test preview)
+164,explanation,22.0,2023-03-21T19:34:59.763Z,10.0,guess,To try to see if there is a patter because I couldn't find one.,24,Female,White,378,Experiment 2 (test preview)
+165,explanation,22.0,2023-03-21T19:35:16.766Z,13.0,recall,"Familiarity, memory and observation is required to ace this test.",33,Male,Asian,551,Experiment 2 (test preview)
+166,explanation,22.0,2023-03-21T19:37:29.030Z,13.0,rule,"I would suggest they do something different than I did. Be more methodical when going through the testing it out phase. Look at the combination of emoji's to spot a pattern,  not just the emoji and chatbot response.",45,Female,Mixed,666,Experiment 2 (test preview)
+167,explanation,22.0,2023-03-21T19:44:01.208Z,10.0,familiarity,It hard to know when the emoji response will change.,30,Male,White,383,Experiment 2 (test preview)
+168,explanation,22.0,2023-03-21T19:53:42.775Z,13.0,intuition,to rember the paterns from the ones that where correct and try and guess,25,Male,White,427,Experiment 2 (test preview)
+169,explanation,22.0,2023-03-21T19:50:07.612Z,13.0,recall,I would tell them to produce several different patterns of thumbs and hearts and based on the responses remember what responses the bot gives.,20,Female,Black,677,Experiment 2 (test preview)
+170,explanation,22.0,2023-03-21T19:53:20.732Z,10.0,intuition,follow the pattern,22,Male,Black,501,Experiment 2 (test preview)
+171,explanation,22.0,2023-03-21T19:52:54.264Z,16.0,recall,Focus on doing hearts first and pay attention to which emojis follow the most and then switch to thumbs up and see which emojis follow the most. Then try going back and forth and paying attention to 2 messages ahead to see which emojis come. ,36,Female,White,558,Experiment 2 (test preview)
+172,explanation,22.0,2023-03-21T19:49:07.813Z,10.0,rule,Think about how the chatbot responds to an emoji you sent previously. See if the emoji you send now follows a pattern set by the one previously.,18,Male,Other,851,Experiment 2 (test preview)
+173,explanation,22.0,2023-03-21T20:04:49.606Z,10.0,intuition,"Pay careful attention to the trend in emoji responses. When unsure, rely on your gut feeling.",28,Female,White,423,Experiment 2 (test preview)
+174,explanation,22.0,2023-03-21T20:07:15.672Z,10.0,familiarity,Try to remember the rules from the first task. Maybe even write them down. There were definite patterns but I forgot most of them by the time we got to the testing task,32,Female,White,710,Experiment 2 (test preview)
+175,explanation,22.0,2023-03-21T20:11:27.356Z,16.0,rule,Try to find a pattern. ,26,Male,Mixed,397,Experiment 2 (test preview)
+176,explanation,22.0,2023-03-21T20:11:20.143Z,13.0,intuition,I would advise them to examine the patterns the best they can and go with their gut.,34,Male,White,439,Experiment 2 (test preview)
+177,explanation,22.0,2023-03-21T20:11:35.132Z,13.0,recall,Remember the patterns from the learning phase.,31,Male,White,506,Experiment 2 (test preview)
+178,explanation,22.0,2023-03-21T20:05:15.462Z,,familiarity,"Spam one set of options first, then spam the other options. Notate what emojis you see more often, then spam a mix of the two and know that sometimes the chatbots latest response is not effected by your last response but the previous response.",30,Male,Mixed,894,Experiment 2 (test preview)
+179,explanation,22.0,2023-03-21T20:06:46.630Z,16.0,rule,"I would advise them to memorize the different combinations and how the chatbot reacts to these combinations. Usually 3 different combinations will produce different results and if you can figure out the pattern, then it will be easier to predict what the chatbot would respond.",31,Male,Asian,784,Experiment 2 (test preview)
+180,explanation,22.0,2023-03-21T20:14:18.438Z,10.0,familiarity,Just go with what feels right!,22,Female,White,387,Experiment 2 (test preview)
+181,explanation,22.0,2023-03-21T20:12:02.869Z,,familiarity,"I guess if there actually is a pattern to this thing: I would say, pay attention to the first and third responses the bot gives. If they're the same, then the first human response mattered more. But if the first and third responses are different, then the second human response had a greater impact and changed things.",20,Male,White,710,Experiment 2 (test preview)
+182,explanation,22.0,2023-03-21T20:14:58.611Z,16.0,rule,Note when an emoji is the same if you use the same response or if it follows a pattern of changing,32,Female,White,577,Experiment 2 (test preview)
+183,explanation,22.0,2023-03-21T20:17:32.530Z,13.0,intuition,try to see the changes in emojis from the chatbot then you then the chatbot. if cannot tell just pick blue heart,18,Male,Mixed,430,Experiment 2 (test preview)
+184,explanation,22.0,2023-03-21T20:19:07.409Z,,intuition,"I would tell them to go with their gut. Also, imagine that you are the one texting in the conversation. ",31,Male,White,577,Experiment 2 (test preview)
+185,explanation,22.0,2023-03-21T20:19:37.949Z,13.0,rule,"repetitions of the same input have less impact the second time, otherwise the heart has more impact.",30,Male,White,507,Experiment 2 (test preview)
+186,explanation,22.0,2023-03-21T20:21:23.432Z,10.0,intuition,To be more deliberate in the testing phase. ,27,Female,Mixed,417,Experiment 2 (test preview)
+187,explanation,22.0,2023-03-21T20:17:45.424Z,10.0,familiarity,Pay attention to what emojis cause different responses versus the same responses from the chatbot.,29,Female,White,659,Experiment 2 (test preview)
+188,explanation,22.0,2023-03-21T20:17:36.713Z,10.0,intuition,I would advise they look for patterns in the chatbot's response based on the question and answer given during the learning phase.,23,Female,White,665,Experiment 2 (test preview)
+189,explanation,22.0,2023-03-21T20:25:57.154Z,10.0,guess,Focus on the training part to find a pattern,27,Male,White,379,Experiment 2 (test preview)
+190,explanation,22.0,2023-03-21T20:21:59.442Z,13.0,familiarity,Pay attention to what sets of 2 responses seem to correlate with the chatbot's response,21,Male,White,609,Experiment 2 (test preview)
+191,explanation,22.0,2023-03-21T20:25:23.365Z,19.0,familiarity,Get familiar with the responses given for each emoji.   The most common responses make the most sense given the context.,38,Male,White,422,Experiment 2 (test preview)
+192,explanation,22.0,2023-03-21T20:28:59.820Z,10.0,recall,Put a few of the same emojiis in a row and remember the response patten.,18,Male,White,663,Experiment 2 (test preview)
+193,explanation,22.0,2023-03-21T20:27:18.148Z,10.0,intuition,Focus on the order of emoji responses to subsequent inputs that you put in. Try to remember the pattern that occurs when using only one emoji as an input.,33,Male,White,697,Experiment 2 (test preview)
+194,explanation,22.0,2023-03-21T20:22:23.891Z,13.0,recall,"Just get a feel for how it responds to your emoticon and if it keeps giving the same response, try to remember which emoticon you used that started it.",38,Male,White,1010,Experiment 2 (test preview)
+195,explanation,22.0,2023-03-21T20:33:12.194Z,,guess,Take your best guess as there does not really seem to be a pattern. ,38,Female,White,447,Experiment 2 (test preview)
+196,explanation,22.0,2023-03-21T20:34:42.175Z,13.0,familiarity,Find patterns,27,Female,White,454,Experiment 2 (test preview)
+197,explanation,22.0,2023-03-21T20:34:32.292Z,13.0,familiarity,Try to find patterns and do your best to recognize when emojis repeat themselves. ,34,Female,White,523,Experiment 2 (test preview)
+198,explanation,22.0,2023-03-21T20:35:21.189Z,16.0,rule,"In a lot of the situations, the previous emoji influences the chat robot's decision/response.",21,Female,White,533,Experiment 2 (test preview)
+199,explanation,22.0,2023-03-21T20:34:55.536Z,10.0,intuition,I have no advice.,35,Female,White,636,Experiment 2 (test preview)
+200,explanation,22.0,2023-03-21T20:25:07.932Z,10.0,intuition,"I would suggest trying to find a pattern in the chatbot responses. If they were not able to do that, use your intuition.",20,Female,White,1200,Experiment 2 (test preview)
+201,explanation,22.0,2023-03-21T20:33:55.208Z,10.0,intuition,I would say just go with your gut feeling because I couldn't figure out a pattern at all.,32,Female,Black,952,Experiment 2 (test preview)
+202,control,21.0,2023-03-21T21:10:32.794Z,13.0,familiarity,test all patterns,29,Female,Asian,408,Experiment 2 (test preview)
+203,control,21.0,2023-03-21T21:28:38.822Z,10.0,recall,It might be best to associate the faces with colors since the hear is blue and the thumb is yellow.,20,Male,White,448,Experiment 2 (test preview)
+204,control,21.0,2023-03-21T21:35:26.188Z,13.0,intuition,Good luck. It seems fairly random. ,45,Male,White,517,Experiment 2 (test preview)
+205,control,21.0,2023-03-21T21:32:58.284Z,,intuition,"To remember the patterns that are shown, but to not waste too much time thinking about patterns in the test phase because some of the options don't have any patterns",22,Female,White,698,Experiment 2 (test preview)
+206,control,21.0,2023-03-21T21:40:00.458Z,16.0,rule,look for a pattern/repetition ,24,Female,White,610,Experiment 2 (test preview)
+207,control,21.0,2023-03-21T21:41:15.387Z,10.0,familiarity,Remember the patterns,24,Female,White,523,Experiment 2 (test preview)
+208,control,21.0,2023-03-21T21:41:40.534Z,13.0,rule,Notice which emojis the bot responds with most often for both options in different contexts. Try pressing the same one several times as well.,22,Female,Mixed,554,Experiment 2 (test preview)
+209,control,21.0,2023-03-21T21:54:38.005Z,16.0,recall,find out which thumbs up gets a different reaction since the heart gets a different reaction every time but usually the thumb gets a repeat,30,Male,White,747,Experiment 2 (test preview)
+210,control,21.0,2023-03-21T21:58:24.490Z,10.0,recall,"Focus to try to recall messages from the first phase, in my opinion there is no benefit on looking for a pattern.",19,Male,White,605,Experiment 2 (test preview)
+211,control,21.0,2023-03-21T21:57:05.989Z,13.0,rule,pay attention to how the two emojis react to cause different patterns than each single emoji on their own.,29,Female,White,655,Experiment 2 (test preview)
+212,control,21.0,2023-03-21T22:01:29.185Z,13.0,familiarity,Try everything in the learning stage; any pattern that you can think of.,20,Female,Asian,694,Experiment 2 (test preview)
+213,control,21.0,2023-03-21T22:13:38.258Z,10.0,rule,"To pay attention to what emojis garner what response most often, and if you send the same emoji twice in a row or more, if it responds the same each time or strays",24,Female,White,558,Experiment 2 (test preview)
+214,control,21.0,2023-03-21T22:16:08.405Z,10.0,familiarity,Note what faces change depending on which emoji you choose,19,Male,Mixed,500,Experiment 2 (test preview)
+215,control,21.0,2023-03-21T22:12:37.314Z,13.0,recall,"Notice how loops work, and which emojis produce which sequences or loops when repeated. Try to find general patterns.",33,Male,White,740,Experiment 2 (test preview)
+216,control,21.0,2023-03-21T22:18:35.533Z,10.0,familiarity,I would advise them to pay close attention,20,Female,Mixed,479,Experiment 2 (test preview)
+217,control,21.0,2023-03-21T22:15:04.804Z,13.0,rule,"Heart=different response, thumb=same response, but the examples in the test don't follow the rules so you have to ignore some of ""your responses"" and just follow the rule to get the chatbot to answer correctly",40,Female,White,746,Experiment 2 (test preview)
+218,control,21.0,2023-03-21T22:15:50.214Z,16.0,intuition,I would explain to my friend that there may be a pattern associated with the emojis when you use a certain pattern of responses. I believe using your memory to remember the output emojis could perhaps be the best way to excel at the test task. Trying various combinations of emojis would be very helpful during the test.,32,Male,Other,713,Experiment 2 (test preview)
+219,control,21.0,2023-03-21T22:18:28.869Z,10.0,recall,write down the conversation in a piece of paper and look for patterns.,23,Male,Other,872,Experiment 2 (test preview)
+220,control,21.0,2023-03-21T22:24:54.692Z,19.0,rule,"If you want to change the chatbot's output, it will randomly choose an emoji if you input heart. If you want to keep the chatbot's output the same, in most instances, it will use the same emoji after you use a thumbs up. However, the chatbot will always go from winking to a shocked face, no matter your input in between.",33,Female,White,849,Experiment 2 (test preview)
+221,control,21.0,2023-03-21T22:29:17.310Z,13.0,familiarity,Rely on your memory and also the familiarity of the bot,30,Male,White,537,Experiment 2 (test preview)
+222,control,21.0,2023-03-21T22:32:25.855Z,19.0,recall,click each button the whole time between each question,24,Male,Black,584,Experiment 2 (test preview)
+223,control,21.0,2023-03-21T22:33:47.210Z,16.0,recall,"Try to make a diagram in your head of where each emoji leads based on your response, and look for fixed points and cycles.",20,Male,White,493,Experiment 2 (test preview)
+224,control,21.0,2023-03-21T22:54:00.694Z,13.0,familiarity,"I would say the best way to do it is write out a decision tree for each response and record the results, than consult with your findings.",36,Male,White,647,Experiment 2 (test preview)
+225,control,21.0,2023-03-21T22:34:37.364Z,19.0,rule,"Each pairing of a message from the chatbot (one of four emojis) and your response (one of two emojis) leads to a specific outcome, either the same emoji every time or an alternating pair of emojis. Try to recognize and remember the outcome for each message/response pair.",20,Female,White,1038,Experiment 2 (test preview)
+226,control,21.0,2023-03-21T22:41:39.066Z,10.0,recall,Use lots of different patterns in the practice round part of the study and pay attention to how the chatbot responds.,41,Male,White,657,Experiment 2 (test preview)
+227,control,21.0,2023-03-21T22:42:38.496Z,10.0,familiarity,Pay attention to the chatbot responses to the emojis,36,Male,White,630,Experiment 2 (test preview)
+228,control,21.0,2023-03-21T22:47:07.070Z,10.0,intuition,I have no advice,32,Female,White,349,Experiment 2 (test preview)
+229,control,21.0,2023-03-21T22:45:01.314Z,10.0,rule,Keep track of what the responses are for each emoji.,40,Female,White,511,Experiment 2 (test preview)
+230,control,21.0,2023-03-21T22:44:37.035Z,13.0,rule,To use the thumbs up to get the bot to produce the same response and the heart to change it.,40,Female,White,771,Experiment 2 (test preview)
+231,control,21.0,2023-03-21T22:48:45.695Z,10.0,familiarity,Pay better attention to the order of the emojis. ,20,Female,White,479,Experiment 2 (test preview)
+232,control,21.0,2023-03-21T22:46:44.935Z,13.0,familiarity,remember the sequence that aren't just the same response,26,Male,White,768,Experiment 2 (test preview)
+233,control,21.0,2023-03-21T22:51:55.802Z,13.0,recall,String together a few of each emoji consecutively to see the patterns. Then interchange them.,20,Male,White,638,Experiment 2 (test preview)
+234,control,21.0,2023-03-21T22:53:20.500Z,,familiarity,I hope you learn something that I didn't.   This was completely random to me and now my brain hurts trying to figure out some kind of pattern.  Or maybe i'm really dumb.  We'll see.  ,44,Male,White,570,Experiment 2 (test preview)
+235,control,21.0,2023-03-21T22:51:24.054Z,16.0,familiarity,if it is a shocked emoji then it is most likely a response to thumbs up. the blue heart gets responses that are totally random,42,Male,White,731,Experiment 2 (test preview)
+236,control,21.0,2023-03-21T22:54:42.436Z,19.0,recall,watching closely to remember the pattern,24,Female,White,671,Experiment 2 (test preview)
+237,control,21.0,2023-03-21T22:55:11.864Z,10.0,rule,See if you can learn a pattern of responses from the chatbot based on the emojis you choose. You can learn a pattern from trying each emoji a few times.,37,Female,White,662,Experiment 2 (test preview)
+238,control,21.0,2023-03-21T22:54:25.410Z,13.0,recall,"Try to find a pattern. And if you don't know an answer, go off of your gut.",27,Male,White,867,Experiment 2 (test preview)
+239,control,21.0,2023-03-21T22:55:07.672Z,13.0,recall,The best strategy is to just go with your gut instinct,34,Male,DATA_EXPIRED,1238,Experiment 2 (test preview)
+240,control,21.0,2023-03-21T23:03:59.303Z,10.0,intuition,go with your gut,33,Female,Black,591,Experiment 2 (test preview)
+241,control,21.0,2023-03-21T22:58:48.232Z,10.0,rule,Memorize the relationships between the emoji and memorize the rules. A thumbs up or a heart after one emoji should lead to another.,34,Male,Mixed,1060,Experiment 2 (test preview)
+242,control,21.0,2023-03-21T23:06:23.639Z,19.0,rule,"Remember the  patterns of the emoji, and one response comes up more than the other.",45,Female,White,898,Experiment 2 (test preview)
+243,control,21.0,2023-03-21T23:12:34.067Z,19.0,rule,I would advise them to pay attention to how the bot responds to the emojis,,Female,Black,1054,Experiment 2 (test preview)
+244,prediction,22.0,2023-03-22T19:12:35.391Z,10.0,intuition,Look for any patterns when first chatting with the bot in the test stage.,34,Female,White,562,Experiment 2 (test preview)
+245,prediction,22.0,2023-03-22T19:31:15.128Z,10.0,intuition,Pay attention to how it responds to you changing emojis and patterns in it's responses.,20,Female,White,444,Experiment 2 (test preview)
+246,prediction,22.0,2023-03-22T19:51:39.656Z,13.0,familiarity,I would advise them to pick up on patterns of different kinds of responses in the learning phase.,20,Female,White,497,Experiment 2 (test preview)
+247,prediction,22.0,2023-03-22T19:49:58.901Z,10.0,recall,I didn't figure out many patterns other than that sometimes when i did the thumbs up multiple times i got the glasses face emoji back and sometimes when i did the heart multiple times i get the surprised face emoji back.,26,Male,White,680,Experiment 2 (test preview)
+248,prediction,22.0,2023-03-22T19:55:00.826Z,10.0,intuition,to remember,20,Male,Black,641,Experiment 2 (test preview)
+249,prediction,22.0,2023-03-22T20:13:12.635Z,,intuition,Just guess,26,Male,White,396,Experiment 2 (test preview)
+250,prediction,22.0,2023-03-22T20:15:29.953Z,10.0,familiarity,I don't believe there's a trick to finding out which emoji the bot would send. I would tell them to guess and hope it's right.,21,Female,Mixed,599,Experiment 2 (test preview)
+251,prediction,22.0,2023-03-22T20:19:53.711Z,10.0,intuition,Try to remember the patterns from the first phase. ,21,Female,White,499,Experiment 2 (test preview)
+252,prediction,22.0,2023-03-22T20:21:01.051Z,10.0,familiarity,The only emoji that gets three in a row is the shocked face.,30,Male,White,609,Experiment 2 (test preview)
+253,prediction,22.0,2023-03-22T20:19:38.143Z,10.0,rule,"to test the pattern in the test phase, you cant get it all but you'll get a little of it at least",30,Female,Asian,826,Experiment 2 (test preview)
+254,prediction,22.0,2023-03-22T20:24:41.085Z,10.0,recall,Test different interactions quickly because I ran out of time thinking about the patterns.,22,Male,Asian,617,Experiment 2 (test preview)
+255,prediction,22.0,2023-03-22T20:31:02.933Z,10.0,intuition,"I would focus on the patterns of the emojis you send, and how the bot responds to it",25,Female,Asian,419,Experiment 2 (test preview)
+256,prediction,22.0,2023-03-22T20:29:18.342Z,13.0,recall,Hearts mostly resulted in shocked face. Thumbs up cycled mostly evenly through the 3 other choices.,24,Female,White,673,Experiment 2 (test preview)
+257,prediction,22.0,2023-03-22T20:35:55.004Z,10.0,recall,Try to repeat patterns in the learning phase as much as you can. Otherwise just try to go with your gut,27,Female,White,602,Experiment 2 (test preview)
+258,prediction,22.0,2023-03-22T20:37:35.792Z,13.0,intuition,The bot is surprised when you heart it,20,Male,White,361,Experiment 2 (test preview)
+259,prediction,22.0,2023-03-22T20:35:16.343Z,10.0,guess,"Try your best to find a pattern in the responses. If you're unable to, just give your best guess. ",29,Male,White,580,Experiment 2 (test preview)
+260,prediction,22.0,2023-03-22T20:37:10.437Z,13.0,recall,the chatbot has a tendency to repeat responses if your response is the same. Otherwise switch it up. ,47,Male,White,539,Experiment 2 (test preview)
+261,prediction,22.0,2023-03-22T20:38:26.417Z,10.0,intuition,go with your gut,43,Male,White,478,Experiment 2 (test preview)
+262,prediction,22.0,2023-03-22T20:41:16.984Z,16.0,intuition,To just trust his gut. ,27,Male,White,316,Experiment 2 (test preview)
+263,prediction,22.0,2023-03-22T20:38:14.797Z,13.0,familiarity,I would just say to try and remember the past conversations you had with the chatbot as well as using your intuition.,23,Female,Asian,555,Experiment 2 (test preview)
+264,prediction,22.0,2023-03-22T20:39:26.058Z,10.0,recall,"Ascertain which responses cause an emoji to repeat, then you know what to expect for 50% of the responses. Then the other half is about memory and pattern. ",25,Female,Mixed,534,Experiment 2 (test preview)
+265,prediction,22.0,2023-03-22T20:41:12.277Z,10.0,rule,"To look for a pattern, and if you can't find one quickly, to guess.",31,Male,White,449,Experiment 2 (test preview)
+266,prediction,22.0,2023-03-22T20:41:23.350Z,13.0,recall,"Test various patterns, and try to memorize them. Also, at the same time, try to figure out the rule. For the actual test, recall what was memorized. If not sure, try to apply the rule that was found.",39,Male,Asian,535,Experiment 2 (test preview)
+267,prediction,22.0,2023-03-22T20:32:46.992Z,10.0,familiarity,i would ask my friend to rely on familiarity from the learning phase and see how bot responds to repeative same messages.,33,Male,Asian,1195,Experiment 2 (test preview)
+268,prediction,22.0,2023-03-22T20:42:51.629Z,16.0,recall,"Sunglasses and surprised face often repeat, while laughing alternates with the other emojis.",38,Male,White,561,Experiment 2 (test preview)
+269,prediction,22.0,2023-03-22T20:41:08.934Z,10.0,rule,Try your best to find a pattern with just hearts.  Then try to find the thumbs up pattern.,30,Female,Asian,660,Experiment 2 (test preview)
+270,prediction,22.0,2023-03-22T20:41:17.045Z,10.0,recall,Study how the bot reacts to your inputs and test if your theory holds water.,23,Male,White,789,Experiment 2 (test preview)
+271,prediction,22.0,2023-03-22T20:44:04.479Z,10.0,guess,dont think about it because im pretty sure its random,26,Female,DATA_EXPIRED,506,Experiment 2 (test preview)
+272,prediction,22.0,2023-03-22T20:45:54.101Z,13.0,rule,"Look for patterns and if you can't find that, guess?",38,Female,Mixed,565,Experiment 2 (test preview)
+273,prediction,22.0,2023-03-22T20:45:28.009Z,10.0,intuition,use gut instinct,40,Male,Asian,542,Experiment 2 (test preview)
+274,prediction,22.0,2023-03-22T20:47:15.631Z,13.0,intuition,"I would advise relying on memory and intuition, and focusing on patterns. ",21,Female,White,483,Experiment 2 (test preview)
+275,prediction,22.0,2023-03-22T20:48:51.229Z,10.0,recall,"To pay close attention to the responses to each emoji sent. Sometimes sending the same one multiple times in a row changes the response, so pay attention!
+",37,Female,Mixed,485,Experiment 2 (test preview)
+276,prediction,22.0,2023-03-22T20:50:04.475Z,10.0,familiarity,Try to memorize the patterns,24,Female,White,548,Experiment 2 (test preview)
+277,prediction,22.0,2023-03-22T20:44:10.076Z,13.0,intuition,"I would tell them to just go with their gut, and don't stress it to much.",20,Male,White,1040,Experiment 2 (test preview)
+278,prediction,22.0,2023-03-22T20:54:40.087Z,10.0,intuition,try and remember the pattern ,32,Female,White,440,Experiment 2 (test preview)
+279,prediction,22.0,2023-03-22T20:56:49.162Z,13.0,rule,"I would advise them to understand the rate of which the Chatbot uses when responding to one of my emojis. For example, I noticed that the Chatbot wouldn't use the shock emote for one of the options, so I kept that observation in mind and applied it to the actual questions.",18,Male,Asian,538,Experiment 2 (test preview)
+280,prediction,22.0,2023-03-22T20:56:17.525Z,16.0,recall,"Take your time when learning the chatbot, so that you can rely on patterns and memorization. ",47,Male,White,699,Experiment 2 (test preview)
+281,prediction,22.0,2023-03-22T20:53:06.671Z,10.0,intuition,"I would advise to look for a pattern, or what emoji corresponds with what emoji. I would also use the test function extensively to familiarize themself with the chatbot's use of emojis in response to those you have to use.",27,Male,White,955,Experiment 2 (test preview)
+282,prediction,22.0,2023-03-22T20:56:10.907Z,10.0,rule,Try to record every selection and result you make in the 45 practice questions and then when you are taking the test look for pattern recognition in what you recorded (or the opposite thereof if no pattern is present for a question). When in doubt just guess.,42,Male,White,811,Experiment 2 (test preview)
+283,prediction,22.0,2023-03-22T20:57:07.846Z,10.0,familiarity,take note of the patterns you see & the how some patterns repeat themselves with certain emojis. ,36,Female,White,861,Experiment 2 (test preview)
+284,control,22.0,2023-03-22T21:58:42.583Z,10.0,recall,The heart emoji gets a mostly consistent response compared to the thumbs up,19,Female,White,538,Experiment 2 (test preview)
+285,control,22.0,2023-03-22T22:02:54.475Z,10.0,familiarity,"Try and see if you can recognize patterns within the system. There are only four responses from it, but there are so many combinations of interactions.",25,Female,White,766,Experiment 2 (test preview)
+286,control,22.0,2023-03-22T22:12:03.626Z,16.0,rule,"You will only get the surprised face emoji in response to a heart. As soon as you switch back to the thumb's up, you'll get one of the other three emojis in reply.",32,Female,White,689,Experiment 2 (test preview)
+287,control,22.0,2023-03-22T22:12:03.905Z,16.0,intuition,"Just go with your gut, it's fun ",26,Female,White,732,Experiment 2 (test preview)
+288,control,22.0,2023-03-22T22:29:17.801Z,13.0,intuition,To respond how you would in a real life conversation,27,Female,Other,433,Experiment 2 (test preview)
+289,control,22.0,2023-03-22T22:28:21.499Z,10.0,intuition,Pay attention to patterns in the first learning phase,27,Female,White,822,Experiment 2 (test preview)
+290,control,22.0,2023-03-22T22:29:54.217Z,13.0,recall,Try to create a flowchart in your mind of what responses will be generated from specific emojis.,25,Female,Asian,812,Experiment 2 (test preview)
+291,control,22.0,2023-03-22T22:38:42.438Z,13.0,familiarity,Look for patterns outside of just one above the other,25,Female,White,627,Experiment 2 (test preview)
+292,control,22.0,2023-03-22T22:36:42.918Z,10.0,intuition,Try to figure out if there is a pattern between the sequence of emojis that the computer uses.,46,Female,White,716,Experiment 2 (test preview)
+293,control,22.0,2023-03-22T22:39:25.384Z,10.0,rule,"The bot is more likely to respond with certain emojis when given a particular emoji, however it is not always guaranteed which emoji will be given out.",23,Male,Asian,669,Experiment 2 (test preview)
+294,control,22.0,2023-03-22T22:39:33.575Z,,guess,I have no idea how to excel at this task. It seemed very random and I did not notice a pattern.,29,Female,White,808,Experiment 2 (test preview)
+295,control,22.0,2023-03-22T22:45:15.009Z,13.0,recall,Keep track of the responses in both patterns of individual and two responses combined together to find all possible patterns and their respective output.,19,Male,Mixed,524,Experiment 2 (test preview)
+296,control,22.0,2023-03-22T22:45:05.616Z,10.0,rule,Try to follow your intuition.,37,Male,Asian,628,Experiment 2 (test preview)
+297,control,22.0,2023-03-22T22:50:50.050Z,13.0,recall,Remember the pattern,34,Female,White,330,Experiment 2 (test preview)
+298,control,22.0,2023-03-22T22:50:47.815Z,10.0,intuition,You have to figure out which response will cause the chatbot to give certain answers,27,Female,White,807,Experiment 2 (test preview)
+299,control,22.0,2023-03-22T22:55:31.754Z,10.0,familiarity,Try and remember from the learning phase.,19,Female,Asian,487,Experiment 2 (test preview)
+300,control,22.0,2023-03-22T23:00:04.538Z,10.0,guess,I think the emojis change every time you switch between heart and thumbs up but overall it seems very random,23,Female,White,444,Experiment 2 (test preview)
+301,control,22.0,2023-03-22T22:55:20.602Z,10.0,familiarity,To try out as many combinations with the emojis to find a pattern that the computer chat is doing,28,Female,Other,844,Experiment 2 (test preview)
+302,control,22.0,2023-03-22T23:03:11.054Z,13.0,familiarity,Pick up on patterns used after 2 or 3 responses to see what the chatbot does,31,Female,White,573,Experiment 2 (test preview)
+303,control,22.0,2023-03-22T23:04:09.266Z,10.0,familiarity,Attempt to uncover the pattern. If you can't look for specific emojis for the responses. ,20,Female,White,461,Experiment 2 (test preview)
+304,control,22.0,2023-03-22T23:04:49.570Z,10.0,intuition,"Try to notice a pattern. Most seem random, but I think a couple responses are predictable.",46,Female,White,501,Experiment 2 (test preview)
+305,control,22.0,2023-03-22T23:04:41.648Z,13.0,intuition,Try to pay attention to which emojis go together,27,Female,White,561,Experiment 2 (test preview)
+306,control,22.0,2023-03-22T23:06:44.380Z,10.0,recall,Write stuff down.,39,Male,White,650,Experiment 2 (test preview)
+307,control,22.0,2023-03-22T23:09:16.025Z,13.0,intuition,"Keep note of the patterns, or sets, of the emojis and how many appear in a sequence. ",35,Male,Other,547,Experiment 2 (test preview)
+308,control,22.0,2023-03-22T23:13:01.598Z,10.0,familiarity,"I would tell my friend that if you added a heart, it would show a guy with glasses or a mouth open. and a thumbs up would show a tongue out and x eyes emoji ",22,Male,White,560,Experiment 2 (test preview)
+309,control,22.0,2023-03-22T23:20:33.839Z,10.0,recall,To pay close attention to the AI's patterns. ,26,Female,White,1038,Experiment 2 (test preview)
+310,control,22.0,2023-03-22T23:21:37.310Z,13.0,intuition,To trust their gut and use intuition to answer. ,21,Male,Asian,617,Experiment 2 (test preview)
+311,control,22.0,2023-03-22T23:23:27.708Z,16.0,familiarity,spam one emote with every face and see the outcomes and trey to remember that ,26,Male,Mixed,751,Experiment 2 (test preview)
+312,control,22.0,2023-03-22T23:23:04.081Z,10.0,familiarity,I would advise that they take into consideration the fact that combinations of responses can affect the chat bot's responses.,27,Male,Mixed,717,Experiment 2 (test preview)
+313,control,22.0,2023-03-22T23:29:40.494Z,13.0,familiarity,"The hearts usually indicate a surprised or tongue out emoji, the thumbs up is usually anything else.",19,Male,White,410,Experiment 2 (test preview)
+314,control,22.0,2023-03-22T23:29:21.968Z,,rule,Look at the previous emojis to see what emoji invoked a specific response from it. There is a pattern.,29,Male,Black,575,Experiment 2 (test preview)
+315,control,22.0,2023-03-22T23:32:57.981Z,13.0,recall,To pay attention to the reactions of the emojis per selection,28,Male,Mixed,384,Experiment 2 (test preview)
+316,control,22.0,2023-03-22T23:33:15.684Z,13.0,recall,You should look for what the buttons do as operators instead of emojis. ,22,Male,White,452,Experiment 2 (test preview)
+317,control,22.0,2023-03-22T23:35:36.237Z,10.0,intuition,"Really try to test different patterns and switching between the emojis! I did a lot of testing using the same emoji in a row but didn't get the switching rules
+",29,Male,White,536,Experiment 2 (test preview)
+318,control,22.0,2023-03-22T23:35:16.342Z,10.0,familiarity,To pay attention to the reactions from the start and notice the difference emojis when selecting only one option at a time and not alternating his emoji's .,32,Male,White,547,Experiment 2 (test preview)
+319,control,22.0,2023-03-22T23:43:43.778Z,10.0,recall,"Try to learn a pattern and follow it, because there seemed to be one.",23,Male,Asian,421,Experiment 2 (test preview)
+320,control,22.0,2023-03-22T23:43:38.501Z,13.0,recall,I would advise him to see a pattern. The key is to see the message we are replying to and the message we're sending and then observing the reply. I found it consistent along the pattern x + y = z which I realised way too late. I could identify the correct pattern if given a second chance,25,Male,Asian,635,Experiment 2 (test preview)
+321,control,22.0,2023-03-22T23:27:53.858Z,10.0,intuition,You don't have enough time to figure out the algorithm. Just guess and go. ,28,Male,Mixed,2332,Experiment 2 (test preview)
+322,control,22.0,2023-03-23T14:24:44.918Z,10.0,intuition,I would tell him to try to focus on the alternating patterns.,21,Male,White,511,Experiment 2 (test preview)
+323,control,22.0,2023-03-23T14:22:11.684Z,13.0,recall,"To try to study patterns in the AI's emojis, and what different scenarios of either heart or thumbs up can make the AI say. ",23,Male,Asian,885,Experiment 2 (test preview)
+324,prediction,21.0,2023-03-23T15:46:14.107Z,10.0,familiarity,test the way the emoji changes the reaction to the bot.,31,Male,Mixed,508,Experiment 2 (test preview)
+325,prediction,21.0,2023-03-23T15:52:44.479Z,10.0,recall,Try to do different combinations of the two emojis and see how it reacts differently,21,Female,Mixed,493,Experiment 2 (test preview)
+326,prediction,21.0,2023-03-23T15:59:27.310Z,10.0,familiarity,That during the practice phase to experiment with different paterns.,25,Male,White,476,Experiment 2 (test preview)
+327,prediction,21.0,2023-03-23T15:58:46.120Z,13.0,rule,"Keep track of the emojis appearing before in a pattern, when thinking through how each button interacts with the sequence.",27,Male,White,756,Experiment 2 (test preview)
+328,prediction,21.0,2023-03-23T16:06:30.429Z,10.0,intuition,I would tell my friend that after a certain emoji sequences answers are basically set in a pattern,30,Male,Asian,371,Experiment 2 (test preview)
+329,prediction,21.0,2023-03-23T16:04:41.029Z,10.0,familiarity,Look at what follows every time the chatbot sends an emoji. see if you can establish a pattern with the mood of the emoji and the sequence.,30,Female,Black,519,Experiment 2 (test preview)
+330,prediction,21.0,2023-03-23T16:07:03.434Z,10.0,rule,"Find the loops, thus the rules, and then gather the triggers that break the loops thus creating other rules. (Admittedly, I could not recall some of the things I learned, sorry.)",40,Female,White,613,Experiment 2 (test preview)
+331,prediction,21.0,2023-03-23T16:09:51.505Z,10.0,intuition,Pay close attention,21,Male,Mixed,494,Experiment 2 (test preview)
+332,prediction,21.0,2023-03-23T16:19:03.742Z,16.0,recall,I would advise my friend to pay close attention to the patterns of the emojis and what the two emojis you can use do to these patterns.,27,Male,Other,490,Experiment 2 (test preview)
+333,prediction,22.0,2023-03-22T20:10:41.809Z,10.0,intuition,Note the patterns and trust your gut. Do not second guess.,29,Male,Asian,504,Experiment 2 (test preview)
+334,prediction,21.0,2023-03-23T16:28:16.659Z,10.0,familiarity,use your intuition on what occurred more frequently in the intro,43,Female,White,560,Experiment 2 (test preview)
+335,prediction,21.0,2023-03-23T16:35:19.697Z,13.0,rule,"Try to remember as many of the previous interactions you had in the previous phase as possible and look for patterns
+",28,Female,White,524,Experiment 2 (test preview)
+336,prediction,21.0,2023-03-23T16:36:47.244Z,13.0,rule,Use repetition in the testing phase to establish the pattern per response.,28,Female,White,603,Experiment 2 (test preview)
+337,prediction,21.0,2023-03-23T16:37:53.538Z,13.0,rule,"To look for patterns in the chatbot's responses, and if they still don't know an answer, to just follow their intuition ",25,Female,White,715,Experiment 2 (test preview)
+338,prediction,21.0,2023-03-23T16:43:57.262Z,10.0,familiarity,figure out the heart's pattern because the thumbs-up pattern was easier to identify,31,Female,White,389,Experiment 2 (test preview)
+339,prediction,21.0,2023-03-23T16:41:51.555Z,10.0,familiarity,"Pay attention to the patterns in the first section, some things are repeated or only used once.",30,Male,White,530,Experiment 2 (test preview)
+340,prediction,21.0,2023-03-23T16:42:34.630Z,10.0,recall,"The ""thumbs up"" emoji usually makes the chatbot repeat its previous emoji. The ""blue heart"" emoji seems more complicated but often switches between the ""surprised"" emoji and the ""wink/tounge out"" emoji.",21,Female,White,731,Experiment 2 (test preview)
+341,prediction,21.0,2023-03-23T16:45:43.326Z,10.0,familiarity,I would suggest trying to look for a pattern. Try to see if certain emojis only follow specific ones.,38,Female,Black,611,Experiment 2 (test preview)
+342,prediction,21.0,2023-03-23T16:49:30.938Z,13.0,familiarity,try all different algorithms,24,Male,White,415,Experiment 2 (test preview)
+343,prediction,21.0,2023-03-23T16:50:08.183Z,13.0,recall,Probe the chatbot thoroughly with a strategy while you have a chance before the main quiz.,36,Male,Asian,669,Experiment 2 (test preview)
+344,prediction,21.0,2023-03-23T16:54:41.066Z,16.0,rule,to pay attention to what order the responses are for the hearts. The thumbs up always seems to be the same response,24,Female,Asian,405,Experiment 2 (test preview)
+345,prediction,21.0,2023-03-23T16:53:16.973Z,10.0,familiarity,"I have no idea, haha. Try to recognize patterns such as keeping tack of most used emojis responding to the emoji that you press and what emojis occur in a pattern depending on what series of emojis you press.",22,Female,Asian,555,Experiment 2 (test preview)
+346,prediction,21.0,2023-03-23T16:54:45.307Z,13.0,intuition,"I would tell him to go with his gut, but to also try and rely on the patterns that was initially set up in the first part of the experiment.",21,Male,White,626,Experiment 2 (test preview)
+347,prediction,21.0,2023-03-23T16:55:26.433Z,10.0,familiarity,Try to learn a pattern by trying different emoji in varying orders and patterns to learn what the responses are likely to be. ,41,Male,White,671,Experiment 2 (test preview)
+348,prediction,21.0,2023-03-23T16:56:44.357Z,13.0,rule,There seems to be a pattern. Thumbs up seems to mean repeat emoji. Heart seems to be different emoji. Not 100% but very close.,45,Male,Asian,578,Experiment 2 (test preview)
+349,prediction,21.0,2023-03-23T16:59:47.501Z,10.0,intuition,Good luck,33,Male,White,432,Experiment 2 (test preview)
+350,prediction,21.0,2023-03-23T16:57:52.873Z,13.0,rule,"I would tell them to focus on exploring different ""paths"" the chatbot takes based on the responses and then keep repeating them to try and verify if they are actually a pattern.",42,Male,White,595,Experiment 2 (test preview)
+351,prediction,21.0,2023-03-23T17:02:08.717Z,10.0,rule,I would find a pattern as quickly as possible and use the remaining time to practice it,32,Male,White,390,Experiment 2 (test preview)
+352,prediction,21.0,2023-03-23T17:01:15.850Z,10.0,rule,Try to find a pattern in the learning phase.,44,Male,White,506,Experiment 2 (test preview)
+353,prediction,21.0,2023-03-23T17:05:53.864Z,10.0,recall,I would advise findings patterns and memorizing them.,19,Female,White,380,Experiment 2 (test preview)
+354,prediction,21.0,2023-03-23T17:01:26.248Z,10.0,intuition,"Try to look for a pattern, but if you do not see one, use your intuition.",47,Female,White,878,Experiment 2 (test preview)
+355,prediction,21.0,2023-03-23T16:50:16.736Z,10.0,familiarity,find the pattern between liking and hearting. try them each several times to learn the pattern if it exists,32,Male,Other,1486,Experiment 2 (test preview)
+356,prediction,21.0,2023-03-23T17:10:01.054Z,19.0,rule,"Notice the patterns that the ChatBox uses. If given consecutive ""thumbs ups"" the ChatBox will either reply with a shocked emoji or a cool face emoji. Depending on the first emoji, there is a pattern for the emojis or it just sends the same one.",24,Female,Asian,405,Experiment 2 (test preview)
+357,prediction,21.0,2023-03-23T17:07:39.214Z,13.0,rule,"the thumbs up is usually replied to with the same emoji, while the heart is responded to with staggering emojis",33,Male,White,589,Experiment 2 (test preview)
+358,prediction,21.0,2023-03-23T17:09:42.989Z,16.0,recall,it repeats every 5th time.,41,Female,Asian,445,Experiment 2 (test preview)
+359,prediction,21.0,2023-03-23T17:11:50.267Z,13.0,recall,"In the first phase, pay close attention to the patterns. Try not to do the same pattern too many times in a row.",30,Female,White,529,Experiment 2 (test preview)
+360,prediction,21.0,2023-03-23T17:13:45.859Z,10.0,familiarity,Memory!,26,Female,White,451,Experiment 2 (test preview)
+361,prediction,21.0,2023-03-23T17:13:38.868Z,,familiarity,remember the pattern,34,Female,Asian,546,Experiment 2 (test preview)
+362,prediction,21.0,2023-03-23T17:14:42.697Z,10.0,other,Watch the pattern of the previous answers,47,Female,Black,577,Experiment 2 (test preview)
+363,prediction,21.0,2023-03-23T17:16:01.986Z,10.0,rule,"The thumb will cycle to the same two emojis, but try to learn that the emojis have when using the blue heart.",18,Male,White,1195,Experiment 2 (test preview)

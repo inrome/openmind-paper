@@ -35,5 +35,13 @@ ss_demogr.rename(columns={'Age': 'subject_age', 'Sex': 'subject_sex', 'Ethnicity
 # Merge
 ss = pd.merge(grouped, ss_demogr, on='participant_id', how='left')
 
+# Add learning_condition from ts_raw
+learning_conditions = ts_raw.groupby('participant_id', as_index=False).agg({'learning_condition': first_non_null})
+ss = pd.merge(ss, learning_conditions, on='participant_id', how='left')
+
+
+# remove strings from subject_age
+ss['subject_age'] = ss['subject_age'].str.replace(r'\D', '')
+
 # Save
 ss.to_csv(os.path.join(current_dir, "..", "data/participants.csv"), index=False)
