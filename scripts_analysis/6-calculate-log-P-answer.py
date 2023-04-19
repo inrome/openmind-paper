@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import math
 import os 
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # %%
 def compute_log_p_answer(task, response,
@@ -105,12 +107,23 @@ with open(data_imported_path, 'rb') as f:
 imported_participants = imported_data[0]
 # %%
 
-beta_range = np.arange(0, 1.1, 0.01)  # set range of beta values
+beta_range = np.arange(0, 1.1, 0.005)  # set range of beta values
 #participant_id = 69  # set participant id
+big_sum_log_p_answers = {}
+for task in ['explanation', 'prediction', 'control']:
+    big_sum_log_p_answers[task] = {}
+    for fsm_type in ['easy', 'hard']:
+        big_sum_log_p_answers[task][fsm_type] = {}
+        for condition in ['visible', 'hidden', 'hidden_an', 'hidden_normative_subset', 'hidden_an_subset']:
+            big_sum_log_p_answers[task][fsm_type][condition] = {}
+            for beta in beta_range:
+                big_sum_log_p_answers[task][fsm_type][condition][beta]=0
+
 for participant_id in sample.keys():
     trials_vis = sample[participant_id]['trials_vis']
     trials_hid = sample[participant_id]['trials_hid']
     task = sample[participant_id]['task']
+    fsm_type = sample[participant_id]['trials_vis']['fsm_type'].iloc[0]
 
     # compute log p answer for each beta value
     all_betas = {}
@@ -123,6 +136,7 @@ for participant_id in sample.keys():
         sum_log_p_answers[beta] = {}
         for condition in all_betas[beta].keys():
             sum_log_p_answers[beta][condition] = sum(all_betas[beta][condition])
+            big_sum_log_p_answers[task][fsm_type][condition][beta] += sum(all_betas[beta][condition])
 
     # create dataframe with sum_log_p_answers for each beta value
     df = pd.DataFrame.from_dict(sum_log_p_answers, orient='index')
@@ -160,7 +174,76 @@ for participant_id in sample.keys():
     sample[participant_id]['count_nan'] = count_nan
     sample[participant_id]['hidden_subset_count'] = len(all_betas[0.0]['hidden_an_subset'])
 #%%
+
+# subset prediction easy visible trials from big_sum_log_p_answers
+big_sum_log_p_answers_subset = big_sum_log_p_answers['prediction']['easy']['visible']
+
+# find max beta for each task, fsm_type and condition
+max_beta = {}
+max_beta_df = pd.DataFrame()
+
+for task in ['explanation', 'prediction', 'control']:
+    max_beta[task] = {}
+    for fsm_type in ['easy', 'hard']:
+        max_beta[task][fsm_type] = {}
+        for condition in ['visible', 'hidden', 'hidden_an', 'hidden_normative_subset', 'hidden_an_subset']:
+            max_beta[task][fsm_type][condition] = {}
+            tmp_betas = pd.DataFrame.from_dict(big_sum_log_p_answers[task][fsm_type][condition], orient='index')
+            max_beta[task][fsm_type][condition] = tmp_betas.idxmax(axis=0)
+            max_log_p = tmp_betas.max(axis=0)
+            this_max_beta = max_beta[task][fsm_type][condition].iloc[0]
+
+            # select values with indext 0.1 or lower form tmp_betas
+            tmp_bet_low = tmp_betas.loc[tmp_betas.index < this_max_beta].iloc[:,0]
+            tmp_bet_high = tmp_betas.loc[tmp_betas.index > this_max_beta].iloc[:,0]
+            
+            # find index of value that is lower that max_log_p by 0.5
+            tmp_bet_low = tmp_bet_low.loc[tmp_bet_low < max_log_p.iloc[0] - 0.5].idxmax(axis=0) if \
+                tmp_bet_low.loc[tmp_bet_low < max_log_p.iloc[0] - 0.5].shape[0] > 0 else 0
+            tmp_bet_high = tmp_bet_high.loc[tmp_bet_high < max_log_p.iloc[0] - 0.5].idxmax(axis=0) if \
+                tmp_bet_high.loc[tmp_bet_high < max_log_p.iloc[0] - 0.5].shape[0] > 0 else 0
+
+            # create temporary dataframe to store values for this task, fsm_type and condition
+            tmp_df = pd.DataFrame()
+            tmp_df['beta_max'] = max_beta[task][fsm_type][condition]
+            tmp_df['beta_lower'] = tmp_bet_low
+            tmp_df['beta_higher'] = tmp_bet_high
+            tmp_df['task'] = task
+            tmp_df['fsm_type'] = fsm_type
+            tmp_df['condition'] = condition
+
+            max_beta_df = pd.concat([max_beta_df, tmp_df], axis=0)
+
+
+df = max_beta_df.loc[(max_beta_df['condition'].isin(['visible', 'hidden', 'hidden_an']))]
+
+
+# calculate error size error_low and error_high
+df['error_low'] = df['beta_max'] - df['beta_lower']
+df['error_high'] = df['beta_higher'] - df['beta_max']
+
+def plot_error_bars(x, y, yerr, **kwargs):
+    ax = plt.gca()
+    data = kwargs.pop("data")
+    yerr_values = data[yerr].values.T
+    ax.errorbar(data[x], data[y], yerr=yerr_values, fmt='o', capsize=2, elinewidth=2, **kwargs)
+# Create a FacetGrid with condition as columns and fsm_type as hue
+
+g = sns.FacetGrid(df, col='condition', hue='fsm_type', height=4, aspect=1, legend_out=True)
+# Map the plot_error_bars function to the data
+
+g.map_dataframe(plot_error_bars, x='task', y='beta_max', yerr=['error_low', 'error_high'])
+# Customize the plot
+
+g.set_axis_labels('Task', 'Beta')
+g.set_titles('{col_name}')
+g.add_legend(title='FSM Type')
+
+
 # save sample to pickle file
 save_path = os.path.join(current_dir, '../outputs/trials_with_max_beta.pickle')
 with open(save_path, 'wb') as f:
     pickle.dump(sample, f)
+
+
+# %%
