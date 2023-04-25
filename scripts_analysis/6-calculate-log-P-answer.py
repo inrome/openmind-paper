@@ -198,9 +198,9 @@ for task in ['explanation', 'prediction', 'control']:
             tmp_bet_high = tmp_betas.loc[tmp_betas.index > this_max_beta].iloc[:,0]
             
             # find index of value that is lower that max_log_p by 2
-            tmp_bet_low = tmp_bet_low.loc[tmp_bet_low < max_log_p.iloc[0] - 1].idxmax(axis=0) if \
+            tmp_bet_low = tmp_bet_low.loc[tmp_bet_low < max_log_p.iloc[0] - 2].idxmax(axis=0) if \
                 tmp_bet_low.loc[tmp_bet_low < max_log_p.iloc[0] - 2].shape[0] > 0 else 0
-            tmp_bet_high = tmp_bet_high.loc[tmp_bet_high < max_log_p.iloc[0] - 1].idxmax(axis=0) if \
+            tmp_bet_high = tmp_bet_high.loc[tmp_bet_high < max_log_p.iloc[0] - 2].idxmax(axis=0) if \
                 tmp_bet_high.loc[tmp_bet_high < max_log_p.iloc[0] - 2].shape[0] > 0 else 0
 
             # create temporary dataframe to store values for this task, fsm_type and condition
@@ -218,7 +218,7 @@ for task in ['explanation', 'prediction', 'control']:
 df = max_beta_df.loc[(max_beta_df['condition'].isin(['visible', 'hidden', 'hidden_an']))]
 
 # export df to csv
-df.to_csv(os.path.join(current_dir, '../outputs/beta_with_plus_minus_1LL_errors.csv'))
+df.to_csv(os.path.join(current_dir, '../outputs/beta_with_plus_minus_2LL_errors.csv'))
 
 # calculate error size error_low and error_high
 df['error_low'] = df['beta_max'] - df['beta_lower']
