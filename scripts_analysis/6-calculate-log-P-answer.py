@@ -197,7 +197,7 @@ for task in ['explanation', 'prediction', 'control']:
             tmp_bet_low = tmp_betas.loc[tmp_betas.index < this_max_beta].iloc[:,0]
             tmp_bet_high = tmp_betas.loc[tmp_betas.index > this_max_beta].iloc[:,0]
             
-            # find index of value that is lower that max_log_p by 2
+            # find index of value that is lower that max_log_p by 1
             tmp_bet_low = tmp_bet_low.loc[tmp_bet_low < max_log_p.iloc[0] - 2].idxmax(axis=0) if \
                 tmp_bet_low.loc[tmp_bet_low < max_log_p.iloc[0] - 2].shape[0] > 0 else 0
             tmp_bet_high = tmp_bet_high.loc[tmp_bet_high < max_log_p.iloc[0] - 2].idxmax(axis=0) if \
