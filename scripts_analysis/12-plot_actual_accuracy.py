@@ -22,7 +22,7 @@ aggregated_accuracy = trials_PEC.groupby(['participant_id', 'learning_condition'
 # rename easy to Easy and hard to Hard
 aggregated_accuracy['fsm_type'] = aggregated_accuracy['fsm_type'].replace({'easy': 'Easy', 'hard': 'Hard'})
 
-# remame test_condition 
+# rename test_condition 
 aggregated_accuracy['test_condition'] = aggregated_accuracy['test_condition'].replace({'prediction': 'Prediction', 'control': 'Control', 'explanation': 'Explanation'})
 # same for trial_type
 aggregated_accuracy['trial_type'] = aggregated_accuracy['trial_type'].replace({'visible': 'Visible', 'hidden': 'Hidden'})
@@ -37,8 +37,8 @@ aggregated_accuracy['fsm_type'] = pd.Categorical(aggregated_accuracy['fsm_type']
 sns.set(style="whitegrid", font_scale=1.2)
 
 # Plot mean and standard deviation for each trial type
-g = sns.catplot(x="trial_type", y="response_correct", hue="learning_condition", col="fsm_type", row="test_condition", data=aggregated_accuracy, \
-                kind="point", dodge=True, join=True, errorbar = ("ci", 95), palette="muted", height=3.5, aspect=1.5, legend=False)
+g = sns.catplot(x="trial_type", y="response_correct", hue="test_condition", col="fsm_type", data=aggregated_accuracy, \
+                kind="point", dodge=0.25, join=True, errorbar = ("ci", 95), palette="colorblind", height=3.5, aspect=1, legend=True)
 
 # make line thiner
 for ax in g.axes.flat:
@@ -49,10 +49,14 @@ for ax in g.axes.flat:
 for ax in g.axes.flat:
     ax.axhline(0.5, ls='--', color='gray')
 
-# position legend at the top and make it in one row
-g.add_legend(title="", loc='upper center', 
-             bbox_to_anchor=(0.37, 1.05), ncol=2)
+g._legend.set_title('Test condition')
 
-# Label the facets 
+# add column titles
+g.set_titles("{col_name}")
+
+# add y-axis label
 g.set_axis_labels("", "Accuracy")
-g.set_titles("{row_name} {col_name}")
+
+# y axis limits 0.4 to 1
+g.set(ylim=(0.41, 1))
+
