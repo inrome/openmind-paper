@@ -39,6 +39,8 @@ ss = pd.merge(grouped, ss_demogr, on='participant_id', how='left')
 learning_conditions = ts_raw.groupby('participant_id', as_index=False).agg({'learning_condition': first_non_null})
 ss = pd.merge(ss, learning_conditions, on='participant_id', how='left')
 
+# Add fsm_type based on fsm_number (21 = "easy", 22 = "hard")
+ss['fsm_type'] = ss['fsm_number'].apply(lambda x: "easy" if x == 21 else "hard")
 
 # remove strings from subject_age
 ss['subject_age'] = ss['subject_age'].str.replace(r'\D', '')
