@@ -5,6 +5,7 @@ import statsmodels.formula.api as smf
 from statsmodels.stats.anova import anova_lm
 import seaborn as sns
 import matplotlib.pyplot as plt
+from scipy.stats import chi2
 
 # Load data
 trials_PEC_path = '../outputs/all_trials_with_Ri.csv'
@@ -58,7 +59,7 @@ for key, value in glms.items():
 glms_df = glms_df.round({'coef': 2, '0.025': 2, '0.975': 2, 'SE': 2, 'z': 2, 'LL': 2})
 glms_df['p'] = glms_df['p'].round(3)
     
-    
+
 # Same glm but only hidden case with Alternative Neglect ####
 df_hidden = df[df['trial_type'] == 'hidden']
 
@@ -122,3 +123,36 @@ glms_df_long = pd.concat([glms_df, glms_an_df], ignore_index=True)
 
 # export glms_df_long to csv
 glms_df_long.to_csv('../outputs/glms_Ri_accuracy_long.csv', index=False)
+
+
+# Function to perform likelihood-ratio test
+def compare_models(fsm_type,test_condition, AN=True):
+    """
+    likelihood-ratio test between AN and Normative models
+    """
+    
+    model = glms_df_long[(glms_df_long['fsm_type'] == fsm_type) &
+                          (glms_df_long['test_condition'] == test_condition) &
+                          (glms_df_long['trial_type'] == "Hidden\nNormative")]
+    
+    # Perform likelihood-ratio test
+    LL_normative = model['LL'].values[0]
+    LL_AN = model['LL_an'].values[0]
+    
+    LR = (2 * (LL_AN - LL_normative)) if AN else (2 * (LL_normative - LL_AN))
+    p = chi2.sf(LR, 1) # 1 degree of freedom
+    # add chi-statistic
+
+    p = round(p, 3) if p > 0.001 else "< 0.001"
+    LR = round(LR, 1) # 
+    return LR, p
+
+# Example usage
+LR, p = compare_models('easy', 'explanation')
+print('Likelihood Ratio:', LR)
+print('p-value:', p)
+
+for fsm_type in ["easy", "hard"]:
+    for test_condition in ["prediction", "control", "explanation"]:
+        LR, p = compare_models(fsm_type, test_condition, False)
+        print(fsm_type, test_condition, 'Likelihood Ratio=', LR, "p", p)
