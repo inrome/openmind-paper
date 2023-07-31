@@ -32,8 +32,8 @@ for file in files_openlab:
     # add column with filename
     trials_merged['filename'] = file
 
-## fix missing code: subsitute v3p22 with 63e534e8ae837950bc60d88b
-trials_merged['code'] = trials_merged['code'].replace('v3p22', '63e534e8ae837950bc60d88b')
+## fix missing codes here
+## trials_merged['code'] = trials_merged['code'].replace('wrong_code_goes_here', 'correct_code_goes_here')
 
 # remove REJECTED participants
 prolific_merged = prolific_merged[prolific_merged['Status'] != 'REJECTED']
