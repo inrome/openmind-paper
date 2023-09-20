@@ -17,9 +17,6 @@ betas_long = betas_long.replace({'easy': 'Easy FSM', 'hard': 'Hard FSM'})
 # filter out nan
 betas_long = betas_long[~np.isnan(betas_long['max_beta'])]
 
-# remome beta below 0
-betas_long = betas_long[betas_long['max_beta'] > 0]
-
 # Styling
 sns.set_style("white")
 sns.set_context("paper", font_scale=1.8)
@@ -65,8 +62,8 @@ for i, trial_type in enumerate(['visible', 'hidden_an']):
         ax.set_xlabel(f"{task_x.capitalize()}")
         ax.set_ylabel(f"{task_y.capitalize()}")
         ax.axhline(y=0, color='gray', linestyle='--')
-        ax.set_ylim(0, 1.02)
-        ax.set_xlim(0, 1.02)
+        #ax.set_ylim(0, 1.02)
+        #ax.set_xlim(0, 1.02)
 
         # Set tick labels
         #ax.set_yticks([-1,  -0.5, 0, 0.5, 1])

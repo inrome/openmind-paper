@@ -12,10 +12,7 @@ from scipy.stats import pearsonr
 current_dir = os.path.dirname(os.path.abspath(__file__))
 betas_long = pd.read_csv(os.path.join(current_dir, '../outputs/participants_max_betas.csv'))
 
-# remome beta below 0
-betas_long = betas_long[betas_long['max_beta'] > 0]
-
-# remove trial_type == 'hidden_an'
+# remove trial_type == 'hidden'
 betas_long = betas_long[betas_long['trial_type'] != 'hidden']
 
 # Styling
@@ -68,8 +65,8 @@ for i, feedback_condition in enumerate(pec):
         ax.set_ylabel(f"{task_y.capitalize()}")
         #ax.axhline(y=0, color='gray', linestyle='--')
         #ax.axvline(x=0, color='gray', linestyle='--')
-        ax.set_ylim(-0.01, 1.02)
-        ax.set_xlim(-0.01, 1.02)
+        #ax.set_ylim(-0.01, 1.02)
+        #ax.set_xlim(-0.01, 1.02)
 
         # Set tick labels
         #ax.set_yticks([-1,  -0.5, 0, 0.5, 1])
