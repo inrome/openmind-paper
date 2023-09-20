@@ -45,7 +45,7 @@ def compute_log_p_answer(response_correct, r_i, beta):
     import math
     p_correct = (math.e ** (r_i * beta)) / (math.e ** (r_i * beta) + math.e ** (-1 * r_i * beta))
 
-    assert p_correct >= 0 and p_correct <= 1 and beta >= 0
+    assert p_correct >= 0 and p_correct <= 1 
 
     if response_correct in [0, 1]:
         p_answer = p_correct if response_correct == 1 else (1 - p_correct)
@@ -57,7 +57,7 @@ def compute_log_p_answer(response_correct, r_i, beta):
     return log_p_answer
 
 log_p_answers = {}
-for beta in np.arange(0, 0.8, 0.005):
+for beta in np.arange(-1, 0.8, 0.005):
     log_p_answers[beta] = []
     for index, row in single_trials.iterrows():
         log_p_answer = compute_log_p_answer(row['response_correct_mm_an'], row['R_i_mm_an_eps_0.1'], beta)

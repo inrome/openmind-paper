@@ -71,13 +71,3 @@ g.set_axis_labels("", "Beta")
 # add y axis labels (Easy and Hard FSM) depending on fsm_type
 g.set_titles("{row_name} {col_name}")
 g.set(ylim=(0, 1))
-
-'''
-# mixed effects generalized logistic model response_correct ~ test_order_numeric * trial_type * test_condition
-import statsmodels.formula.api as sm
-
-formula = 'response_correct_mm ~ test_order_numeric * trial_type * fsm_type + (1|participant_id)'
-
-model = sm.mixedlm(formula, accuracy, groups=accuracy["participant_id"])
-model_fit = model.fit()
-print(model_fit.summary())'''

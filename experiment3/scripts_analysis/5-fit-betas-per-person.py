@@ -16,7 +16,7 @@ def compute_log_p_answer(task, response_correct, r_i, beta):
     import math
     p_correct = (math.e ** (r_i * beta)) / (math.e ** (r_i * beta) + math.e ** (-1 * r_i * beta))
 
-    assert p_correct >= 0 and p_correct <= 1 and beta >= 0
+    assert p_correct >= 0 and p_correct <= 1
 
     if response_correct in [0, 1]:
         p_answer = p_correct if response_correct == 1 else (1 - p_correct)
@@ -28,10 +28,10 @@ def compute_log_p_answer(task, response_correct, r_i, beta):
     return log_p_answer
 
 # function to generate log_p_answers, sum them and return max beta value for a participant
-def get_max_beta_values(trials_participant, beta_max = 0.8, beta_step = 0.005):
+def get_max_beta_values(trials_participant, beta_max = 1.005, beta_step = 0.005):
     ''' Returns dict[task][type] with max beta values for which the sum of log_p_answers is highest.'''
     # check inputs
-    assert beta_max > 0 and beta_step > 0 and beta_max > beta_step and \
+    assert beta_step > 0 and beta_max > beta_step and \
         trials_participant['participant_id'].nunique() == 1
     
     log_p_answers = {}
@@ -40,7 +40,7 @@ def get_max_beta_values(trials_participant, beta_max = 0.8, beta_step = 0.005):
         trials = trials_participant[(trials_participant['test_condition'] == task) & \
                                         (trials_participant['trial_type'] == trial_type)] # subset for task and trial type
         log_p = {}
-        for beta in np.arange(0, beta_max, beta_step):
+        for beta in np.arange(-1, beta_max, beta_step):
             log_p[beta] = [compute_log_p_answer(task, trial[response_correct_column], trial[R_i_column], beta)
                         for _, trial in trials.iterrows()]
         return log_p
@@ -59,9 +59,9 @@ def get_max_beta_values(trials_participant, beta_max = 0.8, beta_step = 0.005):
         max_beta[task] = {}
         for trial_type in ['visible', 'hidden', 'hidden_an']:
             sum_log_p_answers[task][trial_type] = {}
-            for beta in np.arange(0, beta_max, beta_step):
-                # if log_p_answers[task][trial_type][beta] contains 3 or more nans, set sum to nan
-                if sum(np.isnan(log_p_answers[task][trial_type][beta])) >= 3:
+            for beta in np.arange(-1, beta_max, beta_step):
+                # if log_p_answers[task][trial_type][beta] contains 5 or more nans, set sum to nan
+                if sum(np.isnan(log_p_answers[task][trial_type][beta])) >= 5:
                     sum_log_p_answers[task][trial_type][beta] = np.nan
                 else: # if there are enough non-nan values, sum them:
                     sum_log_p_answers[task][trial_type][beta] =  np.nansum(log_p_answers[task][trial_type][beta])
@@ -69,7 +69,7 @@ def get_max_beta_values(trials_participant, beta_max = 0.8, beta_step = 0.005):
             # find  max_beta corresponding to
             max_beta[task][trial_type] = max(sum_log_p_answers[task][trial_type], key=sum_log_p_answers[task][trial_type].get)
 
-            if sum(np.isnan(log_p_answers[task][trial_type][0])) >= 3:
+            if sum(np.isnan(log_p_answers[task][trial_type][-1])) >= 5:
                 max_beta[task][trial_type] = np.nan
 
     return max_beta

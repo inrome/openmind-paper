@@ -21,7 +21,7 @@ def get_trials(participant_data):
                                                                      'test_prediction_counter', 'test_control_counter', 'test_explanation_counter',
                                                                      'sender', 'duration', 'exp_type', 
                                                                      'state_1', 'response_1', 'state_2', 'response_2', 'state_3',
-                                                                     'option_1','option_2', 'correctResponse', 'response', 'correct']]
+                                                                     'option_1','option_2', 'correctResponse', 'response', 'correct', 'timestamp']]
     
     # add column with trial number (sum ignoring nan: 'test_prediction_counter', 'test_control_counter', 'test_explanation_counter')
     test_trials['trial_number'] = test_trials[['test_prediction_counter', 'test_control_counter', 'test_explanation_counter']].sum(axis=1,  skipna=True).astype(int) + 1
@@ -44,13 +44,13 @@ def get_trials(participant_data):
 
     # reorder columns
     test_trials = test_trials[['participant_id', 'fsm_number', 'fsm_type', 'test_order', 'test1', 'test2', 'test3', 
-                               'trial_number', 'trial_type', 
+                               'trial_number', 'test_condition', 'trial_type', 
                                'state_1', 'response_1', 'state_2', 'response_2', 'state_3', 'option_1', 'option_2', 
-                               'correctResponse', 'response', 'response_correct', 'response_time']]
+                               'correctResponse', 'response', 'response_correct', 'response_time', 'timestamp']]
     return test_trials
 
 
-test_PEC = pd.DataFrame()
+trials_test = pd.DataFrame()
 
 for participant_id in participant_ids: 
     # get full trials data for participant (with column "type" == "full")
@@ -60,10 +60,18 @@ for participant_id in participant_ids:
         participant_data = trials.loc[(trials['participant_id'] == participant_id) & (trials['type'] == "incremental")] 
 
     # get test trials
-    test_trials = get_trials(participant_data)
+    tmp = get_trials(participant_data)
+
+    # convert timestamp to datetime and sort by timestamp
+    tmp['timestamp'] = pd.to_datetime(tmp['timestamp'])
+    tmp = tmp.sort_values(by=['timestamp'])    # sort by timestamp
+    tmp = tmp.reset_index(drop=True)     # reindex rows
+    
+    # add trial_order column based on new index
+    tmp['trial_order'] = tmp.index + 1
 
     # add test trials to test_PEC
-    test_PEC = pd.concat([test_PEC, test_trials])
+    trials_test = pd.concat([trials_test, tmp])
 
 # save files as csv
-test_PEC.to_csv(os.path.join(current_dir, "..", "data/trials_test.csv"), index=False)
+trials_test.to_csv(os.path.join(current_dir, "..", "data/trials_test.csv"), index=False)
